@@ -3,7 +3,7 @@
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "任笨蛋 " << std::endl;
     std::string text = "Hello, Modern C++ Project!";
 
     std::cout << "Original: " << text << std::endl;
