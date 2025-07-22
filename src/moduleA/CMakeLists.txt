@@ -20,6 +20,6 @@ install(TARGETS strutils ARCHIVE DESTINATION lib)
 # 安装公共头文件
 # FILES: 指定要安装的文件。
 # DESTINATION include/strutils: 将这些文件安装到 CMAKE_INSTALL_PREFIX 下的 "include/strutils" 目录中。
-# install(FILES "${CMAKE_SOURCE_DIR}/include/my_pro_project/strutils.hpp"
-#         DESTINATION include/strutils
-# )
+install(FILES "${CMAKE_SOURCE_DIR}/include/my_pro_project/strutils.hpp"
+        DESTINATION include/strutils
+)
