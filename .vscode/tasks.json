@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Install C++ Project",
+            "type": "shell",
+            // 关键：这个任务会依次执行三个命令
+            // 1. cmake ... -DCMAKE_BUILD_TYPE=Debug : 强制以Debug模式配置项目
+            // 2. cmake --build . : 编译项目
+            // 3. cmake --install . : 安装项目
+            "command": "cmake -S .. -B . -G \"MinGW Makefiles\" -DCMAKE_BUILD_TYPE=Debug && cmake --build . && cmake --install .",
+            "options": {
+                // 关键：确保这些命令在 build 目录下执行
+                "cwd": "${workspaceFolder}/build"
+            },
+            // 将此任务标记为默认的构建任务
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "首先生成构建系统，然后编译，最后安装。"
+        }
+    ]
+}

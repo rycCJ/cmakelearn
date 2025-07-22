@@ -1,0 +1,62 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb)调试 StrUtilsApp",
+            "type": "cppdbg",
+            "request": "launch",
+            // 关键：路径已更新为指向 install 目录下的最终产品
+            "program": "${workspaceFolder}/install/bin/StrUtilsApp.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            // 关键：指定你的 GDB 调试器路径
+            "miDebuggerPath": "D:/APPS/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            // 告诉调试器在启动前先执行我们的“构建并安装”任务
+            "preLaunchTask":"Build and Install C++ Project"
+        },
+        {
+            "name": "(gdb) 调试已安装的 tests",
+            "type": "cppdbg",
+            "request": "launch",
+            // 关键：路径已更新为指向 install 目录下的最终产品
+            "program": "${workspaceFolder}/install/bin/tests.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/APPS/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build and Install C++ Project"
+
+        }
+
+
+    ]
+}
