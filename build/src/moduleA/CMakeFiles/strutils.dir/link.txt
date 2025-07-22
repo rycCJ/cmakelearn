@@ -1,0 +1,2 @@
+D:\APPS\mingw64\bin\ar.exe qc ..\..\lib\libstrutils.a CMakeFiles/strutils.dir/strutils.cpp.obj
+D:\APPS\mingw64\bin\ranlib.exe ..\..\lib\libstrutils.a
