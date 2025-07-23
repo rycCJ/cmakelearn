@@ -141,14 +141,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles D:\cmakelearn\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d D:\cmakelearn\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles D:\cmakelearn\build\src\LeetCode_100\\CMakeFiles\progress.marks
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/clean
 .PHONY : clean
 
 # The main clean target
@@ -157,161 +157,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\cmakelearn\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named gmock
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/TwoSumApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/TwoSumApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/TwoSumApp.dir/rule
 
-# Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
-.PHONY : gmock
-
-# fast build rule for target.
-gmock/fast:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock.dir/build
-.PHONY : gmock/fast
-
-#=============================================================================
-# Target rules for targets named gmock_main
-
-# Build rule for target.
-gmock_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
-.PHONY : gmock_main
-
-# fast build rule for target.
-gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-.PHONY : gmock_main/fast
-
-#=============================================================================
-# Target rules for targets named gtest
-
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
-.PHONY : gtest
-
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
-
-#=============================================================================
-# Target rules for targets named gtest_main
-
-# Build rule for target.
-gtest_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
-.PHONY : gtest_main
-
-# fast build rule for target.
-gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest_main.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build
-.PHONY : gtest_main/fast
-
-#=============================================================================
-# Target rules for targets named strutils
-
-# Build rule for target.
-strutils: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 strutils
-.PHONY : strutils
-
-# fast build rule for target.
-strutils/fast:
-	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\strutils.dir\build.make src/moduleA/CMakeFiles/strutils.dir/build
-.PHONY : strutils/fast
-
-#=============================================================================
-# Target rules for targets named StrUtilsaApp
-
-# Build rule for target.
-StrUtilsaApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StrUtilsaApp
-.PHONY : StrUtilsaApp
-
-# fast build rule for target.
-StrUtilsaApp/fast:
-	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/build
-.PHONY : StrUtilsaApp/fast
-
-#=============================================================================
-# Target rules for targets named GuessNumApp
-
-# Build rule for target.
-GuessNumApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GuessNumApp
-.PHONY : GuessNumApp
-
-# fast build rule for target.
-GuessNumApp/fast:
-	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/build
-.PHONY : GuessNumApp/fast
-
-#=============================================================================
-# Target rules for targets named CalculatorAPP
-
-# Build rule for target.
-CalculatorAPP: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CalculatorAPP
-.PHONY : CalculatorAPP
-
-# fast build rule for target.
-CalculatorAPP/fast:
-	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/build
-.PHONY : CalculatorAPP/fast
-
-#=============================================================================
-# Target rules for targets named ToDolistApp
-
-# Build rule for target.
-ToDolistApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ToDolistApp
-.PHONY : ToDolistApp
-
-# fast build rule for target.
-ToDolistApp/fast:
-	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/build
-.PHONY : ToDolistApp/fast
-
-#=============================================================================
-# Target rules for targets named TwoSumApp
-
-# Build rule for target.
-TwoSumApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TwoSumApp
+# Convenience name for target.
+TwoSumApp: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/rule
 .PHONY : TwoSumApp
 
 # fast build rule for target.
 TwoSumApp/fast:
-	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/build
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/build
 .PHONY : TwoSumApp/fast
 
-#=============================================================================
-# Target rules for targets named tests
+01_twosum.obj: 01_twosum.cpp.obj
+.PHONY : 01_twosum.obj
 
-# Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests
-.PHONY : tests
+# target to build an object file
+01_twosum.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj
+.PHONY : 01_twosum.cpp.obj
 
-# fast build rule for target.
-tests/fast:
-	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/build
-.PHONY : tests/fast
+01_twosum.i: 01_twosum.cpp.i
+.PHONY : 01_twosum.i
+
+# target to preprocess a source file
+01_twosum.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.i
+.PHONY : 01_twosum.cpp.i
+
+01_twosum.s: 01_twosum.cpp.s
+.PHONY : 01_twosum.s
+
+# target to generate assembly for a file
+01_twosum.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.s
+.PHONY : 01_twosum.cpp.s
 
 # Help Target
 help:
@@ -326,17 +221,10 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... CalculatorAPP
-	@echo ... GuessNumApp
-	@echo ... StrUtilsaApp
-	@echo ... ToDolistApp
 	@echo ... TwoSumApp
-	@echo ... gmock
-	@echo ... gmock_main
-	@echo ... gtest
-	@echo ... gtest_main
-	@echo ... strutils
-	@echo ... tests
+	@echo ... 01_twosum.obj
+	@echo ... 01_twosum.i
+	@echo ... 01_twosum.s
 .PHONY : help
 
 
@@ -348,6 +236,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\cmakelearn\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
