@@ -170,44 +170,6 @@ depend:
 	cd /d D:\cmakelearn\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-src/CMakeFiles/StrUtilsApp.dir/rule:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/StrUtilsApp.dir/rule
-.PHONY : src/CMakeFiles/StrUtilsApp.dir/rule
-
-# Convenience name for target.
-StrUtilsApp: src/CMakeFiles/StrUtilsApp.dir/rule
-.PHONY : StrUtilsApp
-
-# fast build rule for target.
-StrUtilsApp/fast:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\StrUtilsApp.dir\build.make src/CMakeFiles/StrUtilsApp.dir/build
-.PHONY : StrUtilsApp/fast
-
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\StrUtilsApp.dir\build.make src/CMakeFiles/StrUtilsApp.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\StrUtilsApp.dir\build.make src/CMakeFiles/StrUtilsApp.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\StrUtilsApp.dir\build.make src/CMakeFiles/StrUtilsApp.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -221,10 +183,6 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... StrUtilsApp
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

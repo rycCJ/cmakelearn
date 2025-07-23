@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.0-rc2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.31.0-rc2/CMakeSystem.cmake"
   "D:/cmakelearn/src/CMakeLists.txt"
+  "D:/cmakelearn/src/day10/CMakeLists.txt"
   "D:/cmakelearn/src/moduleA/CMakeLists.txt"
   "D:/cmakelearn/tests/CMakeLists.txt"
   "D:/cmakelearn/third_party/googletest/CMakeLists.txt"
@@ -85,6 +86,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "third_party/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/moduleA/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/day10/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -94,7 +96,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "third_party/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "third_party/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "src/CMakeFiles/StrUtilsApp.dir/DependInfo.cmake"
   "src/moduleA/CMakeFiles/strutils.dir/DependInfo.cmake"
+  "src/moduleA/CMakeFiles/StrUtilsaApp.dir/DependInfo.cmake"
+  "src/day10/CMakeFiles/GuessNumApp.dir/DependInfo.cmake"
   "tests/CMakeFiles/tests.dir/DependInfo.cmake"
   )

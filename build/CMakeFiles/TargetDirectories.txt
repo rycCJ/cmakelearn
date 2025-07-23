@@ -30,7 +30,6 @@ D:/cmakelearn/build/third_party/googletest/googletest/CMakeFiles/list_install_co
 D:/cmakelearn/build/third_party/googletest/googletest/CMakeFiles/install.dir
 D:/cmakelearn/build/third_party/googletest/googletest/CMakeFiles/install/local.dir
 D:/cmakelearn/build/third_party/googletest/googletest/CMakeFiles/install/strip.dir
-D:/cmakelearn/build/src/CMakeFiles/StrUtilsApp.dir
 D:/cmakelearn/build/src/CMakeFiles/test.dir
 D:/cmakelearn/build/src/CMakeFiles/edit_cache.dir
 D:/cmakelearn/build/src/CMakeFiles/rebuild_cache.dir
@@ -39,6 +38,7 @@ D:/cmakelearn/build/src/CMakeFiles/install.dir
 D:/cmakelearn/build/src/CMakeFiles/install/local.dir
 D:/cmakelearn/build/src/CMakeFiles/install/strip.dir
 D:/cmakelearn/build/src/moduleA/CMakeFiles/strutils.dir
+D:/cmakelearn/build/src/moduleA/CMakeFiles/StrUtilsaApp.dir
 D:/cmakelearn/build/src/moduleA/CMakeFiles/test.dir
 D:/cmakelearn/build/src/moduleA/CMakeFiles/edit_cache.dir
 D:/cmakelearn/build/src/moduleA/CMakeFiles/rebuild_cache.dir
@@ -46,6 +46,14 @@ D:/cmakelearn/build/src/moduleA/CMakeFiles/list_install_components.dir
 D:/cmakelearn/build/src/moduleA/CMakeFiles/install.dir
 D:/cmakelearn/build/src/moduleA/CMakeFiles/install/local.dir
 D:/cmakelearn/build/src/moduleA/CMakeFiles/install/strip.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/GuessNumApp.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/test.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/edit_cache.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/rebuild_cache.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/list_install_components.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/install.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/install/local.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/install/strip.dir
 D:/cmakelearn/build/tests/CMakeFiles/tests.dir
 D:/cmakelearn/build/tests/CMakeFiles/test.dir
 D:/cmakelearn/build/tests/CMakeFiles/edit_cache.dir

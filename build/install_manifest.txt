@@ -19,7 +19,7 @@ D:/cmakelearn/install/lib/libgmock_main.a
 D:/cmakelearn/install/lib/pkgconfig/gmock.pc
 D:/cmakelearn/install/lib/pkgconfig/gmock_main.pc
 D:/cmakelearn/install/lib/cmake/GTest/GTestTargets.cmake
-D:/cmakelearn/install/lib/cmake/GTest/GTestTargets-debug.cmake
+D:/cmakelearn/install/lib/cmake/GTest/GTestTargets-noconfig.cmake
 D:/cmakelearn/install/lib/cmake/GTest/GTestConfigVersion.cmake
 D:/cmakelearn/install/lib/cmake/GTest/GTestConfig.cmake
 D:/cmakelearn/install/include/gtest/gtest-assertion-result.h
@@ -50,7 +50,8 @@ D:/cmakelearn/install/lib/libgtest.a
 D:/cmakelearn/install/lib/libgtest_main.a
 D:/cmakelearn/install/lib/pkgconfig/gtest.pc
 D:/cmakelearn/install/lib/pkgconfig/gtest_main.pc
-D:/cmakelearn/install/bin/StrUtilsApp.exe
 D:/cmakelearn/install/lib/libstrutils.a
-D:/cmakelearn/install/include/strutils/strutils.hpp
+D:/cmakelearn/install/include/myproject/strutils.hpp
+D:/cmakelearn/install/bin/StrUtilsaApp.exe
+D:/cmakelearn/install/bin/GuessNumApp.exe
 D:/cmakelearn/install/bin/tests.exe

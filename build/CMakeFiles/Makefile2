@@ -89,33 +89,55 @@ clean: tests/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/StrUtilsApp.dir/all
 src/all: src/moduleA/all
+src/all: src/day10/all
 .PHONY : src/all
 
 # Recursive "codegen" directory target.
-src/codegen: src/CMakeFiles/StrUtilsApp.dir/codegen
 src/codegen: src/moduleA/codegen
+src/codegen: src/day10/codegen
 .PHONY : src/codegen
 
 # Recursive "preinstall" directory target.
 src/preinstall: src/moduleA/preinstall
+src/preinstall: src/day10/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/StrUtilsApp.dir/clean
 src/clean: src/moduleA/clean
+src/clean: src/day10/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory src/day10
+
+# Recursive "all" directory target.
+src/day10/all: src/day10/CMakeFiles/GuessNumApp.dir/all
+.PHONY : src/day10/all
+
+# Recursive "codegen" directory target.
+src/day10/codegen: src/day10/CMakeFiles/GuessNumApp.dir/codegen
+.PHONY : src/day10/codegen
+
+# Recursive "preinstall" directory target.
+src/day10/preinstall:
+.PHONY : src/day10/preinstall
+
+# Recursive "clean" directory target.
+src/day10/clean: src/day10/CMakeFiles/GuessNumApp.dir/clean
+.PHONY : src/day10/clean
 
 #=============================================================================
 # Directory level rules for directory src/moduleA
 
 # Recursive "all" directory target.
 src/moduleA/all: src/moduleA/CMakeFiles/strutils.dir/all
+src/moduleA/all: src/moduleA/CMakeFiles/StrUtilsaApp.dir/all
 .PHONY : src/moduleA/all
 
 # Recursive "codegen" directory target.
 src/moduleA/codegen: src/moduleA/CMakeFiles/strutils.dir/codegen
+src/moduleA/codegen: src/moduleA/CMakeFiles/StrUtilsaApp.dir/codegen
 .PHONY : src/moduleA/codegen
 
 # Recursive "preinstall" directory target.
@@ -124,6 +146,7 @@ src/moduleA/preinstall:
 
 # Recursive "clean" directory target.
 src/moduleA/clean: src/moduleA/CMakeFiles/strutils.dir/clean
+src/moduleA/clean: src/moduleA/CMakeFiles/StrUtilsaApp.dir/clean
 .PHONY : src/moduleA/clean
 
 #=============================================================================
@@ -218,7 +241,7 @@ third_party/googletest/googletest/clean: third_party/googletest/googletest/CMake
 third_party/googletest/googlemock/CMakeFiles/gmock.dir/all: third_party/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=3,4 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=5,6 "Built target gmock"
 .PHONY : third_party/googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -250,7 +273,7 @@ third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/all: third_party/goo
 third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/all: third_party/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=5,6 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=7,8 "Built target gmock_main"
 .PHONY : third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -281,7 +304,7 @@ third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 third_party/googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=7,8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=9,10 "Built target gtest"
 .PHONY : third_party/googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -312,7 +335,7 @@ third_party/googletest/googletest/CMakeFiles/gtest.dir/clean:
 third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all: third_party/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest_main.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest_main.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=9,10 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=11,12 "Built target gtest_main"
 .PHONY : third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -337,44 +360,13 @@ third_party/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 .PHONY : third_party/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/StrUtilsApp.dir
-
-# All Build rule for target.
-src/CMakeFiles/StrUtilsApp.dir/all: src/moduleA/CMakeFiles/strutils.dir/all
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\StrUtilsApp.dir\build.make src/CMakeFiles/StrUtilsApp.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\StrUtilsApp.dir\build.make src/CMakeFiles/StrUtilsApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=1,2 "Built target StrUtilsApp"
-.PHONY : src/CMakeFiles/StrUtilsApp.dir/all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/StrUtilsApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/StrUtilsApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
-.PHONY : src/CMakeFiles/StrUtilsApp.dir/rule
-
-# Convenience name for target.
-StrUtilsApp: src/CMakeFiles/StrUtilsApp.dir/rule
-.PHONY : StrUtilsApp
-
-# codegen rule for target.
-src/CMakeFiles/StrUtilsApp.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\StrUtilsApp.dir\build.make src/CMakeFiles/StrUtilsApp.dir/codegen
-.PHONY : src/CMakeFiles/StrUtilsApp.dir/codegen
-
-# clean rule for target.
-src/CMakeFiles/StrUtilsApp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\StrUtilsApp.dir\build.make src/CMakeFiles/StrUtilsApp.dir/clean
-.PHONY : src/CMakeFiles/StrUtilsApp.dir/clean
-
-#=============================================================================
 # Target rules for target src/moduleA/CMakeFiles/strutils.dir
 
 # All Build rule for target.
 src/moduleA/CMakeFiles/strutils.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\strutils.dir\build.make src/moduleA/CMakeFiles/strutils.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\strutils.dir\build.make src/moduleA/CMakeFiles/strutils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=11,12 "Built target strutils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=13,14 "Built target strutils"
 .PHONY : src/moduleA/CMakeFiles/strutils.dir/all
 
 # Build rule for subdir invocation for target.
@@ -399,15 +391,77 @@ src/moduleA/CMakeFiles/strutils.dir/clean:
 .PHONY : src/moduleA/CMakeFiles/strutils.dir/clean
 
 #=============================================================================
+# Target rules for target src/moduleA/CMakeFiles/StrUtilsaApp.dir
+
+# All Build rule for target.
+src/moduleA/CMakeFiles/StrUtilsaApp.dir/all: src/moduleA/CMakeFiles/strutils.dir/all
+	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=3,4 "Built target StrUtilsaApp"
+.PHONY : src/moduleA/CMakeFiles/StrUtilsaApp.dir/all
+
+# Build rule for subdir invocation for target.
+src/moduleA/CMakeFiles/StrUtilsaApp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/moduleA/CMakeFiles/StrUtilsaApp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
+.PHONY : src/moduleA/CMakeFiles/StrUtilsaApp.dir/rule
+
+# Convenience name for target.
+StrUtilsaApp: src/moduleA/CMakeFiles/StrUtilsaApp.dir/rule
+.PHONY : StrUtilsaApp
+
+# codegen rule for target.
+src/moduleA/CMakeFiles/StrUtilsaApp.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/codegen
+.PHONY : src/moduleA/CMakeFiles/StrUtilsaApp.dir/codegen
+
+# clean rule for target.
+src/moduleA/CMakeFiles/StrUtilsaApp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/clean
+.PHONY : src/moduleA/CMakeFiles/StrUtilsaApp.dir/clean
+
+#=============================================================================
+# Target rules for target src/day10/CMakeFiles/GuessNumApp.dir
+
+# All Build rule for target.
+src/day10/CMakeFiles/GuessNumApp.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=1,2 "Built target GuessNumApp"
+.PHONY : src/day10/CMakeFiles/GuessNumApp.dir/all
+
+# Build rule for subdir invocation for target.
+src/day10/CMakeFiles/GuessNumApp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/day10/CMakeFiles/GuessNumApp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
+.PHONY : src/day10/CMakeFiles/GuessNumApp.dir/rule
+
+# Convenience name for target.
+GuessNumApp: src/day10/CMakeFiles/GuessNumApp.dir/rule
+.PHONY : GuessNumApp
+
+# codegen rule for target.
+src/day10/CMakeFiles/GuessNumApp.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/codegen
+.PHONY : src/day10/CMakeFiles/GuessNumApp.dir/codegen
+
+# clean rule for target.
+src/day10/CMakeFiles/GuessNumApp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/clean
+.PHONY : src/day10/CMakeFiles/GuessNumApp.dir/clean
+
+#=============================================================================
 # Target rules for target tests/CMakeFiles/tests.dir
 
 # All Build rule for target.
 tests/CMakeFiles/tests.dir/all: src/moduleA/CMakeFiles/strutils.dir/all
-tests/CMakeFiles/tests.dir/all: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all
 tests/CMakeFiles/tests.dir/all: third_party/googletest/googletest/CMakeFiles/gtest.dir/all
+tests/CMakeFiles/tests.dir/all: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=13,14 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=15,16 "Built target tests"
 .PHONY : tests/CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
