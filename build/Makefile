@@ -223,19 +223,6 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named StrUtilsApp
-
-# Build rule for target.
-StrUtilsApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StrUtilsApp
-.PHONY : StrUtilsApp
-
-# fast build rule for target.
-StrUtilsApp/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\StrUtilsApp.dir\build.make src/CMakeFiles/StrUtilsApp.dir/build
-.PHONY : StrUtilsApp/fast
-
-#=============================================================================
 # Target rules for targets named strutils
 
 # Build rule for target.
@@ -247,6 +234,32 @@ strutils: cmake_check_build_system
 strutils/fast:
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\strutils.dir\build.make src/moduleA/CMakeFiles/strutils.dir/build
 .PHONY : strutils/fast
+
+#=============================================================================
+# Target rules for targets named StrUtilsaApp
+
+# Build rule for target.
+StrUtilsaApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StrUtilsaApp
+.PHONY : StrUtilsaApp
+
+# fast build rule for target.
+StrUtilsaApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/build
+.PHONY : StrUtilsaApp/fast
+
+#=============================================================================
+# Target rules for targets named GuessNumApp
+
+# Build rule for target.
+GuessNumApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GuessNumApp
+.PHONY : GuessNumApp
+
+# fast build rule for target.
+GuessNumApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/build
+.PHONY : GuessNumApp/fast
 
 #=============================================================================
 # Target rules for targets named tests
@@ -274,7 +287,8 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... StrUtilsApp
+	@echo ... GuessNumApp
+	@echo ... StrUtilsaApp
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest

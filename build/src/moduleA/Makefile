@@ -184,6 +184,44 @@ strutils/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\strutils.dir\build.make src/moduleA/CMakeFiles/strutils.dir/build
 .PHONY : strutils/fast
 
+# Convenience name for target.
+src/moduleA/CMakeFiles/StrUtilsaApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/moduleA/CMakeFiles/StrUtilsaApp.dir/rule
+.PHONY : src/moduleA/CMakeFiles/StrUtilsaApp.dir/rule
+
+# Convenience name for target.
+StrUtilsaApp: src/moduleA/CMakeFiles/StrUtilsaApp.dir/rule
+.PHONY : StrUtilsaApp
+
+# fast build rule for target.
+StrUtilsaApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/build
+.PHONY : StrUtilsaApp/fast
+
+main.obj: main.cpp.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 strutils.obj: strutils.cpp.obj
 .PHONY : strutils.obj
 
@@ -221,7 +259,11 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... StrUtilsaApp
 	@echo ... strutils
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 	@echo ... strutils.obj
 	@echo ... strutils.i
 	@echo ... strutils.s

@@ -1,0 +1,3 @@
+D:\APPS\CMake\bin\cmake.exe -E rm -f CMakeFiles\StrUtilsaApp.dir/objects.a
+D:\APPS\mingw64\bin\ar.exe qc CMakeFiles\StrUtilsaApp.dir/objects.a @CMakeFiles\StrUtilsaApp.dir\objects1.rsp
+D:\APPS\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\StrUtilsaApp.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\StrUtilsaApp.exe -Wl,--out-implib,..\..\lib\libStrUtilsaApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StrUtilsaApp.dir\linkLibs.rsp
