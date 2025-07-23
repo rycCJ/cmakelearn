@@ -184,6 +184,20 @@ GuessNumApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/build
 .PHONY : GuessNumApp/fast
 
+# Convenience name for target.
+src/day10/CMakeFiles/CalculatorAPP.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/day10/CMakeFiles/CalculatorAPP.dir/rule
+.PHONY : src/day10/CMakeFiles/CalculatorAPP.dir/rule
+
+# Convenience name for target.
+CalculatorAPP: src/day10/CMakeFiles/CalculatorAPP.dir/rule
+.PHONY : CalculatorAPP
+
+# fast build rule for target.
+CalculatorAPP/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/build
+.PHONY : CalculatorAPP/fast
+
 01_guess_num.obj: 01_guess_num.cpp.obj
 .PHONY : 01_guess_num.obj
 
@@ -208,6 +222,30 @@ GuessNumApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/01_guess_num.cpp.s
 .PHONY : 01_guess_num.cpp.s
 
+02_calculator.obj: 02_calculator.cpp.obj
+.PHONY : 02_calculator.obj
+
+# target to build an object file
+02_calculator.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/02_calculator.cpp.obj
+.PHONY : 02_calculator.cpp.obj
+
+02_calculator.i: 02_calculator.cpp.i
+.PHONY : 02_calculator.i
+
+# target to preprocess a source file
+02_calculator.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/02_calculator.cpp.i
+.PHONY : 02_calculator.cpp.i
+
+02_calculator.s: 02_calculator.cpp.s
+.PHONY : 02_calculator.s
+
+# target to generate assembly for a file
+02_calculator.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/02_calculator.cpp.s
+.PHONY : 02_calculator.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -221,10 +259,14 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... CalculatorAPP
 	@echo ... GuessNumApp
 	@echo ... 01_guess_num.obj
 	@echo ... 01_guess_num.i
 	@echo ... 01_guess_num.s
+	@echo ... 02_calculator.obj
+	@echo ... 02_calculator.i
+	@echo ... 02_calculator.s
 .PHONY : help
 
 
