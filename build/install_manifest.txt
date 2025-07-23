@@ -19,7 +19,7 @@ D:/cmakelearn/install/lib/libgmock_main.a
 D:/cmakelearn/install/lib/pkgconfig/gmock.pc
 D:/cmakelearn/install/lib/pkgconfig/gmock_main.pc
 D:/cmakelearn/install/lib/cmake/GTest/GTestTargets.cmake
-D:/cmakelearn/install/lib/cmake/GTest/GTestTargets-noconfig.cmake
+D:/cmakelearn/install/lib/cmake/GTest/GTestTargets-debug.cmake
 D:/cmakelearn/install/lib/cmake/GTest/GTestConfigVersion.cmake
 D:/cmakelearn/install/lib/cmake/GTest/GTestConfig.cmake
 D:/cmakelearn/install/include/gtest/gtest-assertion-result.h
