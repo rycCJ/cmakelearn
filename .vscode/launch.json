@@ -55,7 +55,7 @@
             ],
             "preLaunchTask": "Build and Install C++ Project"
 
-        }
+        },
         {
             "name": "(gdb)调试 CalculatorAPP",
             "type": "cppdbg",

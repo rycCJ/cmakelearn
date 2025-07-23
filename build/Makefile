@@ -275,6 +275,19 @@ CalculatorAPP/fast:
 .PHONY : CalculatorAPP/fast
 
 #=============================================================================
+# Target rules for targets named ToDolistApp
+
+# Build rule for target.
+ToDolistApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ToDolistApp
+.PHONY : ToDolistApp
+
+# fast build rule for target.
+ToDolistApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/build
+.PHONY : ToDolistApp/fast
+
+#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -303,6 +316,7 @@ help:
 	@echo ... CalculatorAPP
 	@echo ... GuessNumApp
 	@echo ... StrUtilsaApp
+	@echo ... ToDolistApp
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest

@@ -198,6 +198,20 @@ CalculatorAPP/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/build
 .PHONY : CalculatorAPP/fast
 
+# Convenience name for target.
+src/day10/CMakeFiles/ToDolistApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/day10/CMakeFiles/ToDolistApp.dir/rule
+.PHONY : src/day10/CMakeFiles/ToDolistApp.dir/rule
+
+# Convenience name for target.
+ToDolistApp: src/day10/CMakeFiles/ToDolistApp.dir/rule
+.PHONY : ToDolistApp
+
+# fast build rule for target.
+ToDolistApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/build
+.PHONY : ToDolistApp/fast
+
 01_guess_num.obj: 01_guess_num.cpp.obj
 .PHONY : 01_guess_num.obj
 
@@ -246,6 +260,30 @@ CalculatorAPP/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/02_calculator.cpp.s
 .PHONY : 02_calculator.cpp.s
 
+03_todolist.obj: 03_todolist.cpp.obj
+.PHONY : 03_todolist.obj
+
+# target to build an object file
+03_todolist.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.obj
+.PHONY : 03_todolist.cpp.obj
+
+03_todolist.i: 03_todolist.cpp.i
+.PHONY : 03_todolist.i
+
+# target to preprocess a source file
+03_todolist.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.i
+.PHONY : 03_todolist.cpp.i
+
+03_todolist.s: 03_todolist.cpp.s
+.PHONY : 03_todolist.s
+
+# target to generate assembly for a file
+03_todolist.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.s
+.PHONY : 03_todolist.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -261,12 +299,16 @@ help:
 	@echo ... test
 	@echo ... CalculatorAPP
 	@echo ... GuessNumApp
+	@echo ... ToDolistApp
 	@echo ... 01_guess_num.obj
 	@echo ... 01_guess_num.i
 	@echo ... 01_guess_num.s
 	@echo ... 02_calculator.obj
 	@echo ... 02_calculator.i
 	@echo ... 02_calculator.s
+	@echo ... 03_todolist.obj
+	@echo ... 03_todolist.i
+	@echo ... 03_todolist.s
 .PHONY : help
 
 

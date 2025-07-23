@@ -100,5 +100,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/moduleA/CMakeFiles/StrUtilsaApp.dir/DependInfo.cmake"
   "src/day10/CMakeFiles/GuessNumApp.dir/DependInfo.cmake"
   "src/day10/CMakeFiles/CalculatorAPP.dir/DependInfo.cmake"
+  "src/day10/CMakeFiles/ToDolistApp.dir/DependInfo.cmake"
   "tests/CMakeFiles/tests.dir/DependInfo.cmake"
   )
