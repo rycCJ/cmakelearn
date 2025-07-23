@@ -491,8 +491,8 @@ src/day10/CMakeFiles/CalculatorAPP.dir/clean:
 
 # All Build rule for target.
 tests/CMakeFiles/tests.dir/all: src/moduleA/CMakeFiles/strutils.dir/all
-tests/CMakeFiles/tests.dir/all: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all
 tests/CMakeFiles/tests.dir/all: third_party/googletest/googletest/CMakeFiles/gtest.dir/all
+tests/CMakeFiles/tests.dir/all: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=17,18 "Built target tests"
