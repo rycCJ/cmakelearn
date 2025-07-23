@@ -1,4 +1,4 @@
-# Install script for directory: D:/cmakelearn/src
+# Install script for directory: D:/cmakelearn/src/LeetCode_100
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,17 +37,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "D:/APPS/mingw64/bin/objdump.exe")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("D:/cmakelearn/build/src/moduleA/cmake_install.cmake")
-  include("D:/cmakelearn/build/src/day10/cmake_install.cmake")
-  include("D:/cmakelearn/build/src/LeetCode_100/cmake_install.cmake")
-
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/cmakelearn/build/bin/TwoSumApp.exe")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/TwoSumApp.exe" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/TwoSumApp.exe")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "D:/APPS/mingw64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/TwoSumApp.exe")
+    endif()
+  endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/cmakelearn/build/src/install_local_manifest.txt"
+  file(WRITE "D:/cmakelearn/build/src/LeetCode_100/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

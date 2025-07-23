@@ -8,7 +8,7 @@
 # 这会定义 "strutils" 这个库目标。
 add_subdirectory(moduleA)
 add_subdirectory(day10)
-
+add_subdirectory(LeetCode_100)
 
 # --- 2. 定义主应用程序 ---
 # add_executable 命令用于创建一个可执行程序。
