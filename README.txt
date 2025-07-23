@@ -1,4 +1,4 @@
-StrUtils/
+CMAKELEARN/
 ├── .gitignore
 ├── CMakeLists.txt          <-- 顶级 CMake 配置文件
 ├── build/                  <-- 编译中间文件的存放位置
@@ -9,15 +9,20 @@ StrUtils/
 ├── include/
 │   └── my_pro_projet/
 │       └── strutils.hpp
+│       └── 01_guess_num.hpp
 ├── src/
 │   ├── CMakeLists.txt
-│   ├── main.cpp
-│   └── moduleA/
+│   └── moduleA/            <--   可重用
 │       ├── CMakeLists.txt
-│       └── strutils.cpp
+│       ├── strutils.cpp
+│       └── main.cpp          
+│   └── day10/              <--   独立的应用
+│       ├── CMakeLists.txt
+│       └── 01_guess_num.cpp
 ├── tests/
 │   ├── CMakeLists.txt
 │   └── test_strutils.cpp
-└── third_party/
-    └── googletest/ 
+├── third_party/
+|   └── googletest/ 
+└── README.txt
     
