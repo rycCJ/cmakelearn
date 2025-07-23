@@ -21,3 +21,12 @@ target_include_directories(CalculatorAPP PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS CalculatorAPP RUNTIME DESTINATION bin)
+
+
+
+add_executable(ToDolistApp 03_todolist.cpp)
+
+target_include_directories(ToDolistApp PRIVATE 
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS ToDolistApp RUNTIME DESTINATION bin)
