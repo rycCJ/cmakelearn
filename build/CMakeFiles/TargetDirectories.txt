@@ -47,6 +47,7 @@ D:/cmakelearn/build/src/moduleA/CMakeFiles/install.dir
 D:/cmakelearn/build/src/moduleA/CMakeFiles/install/local.dir
 D:/cmakelearn/build/src/moduleA/CMakeFiles/install/strip.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/GuessNumApp.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/CalculatorAPP.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/test.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/edit_cache.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/rebuild_cache.dir

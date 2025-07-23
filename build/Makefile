@@ -262,6 +262,19 @@ GuessNumApp/fast:
 .PHONY : GuessNumApp/fast
 
 #=============================================================================
+# Target rules for targets named CalculatorAPP
+
+# Build rule for target.
+CalculatorAPP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CalculatorAPP
+.PHONY : CalculatorAPP
+
+# fast build rule for target.
+CalculatorAPP/fast:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/build
+.PHONY : CalculatorAPP/fast
+
+#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -287,6 +300,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... CalculatorAPP
 	@echo ... GuessNumApp
 	@echo ... StrUtilsaApp
 	@echo ... gmock

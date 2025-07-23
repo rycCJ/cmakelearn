@@ -99,5 +99,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/moduleA/CMakeFiles/strutils.dir/DependInfo.cmake"
   "src/moduleA/CMakeFiles/StrUtilsaApp.dir/DependInfo.cmake"
   "src/day10/CMakeFiles/GuessNumApp.dir/DependInfo.cmake"
+  "src/day10/CMakeFiles/CalculatorAPP.dir/DependInfo.cmake"
   "tests/CMakeFiles/tests.dir/DependInfo.cmake"
   )
