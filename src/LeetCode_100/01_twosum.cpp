@@ -4,6 +4,7 @@
 #include<vector>
 // #include "my_pro_project/01_guess_num.hpp" 
 #include<unordered_map>
+/*法一，使用count*/
 class Solution {
     public:
         std::vector<int> twoSum(std::vector<int>& nums, int target) {
@@ -20,6 +21,21 @@ class Solution {
             }
             return {}; // Return an empty vector if no solution is found
             
+        }
+    };
+/*法二，使用find*/
+class Solution2 {
+    public:
+        std::vector<int> twoSum(std::vector<int>& nums, int target) {
+            std::unordered_map<int, int> hashtable;
+            for (int i = 0; i < nums.size(); ++i) {
+                auto it = hashtable.find(target - nums[i]);
+                if (it != hashtable.end()) {
+                    return {it->second, i};
+                }
+                hashtable[nums[i]] = i;
+            }
+            return {};
         }
     };
 
