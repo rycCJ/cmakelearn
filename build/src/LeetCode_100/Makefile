@@ -184,6 +184,20 @@ TwoSumApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/build
 .PHONY : TwoSumApp/fast
 
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/rule
+
+# Convenience name for target.
+GroupAnagApp: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/rule
+.PHONY : GroupAnagApp
+
+# fast build rule for target.
+GroupAnagApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/build
+.PHONY : GroupAnagApp/fast
+
 01_twosum.obj: 01_twosum.cpp.obj
 .PHONY : 01_twosum.obj
 
@@ -208,6 +222,30 @@ TwoSumApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.s
 .PHONY : 01_twosum.cpp.s
 
+02_groupAnag.obj: 02_groupAnag.cpp.obj
+.PHONY : 02_groupAnag.obj
+
+# target to build an object file
+02_groupAnag.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj
+.PHONY : 02_groupAnag.cpp.obj
+
+02_groupAnag.i: 02_groupAnag.cpp.i
+.PHONY : 02_groupAnag.i
+
+# target to preprocess a source file
+02_groupAnag.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.i
+.PHONY : 02_groupAnag.cpp.i
+
+02_groupAnag.s: 02_groupAnag.cpp.s
+.PHONY : 02_groupAnag.s
+
+# target to generate assembly for a file
+02_groupAnag.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.s
+.PHONY : 02_groupAnag.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -221,10 +259,14 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... GroupAnagApp
 	@echo ... TwoSumApp
 	@echo ... 01_twosum.obj
 	@echo ... 01_twosum.i
 	@echo ... 01_twosum.s
+	@echo ... 02_groupAnag.obj
+	@echo ... 02_groupAnag.i
+	@echo ... 02_groupAnag.s
 .PHONY : help
 
 

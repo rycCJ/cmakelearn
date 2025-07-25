@@ -11,5 +11,13 @@ target_include_directories(TwoSumApp PRIVATE
 # （可选）如果 guess_num.cpp 需要用到 strutils 库，
 # 你可以在这里添加链接：
 # target_link_libraries(GuessNumApp strutils)
-
 install(TARGETS TwoSumApp RUNTIME DESTINATION bin)
+
+
+
+
+add_executable(GroupAnagApp 02_groupAnag.cpp)
+target_include_directories(GroupAnagApp PRIVATE 
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS GroupAnagApp RUNTIME DESTINATION bin)

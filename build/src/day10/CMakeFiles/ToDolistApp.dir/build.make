@@ -76,15 +76,15 @@ src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.obj: src/day10/CMakeFiles/T
 src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.obj: D:/cmakelearn/src/day10/03_todolist.cpp
 src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.obj: src/day10/CMakeFiles/ToDolistApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.obj"
-	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.obj -MF CMakeFiles\ToDolistApp.dir\03_todolist.cpp.obj.d -o CMakeFiles\ToDolistApp.dir\03_todolist.cpp.obj -c D:\cmakelearn\src\day10\03_todolist.cpp
+	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.obj -MF CMakeFiles\ToDolistApp.dir\03_todolist.cpp.obj.d -o CMakeFiles\ToDolistApp.dir\03_todolist.cpp.obj -c D:\cmakelearn\src\day10\03_todolist.cpp
 
 src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ToDolistApp.dir/03_todolist.cpp.i"
-	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\day10\03_todolist.cpp > CMakeFiles\ToDolistApp.dir\03_todolist.cpp.i
+	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\day10\03_todolist.cpp > CMakeFiles\ToDolistApp.dir\03_todolist.cpp.i
 
 src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToDolistApp.dir/03_todolist.cpp.s"
-	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\day10\03_todolist.cpp -o CMakeFiles\ToDolistApp.dir\03_todolist.cpp.s
+	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\day10\03_todolist.cpp -o CMakeFiles\ToDolistApp.dir\03_todolist.cpp.s
 
 # Object files for target ToDolistApp
 ToDolistApp_OBJECTS = \

@@ -76,15 +76,15 @@ tests/CMakeFiles/tests.dir/test_strutils.cpp.obj: tests/CMakeFiles/tests.dir/inc
 tests/CMakeFiles/tests.dir/test_strutils.cpp.obj: D:/cmakelearn/tests/test_strutils.cpp
 tests/CMakeFiles/tests.dir/test_strutils.cpp.obj: tests/CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/tests.dir/test_strutils.cpp.obj"
-	cd /d D:\cmakelearn\build\tests && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/test_strutils.cpp.obj -MF CMakeFiles\tests.dir\test_strutils.cpp.obj.d -o CMakeFiles\tests.dir\test_strutils.cpp.obj -c D:\cmakelearn\tests\test_strutils.cpp
+	cd /d D:\cmakelearn\build\tests && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/test_strutils.cpp.obj -MF CMakeFiles\tests.dir\test_strutils.cpp.obj.d -o CMakeFiles\tests.dir\test_strutils.cpp.obj -c D:\cmakelearn\tests\test_strutils.cpp
 
 tests/CMakeFiles/tests.dir/test_strutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/test_strutils.cpp.i"
-	cd /d D:\cmakelearn\build\tests && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\tests\test_strutils.cpp > CMakeFiles\tests.dir\test_strutils.cpp.i
+	cd /d D:\cmakelearn\build\tests && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\tests\test_strutils.cpp > CMakeFiles\tests.dir\test_strutils.cpp.i
 
 tests/CMakeFiles/tests.dir/test_strutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/test_strutils.cpp.s"
-	cd /d D:\cmakelearn\build\tests && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\tests\test_strutils.cpp -o CMakeFiles\tests.dir\test_strutils.cpp.s
+	cd /d D:\cmakelearn\build\tests && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\tests\test_strutils.cpp -o CMakeFiles\tests.dir\test_strutils.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \

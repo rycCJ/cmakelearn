@@ -301,6 +301,19 @@ TwoSumApp/fast:
 .PHONY : TwoSumApp/fast
 
 #=============================================================================
+# Target rules for targets named GroupAnagApp
+
+# Build rule for target.
+GroupAnagApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GroupAnagApp
+.PHONY : GroupAnagApp
+
+# fast build rule for target.
+GroupAnagApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/build
+.PHONY : GroupAnagApp/fast
+
+#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -327,6 +340,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... CalculatorAPP
+	@echo ... GroupAnagApp
 	@echo ... GuessNumApp
 	@echo ... StrUtilsaApp
 	@echo ... ToDolistApp
