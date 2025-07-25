@@ -109,11 +109,11 @@
 
         },
         {
-            "name": "(gdb) 调试TwoSumApp",
+            "name": "(gdb) 调试GroupAnagApp",
             "type": "cppdbg",
             "request": "launch",
             // 关键：路径已更新为指向 install 目录下的最终产品
-            "program": "${workspaceFolder}/install/bin/TwoSumApp.exe",
+            "program": "${workspaceFolder}/install/bin/GroupAnagApp.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

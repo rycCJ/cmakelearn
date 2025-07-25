@@ -1,0 +1,74 @@
+[
+{
+  "directory": "D:/cmakelearn/build/third_party/googletest/googlemock",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\cmakelearn\\third_party\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "D:/cmakelearn/third_party/googletest/googlemock/src/gmock-all.cc",
+  "output": "third_party/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/third_party/googletest/googlemock",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\cmakelearn\\third_party\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "D:/cmakelearn/third_party/googletest/googlemock/src/gmock_main.cc",
+  "output": "third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/third_party/googletest/googletest",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\cmakelearn\\third_party\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "D:/cmakelearn/third_party/googletest/googletest/src/gtest-all.cc",
+  "output": "third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/third_party/googletest/googletest",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\cmakelearn\\third_party\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "D:/cmakelearn/third_party/googletest/googletest/src/gtest_main.cc",
+  "output": "third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/moduleA",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/strutils.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\strutils.dir\\strutils.cpp.obj -c D:\\cmakelearn\\src\\moduleA\\strutils.cpp",
+  "file": "D:/cmakelearn/src/moduleA/strutils.cpp",
+  "output": "src/moduleA/CMakeFiles/strutils.dir/strutils.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/moduleA",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/StrUtilsaApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\StrUtilsaApp.dir\\main.cpp.obj -c D:\\cmakelearn\\src\\moduleA\\main.cpp",
+  "file": "D:/cmakelearn/src/moduleA/main.cpp",
+  "output": "src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/day10",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/GuessNumApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GuessNumApp.dir\\01_guess_num.cpp.obj -c D:\\cmakelearn\\src\\day10\\01_guess_num.cpp",
+  "file": "D:/cmakelearn/src/day10/01_guess_num.cpp",
+  "output": "src/day10/CMakeFiles/GuessNumApp.dir/01_guess_num.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/day10",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/CalculatorAPP.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CalculatorAPP.dir\\02_calculator.cpp.obj -c D:\\cmakelearn\\src\\day10\\02_calculator.cpp",
+  "file": "D:/cmakelearn/src/day10/02_calculator.cpp",
+  "output": "src/day10/CMakeFiles/CalculatorAPP.dir/02_calculator.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/day10",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/ToDolistApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDolistApp.dir\\03_todolist.cpp.obj -c D:\\cmakelearn\\src\\day10\\03_todolist.cpp",
+  "file": "D:/cmakelearn/src/day10/03_todolist.cpp",
+  "output": "src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/TwoSumApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TwoSumApp.dir\\01_twosum.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\01_twosum.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/01_twosum.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/GroupAnagApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GroupAnagApp.dir\\02_groupAnag.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\02_groupAnag.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/02_groupAnag.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/tests",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tests.dir\\test_strutils.cpp.obj -c D:\\cmakelearn\\tests\\test_strutils.cpp",
+  "file": "D:/cmakelearn/tests/test_strutils.cpp",
+  "output": "tests/CMakeFiles/tests.dir/test_strutils.cpp.obj"
+}
+]

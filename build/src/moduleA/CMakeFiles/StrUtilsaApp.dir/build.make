@@ -76,15 +76,15 @@ src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.obj: src/moduleA/CMakeFiles/Str
 src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.obj: D:/cmakelearn/src/moduleA/main.cpp
 src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.obj: src/moduleA/CMakeFiles/StrUtilsaApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.obj"
-	cd /d D:\cmakelearn\build\src\moduleA && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.obj -MF CMakeFiles\StrUtilsaApp.dir\main.cpp.obj.d -o CMakeFiles\StrUtilsaApp.dir\main.cpp.obj -c D:\cmakelearn\src\moduleA\main.cpp
+	cd /d D:\cmakelearn\build\src\moduleA && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.obj -MF CMakeFiles\StrUtilsaApp.dir\main.cpp.obj.d -o CMakeFiles\StrUtilsaApp.dir\main.cpp.obj -c D:\cmakelearn\src\moduleA\main.cpp
 
 src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StrUtilsaApp.dir/main.cpp.i"
-	cd /d D:\cmakelearn\build\src\moduleA && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\moduleA\main.cpp > CMakeFiles\StrUtilsaApp.dir\main.cpp.i
+	cd /d D:\cmakelearn\build\src\moduleA && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\moduleA\main.cpp > CMakeFiles\StrUtilsaApp.dir\main.cpp.i
 
 src/moduleA/CMakeFiles/StrUtilsaApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StrUtilsaApp.dir/main.cpp.s"
-	cd /d D:\cmakelearn\build\src\moduleA && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\moduleA\main.cpp -o CMakeFiles\StrUtilsaApp.dir\main.cpp.s
+	cd /d D:\cmakelearn\build\src\moduleA && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\moduleA\main.cpp -o CMakeFiles\StrUtilsaApp.dir\main.cpp.s
 
 # Object files for target StrUtilsaApp
 StrUtilsaApp_OBJECTS = \
