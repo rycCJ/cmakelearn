@@ -57,6 +57,7 @@ D:/cmakelearn/install/bin/GuessNumApp.exe
 D:/cmakelearn/install/bin/CalculatorAPP.exe
 D:/cmakelearn/install/bin/ToDolistApp.exe
 D:/cmakelearn/install/bin/arrApp.exe
+D:/cmakelearn/install/bin/LinkedlistApp.exe
 D:/cmakelearn/install/bin/TwoSumApp.exe
 D:/cmakelearn/install/bin/GroupAnagApp.exe
 D:/cmakelearn/install/bin/tests.exe

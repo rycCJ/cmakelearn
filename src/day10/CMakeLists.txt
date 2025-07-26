@@ -37,3 +37,10 @@ target_include_directories(arrApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS arrApp RUNTIME DESTINATION bin)
+
+add_executable(LinkedlistApp linked_list.cpp)
+
+target_include_directories(LinkedlistApp PRIVATE 
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS LinkedlistApp RUNTIME DESTINATION bin)

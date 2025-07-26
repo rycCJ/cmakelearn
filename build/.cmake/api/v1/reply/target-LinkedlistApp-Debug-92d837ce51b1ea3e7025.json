@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/tests.exe"
+			"path" : "bin/LinkedlistApp.exe"
 		},
 		{
-			"path" : "bin/tests.pdb"
+			"path" : "bin/LinkedlistApp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -15,12 +15,11 @@
 		[
 			"add_executable",
 			"install",
-			"target_link_libraries"
+			"target_include_directories"
 		],
 		"files" : 
 		[
-			"tests/CMakeLists.txt",
-			"third_party/googletest/googletest/CMakeLists.txt"
+			"src/day10/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -30,29 +29,20 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 2,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 21,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 8,
+				"line" : 43,
 				"parent" : 0
-			},
-			{
-				"file" : 1
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 150,
-				"parent" : 4
 			}
 		]
 	},
@@ -70,16 +60,6 @@
 				{
 					"backtrace" : 3,
 					"path" : "D:/cmakelearn/include"
-				},
-				{
-					"backtrace" : 3,
-					"isSystem" : true,
-					"path" : "D:/cmakelearn/third_party/googletest/googletest/include"
-				},
-				{
-					"backtrace" : 3,
-					"isSystem" : true,
-					"path" : "D:/cmakelearn/third_party/googletest/googletest"
 				}
 			],
 			"language" : "CXX",
@@ -87,7 +67,7 @@
 			{
 				"backtraces" : 
 				[
-					3
+					1
 				],
 				"standard" : "17"
 			},
@@ -97,22 +77,7 @@
 			]
 		}
 	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 3,
-			"id" : "gtest::@90013eb1b481ea580f52"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "strutils::@870b21fb46c08efccce8"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "gtest_main::@90013eb1b481ea580f52"
-		}
-	],
-	"id" : "tests::@a44f0ac069e85531cdee",
+	"id" : "LinkedlistApp::@02f70fd0039ce8bebe7c",
 	"install" : 
 	{
 		"destinations" : 
@@ -140,33 +105,18 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
-				"fragment" : "..\\lib\\libstrutils.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "..\\lib\\libgtest_main.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "..\\lib\\libgtest.a",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "tests",
-	"nameOnDisk" : "tests.exe",
+	"name" : "LinkedlistApp",
+	"nameOnDisk" : "LinkedlistApp.exe",
 	"paths" : 
 	{
-		"build" : "tests",
-		"source" : "tests"
+		"build" : "src/day10",
+		"source" : "src/day10"
 	},
 	"sourceGroups" : 
 	[
@@ -183,7 +133,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "tests/test_strutils.cpp",
+			"path" : "src/day10/linked_list.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -226,6 +226,20 @@ arrApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/build
 .PHONY : arrApp/fast
 
+# Convenience name for target.
+src/day10/CMakeFiles/LinkedlistApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/day10/CMakeFiles/LinkedlistApp.dir/rule
+.PHONY : src/day10/CMakeFiles/LinkedlistApp.dir/rule
+
+# Convenience name for target.
+LinkedlistApp: src/day10/CMakeFiles/LinkedlistApp.dir/rule
+.PHONY : LinkedlistApp
+
+# fast build rule for target.
+LinkedlistApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\LinkedlistApp.dir\build.make src/day10/CMakeFiles/LinkedlistApp.dir/build
+.PHONY : LinkedlistApp/fast
+
 01_guess_num.obj: 01_guess_num.cpp.obj
 .PHONY : 01_guess_num.obj
 
@@ -322,6 +336,30 @@ arrgroup.cpp.s:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/arrgroup.cpp.s
 .PHONY : arrgroup.cpp.s
 
+linked_list.obj: linked_list.cpp.obj
+.PHONY : linked_list.obj
+
+# target to build an object file
+linked_list.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\LinkedlistApp.dir\build.make src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.obj
+.PHONY : linked_list.cpp.obj
+
+linked_list.i: linked_list.cpp.i
+.PHONY : linked_list.i
+
+# target to preprocess a source file
+linked_list.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\LinkedlistApp.dir\build.make src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.i
+.PHONY : linked_list.cpp.i
+
+linked_list.s: linked_list.cpp.s
+.PHONY : linked_list.s
+
+# target to generate assembly for a file
+linked_list.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\LinkedlistApp.dir\build.make src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.s
+.PHONY : linked_list.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -337,6 +375,7 @@ help:
 	@echo ... test
 	@echo ... CalculatorAPP
 	@echo ... GuessNumApp
+	@echo ... LinkedlistApp
 	@echo ... ToDolistApp
 	@echo ... arrApp
 	@echo ... 01_guess_num.obj
@@ -351,6 +390,9 @@ help:
 	@echo ... arrgroup.obj
 	@echo ... arrgroup.i
 	@echo ... arrgroup.s
+	@echo ... linked_list.obj
+	@echo ... linked_list.i
+	@echo ... linked_list.s
 .PHONY : help
 
 
