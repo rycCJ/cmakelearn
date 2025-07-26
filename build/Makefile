@@ -288,6 +288,19 @@ ToDolistApp/fast:
 .PHONY : ToDolistApp/fast
 
 #=============================================================================
+# Target rules for targets named arrApp
+
+# Build rule for target.
+arrApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arrApp
+.PHONY : arrApp
+
+# fast build rule for target.
+arrApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/build
+.PHONY : arrApp/fast
+
+#=============================================================================
 # Target rules for targets named TwoSumApp
 
 # Build rule for target.
@@ -345,6 +358,7 @@ help:
 	@echo ... StrUtilsaApp
 	@echo ... ToDolistApp
 	@echo ... TwoSumApp
+	@echo ... arrApp
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest

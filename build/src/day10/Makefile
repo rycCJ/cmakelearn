@@ -212,6 +212,20 @@ ToDolistApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/build
 .PHONY : ToDolistApp/fast
 
+# Convenience name for target.
+src/day10/CMakeFiles/arrApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/day10/CMakeFiles/arrApp.dir/rule
+.PHONY : src/day10/CMakeFiles/arrApp.dir/rule
+
+# Convenience name for target.
+arrApp: src/day10/CMakeFiles/arrApp.dir/rule
+.PHONY : arrApp
+
+# fast build rule for target.
+arrApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/build
+.PHONY : arrApp/fast
+
 01_guess_num.obj: 01_guess_num.cpp.obj
 .PHONY : 01_guess_num.obj
 
@@ -284,6 +298,30 @@ ToDolistApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.s
 .PHONY : 03_todolist.cpp.s
 
+arrgroup.obj: arrgroup.cpp.obj
+.PHONY : arrgroup.obj
+
+# target to build an object file
+arrgroup.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/arrgroup.cpp.obj
+.PHONY : arrgroup.cpp.obj
+
+arrgroup.i: arrgroup.cpp.i
+.PHONY : arrgroup.i
+
+# target to preprocess a source file
+arrgroup.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/arrgroup.cpp.i
+.PHONY : arrgroup.cpp.i
+
+arrgroup.s: arrgroup.cpp.s
+.PHONY : arrgroup.s
+
+# target to generate assembly for a file
+arrgroup.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/arrgroup.cpp.s
+.PHONY : arrgroup.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -300,6 +338,7 @@ help:
 	@echo ... CalculatorAPP
 	@echo ... GuessNumApp
 	@echo ... ToDolistApp
+	@echo ... arrApp
 	@echo ... 01_guess_num.obj
 	@echo ... 01_guess_num.i
 	@echo ... 01_guess_num.s
@@ -309,6 +348,9 @@ help:
 	@echo ... 03_todolist.obj
 	@echo ... 03_todolist.i
 	@echo ... 03_todolist.s
+	@echo ... arrgroup.obj
+	@echo ... arrgroup.i
+	@echo ... arrgroup.s
 .PHONY : help
 
 

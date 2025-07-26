@@ -8,7 +8,7 @@
             // 1. cmake ... -DCMAKE_BUILD_TYPE=Debug : 强制以Debug模式配置项目
             // 2. cmake --build . : 编译项目
             // 3. cmake --install . : 安装项目
-            "command": "cmake -S .. -B . -G \"MinGW Makefiles\" -DCMAKE_BUILD_TYPE=Debug && cmake --build . && cmake --install .",
+            "command": "cmake -S .. -B . -G \"MinGW Makefiles\" -DCMAKE_BUILD_TYPE=Debug ; cmake --build . ; cmake --install .",
             "options": {
                 // 关键：确保这些命令在 build 目录下执行
                 "cwd": "${workspaceFolder}/build"
