@@ -301,6 +301,19 @@ arrApp/fast:
 .PHONY : arrApp/fast
 
 #=============================================================================
+# Target rules for targets named LinkedlistApp
+
+# Build rule for target.
+LinkedlistApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkedlistApp
+.PHONY : LinkedlistApp
+
+# fast build rule for target.
+LinkedlistApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\LinkedlistApp.dir\build.make src/day10/CMakeFiles/LinkedlistApp.dir/build
+.PHONY : LinkedlistApp/fast
+
+#=============================================================================
 # Target rules for targets named TwoSumApp
 
 # Build rule for target.
@@ -355,6 +368,7 @@ help:
 	@echo ... CalculatorAPP
 	@echo ... GroupAnagApp
 	@echo ... GuessNumApp
+	@echo ... LinkedlistApp
 	@echo ... StrUtilsaApp
 	@echo ... ToDolistApp
 	@echo ... TwoSumApp
