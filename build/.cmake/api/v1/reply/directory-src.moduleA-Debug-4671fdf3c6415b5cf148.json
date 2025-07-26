@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"src/day10/CMakeLists.txt"
+			"src/moduleA/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,19 +17,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 32,
+				"line" : 40,
 				"parent" : 0
 			}
 		]
@@ -39,26 +39,24 @@
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "bin",
+			"destination" : "lib",
 			"paths" : 
 			[
-				"bin/GuessNumApp.exe"
+				"lib/libstrutils.a"
 			],
-			"targetId" : "GuessNumApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 2,
+			"targetId" : "strutils::@870b21fb46c08efccce8",
+			"targetIndex" : 11,
 			"type" : "target"
 		},
 		{
 			"backtrace" : 2,
 			"component" : "Unspecified",
-			"destination" : "bin",
+			"destination" : "include/myproject",
 			"paths" : 
 			[
-				"bin/CalculatorAPP.exe"
+				"include/my_pro_project/strutils.hpp"
 			],
-			"targetId" : "CalculatorAPP::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 0,
-			"type" : "target"
+			"type" : "file"
 		},
 		{
 			"backtrace" : 3,
@@ -66,16 +64,16 @@
 			"destination" : "bin",
 			"paths" : 
 			[
-				"bin/ToDolistApp.exe"
+				"bin/StrUtilsaApp.exe"
 			],
-			"targetId" : "ToDolistApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 4,
+			"targetId" : "StrUtilsaApp::@870b21fb46c08efccce8",
+			"targetIndex" : 3,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "src/day10",
-		"source" : "src/day10"
+		"build" : "src/moduleA",
+		"source" : "src/moduleA"
 	}
 }

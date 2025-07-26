@@ -30,3 +30,10 @@ target_include_directories(ToDolistApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS ToDolistApp RUNTIME DESTINATION bin)
+
+add_executable(arrApp arrgroup.cpp)
+
+target_include_directories(arrApp PRIVATE 
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS arrApp RUNTIME DESTINATION bin)

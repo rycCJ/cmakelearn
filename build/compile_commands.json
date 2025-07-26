@@ -54,6 +54,12 @@
   "output": "src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.obj"
 },
 {
+  "directory": "D:/cmakelearn/build/src/day10",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/arrApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\arrApp.dir\\arrgroup.cpp.obj -c D:\\cmakelearn\\src\\day10\\arrgroup.cpp",
+  "file": "D:/cmakelearn/src/day10/arrgroup.cpp",
+  "output": "src/day10/CMakeFiles/arrApp.dir/arrgroup.cpp.obj"
+},
+{
   "directory": "D:/cmakelearn/build/src/LeetCode_100",
   "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/TwoSumApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TwoSumApp.dir\\01_twosum.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\01_twosum.cpp",
   "file": "D:/cmakelearn/src/LeetCode_100/01_twosum.cpp",

@@ -131,6 +131,29 @@
             "preLaunchTask": "Build and Install C++ Project"
 
         },
+        {
+            "name": "(gdb) 调试arrApp",
+            "type": "cppdbg",
+            "request": "launch",
+            // 关键：路径已更新为指向 install 目录下的最终产品
+            "program": "${workspaceFolder}/install/bin/arrApp.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/APPS/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build and Install C++ Project"
+
+        },
 
 
     ]
