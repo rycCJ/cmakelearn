@@ -31,7 +31,7 @@
                 }
             ],
             // 告诉调试器在启动前先执行我们的“构建并安装”任务
-            "preLaunchTask":"Build and Install C++ Project"
+            "preLaunchTask": "Build and Install C++ Project"
         },
         {
             "name": "(gdb) 调试已安装的 tests",
@@ -54,7 +54,6 @@
                 }
             ],
             "preLaunchTask": "Build and Install C++ Project"
-
         },
         {
             "name": "(gdb)调试 CalculatorAPP",
@@ -83,7 +82,7 @@
                 }
             ],
             // 告诉调试器在启动前先执行我们的“构建并安装”任务
-            "preLaunchTask":"Build and Install C++ Project"
+            "preLaunchTask": "Build and Install C++ Project"
         },
         {
             "name": "(gdb) 调试ToDolistApp",
@@ -106,7 +105,6 @@
                 }
             ],
             "preLaunchTask": "Build and Install C++ Project"
-
         },
         {
             "name": "(gdb) 调试GroupAnagApp",
@@ -129,14 +127,13 @@
                 }
             ],
             "preLaunchTask": "Build and Install C++ Project"
-
         },
         {
-            "name": "(gdb) 调试LinkedlistApp",                               //修改这个，调试哪个改为哪个
+            "name": "(gdb) 调试LinkedlistApp", //修改这个，调试哪个改为哪个
             "type": "cppdbg",
             "request": "launch",
             // 关键：路径已更新为指向 install 目录下的最终产品
-            "program": "${workspaceFolder}/install/bin/LinkedlistApp.exe",           //修改这个，调试哪个改为哪个
+            "program": "${workspaceFolder}/install/bin/IntersectingApp.exe", //修改这个，调试哪个改为哪个
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -152,9 +149,6 @@
                 }
             ],
             "preLaunchTask": "Build and Install C++ Project"
-
         },
-
-
     ]
 }

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/GroupAnagApp.exe"
+			"path" : "bin/TwoSumApp.exe"
 		},
 		{
-			"path" : "bin/GroupAnagApp.pdb"
+			"path" : "bin/TwoSumApp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 3,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 23,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 20,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -77,7 +77,7 @@
 			]
 		}
 	],
-	"id" : "GroupAnagApp::@a7c91b1d3e3cce786bd1",
+	"id" : "TwoSumApp::@a7c91b1d3e3cce786bd1",
 	"install" : 
 	{
 		"destinations" : 
@@ -111,8 +111,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "GroupAnagApp",
-	"nameOnDisk" : "GroupAnagApp.exe",
+	"name" : "TwoSumApp",
+	"nameOnDisk" : "TwoSumApp.exe",
 	"paths" : 
 	{
 		"build" : "src/LeetCode_100",
@@ -133,7 +133,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/LeetCode_100/02_groupAnag.cpp",
+			"path" : "src/LeetCode_100/01_twosum.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

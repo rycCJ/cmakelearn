@@ -340,6 +340,19 @@ GroupAnagApp/fast:
 .PHONY : GroupAnagApp/fast
 
 #=============================================================================
+# Target rules for targets named IntersectingApp
+
+# Build rule for target.
+IntersectingApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 IntersectingApp
+.PHONY : IntersectingApp
+
+# fast build rule for target.
+IntersectingApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\IntersectingApp.dir\build.make src/LeetCode_100/CMakeFiles/IntersectingApp.dir/build
+.PHONY : IntersectingApp/fast
+
+#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -368,6 +381,7 @@ help:
 	@echo ... CalculatorAPP
 	@echo ... GroupAnagApp
 	@echo ... GuessNumApp
+	@echo ... IntersectingApp
 	@echo ... LinkedlistApp
 	@echo ... StrUtilsaApp
 	@echo ... ToDolistApp
