@@ -129,11 +129,11 @@
             "preLaunchTask": "Build and Install C++ Project"
         },
         {
-            "name": "(gdb) 调试ReverseListApp", //修改这个，调试哪个改为哪个
+            "name": "(gdb) 调试CycleListApp", //修改这个，调试哪个改为哪个
             "type": "cppdbg",
             "request": "launch",
             // 关键：路径已更新为指向 install 目录下的最终产品
-            "program": "${workspaceFolder}/install/bin/ReverseListApp.exe", //修改这个，调试哪个改为哪个
+            "program": "${workspaceFolder}/install/bin/CycleListApp.exe", //修改这个，调试哪个改为哪个
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
