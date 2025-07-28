@@ -25,8 +25,7 @@ void printList(Node *n)
         n = n->Next;
     }
 }
-void InsertattheBegin(Node **head, int value) // 要在函数里改变 “链表头指针” 的值(Node *head)。也就是说你要 修改指针变量，就必须传它的地址，也就是：Node **
-                                              //   需要修改 head 指针
+void InsertattheBegin(Node **head, int value) // 要在函数里改变 “链表头指针” 的值(Node *head)。也就是说你要 修改指针变量，就必须传它的地址，也就是：Node **          需要修改 head 指针
 {
     Node *newNode = new Node();
     newNode->Value = value;
@@ -35,7 +34,6 @@ void InsertattheBegin(Node **head, int value) // 要在函数里改变 “链表
     // move the head of the list to the newnodee ***
     *head = newNode;
 }
-
 void Insertattheend(Node **head, int value)
 {
     // 1.prepare a newnode
@@ -92,7 +90,52 @@ void zhixingNode()
 
     system("pause>0");
 }
+void printdoubleForward(doubleNode *head)
+{
+    doubleNode *node = head;
+    while (node != nullptr)
+    {
+        cout << node->Value << endl;
+        node = node->Next;
+    }
+}
+void doubleafterinsert(doubleNode **prenode, int value)
+{
+    if (*prenode == nullptr)
+    {
+        cout << "Not find previous" << endl;
+        return;
+    }
+    doubleNode *node = new doubleNode();
+    node->Value = value;
+    node->Next = (*prenode)->Next;
+    (*prenode)->Next = node;
+
+    node->Previous = *prenode;
+    (*prenode)->Next = node;
+}
 int main()
 {
     // doubleNode *head = new doubleNode();
+    // 如果把条件改成 traverser->next != nullptr，逻辑会 漏掉最后一个节点：
+    // add 1st bouble list
+    doubleNode *head;
+    doubleNode *tail;
+
+    doubleNode *node = new doubleNode();
+    node->Value = 4;
+    node->Next = nullptr;
+    node->Previous = nullptr;
+    head = node;
+    tail = node;
+    // add 2st double list
+    node = new doubleNode(); // 指针只需要指向第一个地址。linked List中仅需一个指针
+    node->Value = 9;
+    node->Next = nullptr;
+    node->Previous = tail;
+    tail->Next = node; // 前一个tail指向此head
+    tail = node;
+    printdoubleForward(head);
+    doubleafterinsert(&head, 999);
+    printdoubleForward(head);
 }

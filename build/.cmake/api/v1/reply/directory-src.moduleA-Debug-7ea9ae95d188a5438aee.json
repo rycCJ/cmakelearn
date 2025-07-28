@@ -45,7 +45,7 @@
 				"lib/libstrutils.a"
 			],
 			"targetId" : "strutils::@870b21fb46c08efccce8",
-			"targetIndex" : 12,
+			"targetIndex" : 13,
 			"type" : "target"
 		},
 		{
@@ -67,7 +67,7 @@
 				"bin/StrUtilsaApp.exe"
 			],
 			"targetId" : "StrUtilsaApp::@870b21fb46c08efccce8",
-			"targetIndex" : 4,
+			"targetIndex" : 5,
 			"type" : "target"
 		}
 	],

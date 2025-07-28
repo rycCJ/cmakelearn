@@ -15,6 +15,8 @@
 - https://www.youtube.com/watch?v=RNMIDj62o_o                          (插值)
 - https://www.youtube.com/watch?v=-StYr9wILqo                             (Doubly Linked Lists)
 doubly lists：无内存，且需要插值删除等操作
+在链表操作中，我们通常 用一个临时指针反复操作节点，而不是创建多个指针。
+
 array vs Linked list
 array have fixed size but Linked list don't  Linked list have dynamic size
 选择 ：想要更快访问元素还是想要更容易增删元素（emmm,我都想要 :O）

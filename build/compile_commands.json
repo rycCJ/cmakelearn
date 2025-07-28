@@ -78,6 +78,12 @@
   "output": "src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj"
 },
 {
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/IntersectingApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\IntersectingApp.dir\\160_Intersecting_Linked_Lists.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\160_Intersecting_Linked_Lists.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/160_Intersecting_Linked_Lists.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.obj"
+},
+{
   "directory": "D:/cmakelearn/build/tests",
   "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tests.dir\\test_strutils.cpp.obj -c D:\\cmakelearn\\tests\\test_strutils.cpp",
   "file": "D:/cmakelearn/tests/test_strutils.cpp",

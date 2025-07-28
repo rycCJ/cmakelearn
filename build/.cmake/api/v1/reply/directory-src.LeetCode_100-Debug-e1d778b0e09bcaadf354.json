@@ -17,13 +17,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
 				"parent" : 0
 			}
 		]
@@ -39,7 +45,7 @@
 				"bin/TwoSumApp.exe"
 			],
 			"targetId" : "TwoSumApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 6,
+			"targetIndex" : 7,
 			"type" : "target"
 		},
 		{
@@ -52,6 +58,18 @@
 			],
 			"targetId" : "GroupAnagApp::@a7c91b1d3e3cce786bd1",
 			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/IntersectingApp.exe"
+			],
+			"targetId" : "IntersectingApp::@a7c91b1d3e3cce786bd1",
+			"targetIndex" : 3,
 			"type" : "target"
 		}
 	],

@@ -81,7 +81,7 @@
 				"bin/ToDolistApp.exe"
 			],
 			"targetId" : "ToDolistApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 5,
+			"targetIndex" : 6,
 			"type" : "target"
 		},
 		{
@@ -93,7 +93,7 @@
 				"bin/arrApp.exe"
 			],
 			"targetId" : "arrApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 7,
+			"targetIndex" : 8,
 			"type" : "target"
 		},
 		{
@@ -105,7 +105,7 @@
 				"bin/LinkedlistApp.exe"
 			],
 			"targetId" : "LinkedlistApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 3,
+			"targetIndex" : 4,
 			"type" : "target"
 		}
 	],
