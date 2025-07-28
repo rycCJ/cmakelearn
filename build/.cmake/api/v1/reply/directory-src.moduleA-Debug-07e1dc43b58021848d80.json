@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"src/LeetCode_100/CMakeLists.txt"
+			"src/moduleA/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,19 +17,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 21,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 40,
 				"parent" : 0
 			}
 		]
@@ -39,26 +39,24 @@
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "bin",
+			"destination" : "lib",
 			"paths" : 
 			[
-				"bin/TwoSumApp.exe"
+				"lib/libstrutils.a"
 			],
-			"targetId" : "TwoSumApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 7,
+			"targetId" : "strutils::@870b21fb46c08efccce8",
+			"targetIndex" : 14,
 			"type" : "target"
 		},
 		{
 			"backtrace" : 2,
 			"component" : "Unspecified",
-			"destination" : "bin",
+			"destination" : "include/myproject",
 			"paths" : 
 			[
-				"bin/GroupAnagApp.exe"
+				"include/my_pro_project/strutils.hpp"
 			],
-			"targetId" : "GroupAnagApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 1,
-			"type" : "target"
+			"type" : "file"
 		},
 		{
 			"backtrace" : 3,
@@ -66,16 +64,16 @@
 			"destination" : "bin",
 			"paths" : 
 			[
-				"bin/IntersectingApp.exe"
+				"bin/StrUtilsaApp.exe"
 			],
-			"targetId" : "IntersectingApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 3,
+			"targetId" : "StrUtilsaApp::@870b21fb46c08efccce8",
+			"targetIndex" : 6,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "src/LeetCode_100",
-		"source" : "src/LeetCode_100"
+		"build" : "src/moduleA",
+		"source" : "src/moduleA"
 	}
 }

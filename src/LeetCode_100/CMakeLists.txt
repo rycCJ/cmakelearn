@@ -25,3 +25,9 @@ target_include_directories(IntersectingApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS IntersectingApp RUNTIME DESTINATION bin)
+
+add_executable(ReverseListApp 206_reverse_Linked_List.cpp)
+target_include_directories(ReverseListApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS ReverseListApp RUNTIME DESTINATION bin)
