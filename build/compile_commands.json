@@ -84,6 +84,12 @@
   "output": "src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.obj"
 },
 {
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/ReverseListApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ReverseListApp.dir\\206_reverse_Linked_List.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\206_reverse_Linked_List.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/206_reverse_Linked_List.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/ReverseListApp.dir/206_reverse_Linked_List.cpp.obj"
+},
+{
   "directory": "D:/cmakelearn/build/tests",
   "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tests.dir\\test_strutils.cpp.obj -c D:\\cmakelearn\\tests\\test_strutils.cpp",
   "file": "D:/cmakelearn/tests/test_strutils.cpp",

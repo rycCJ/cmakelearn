@@ -1,7 +1,12 @@
 
 #include <iostream>
 using namespace std;
-
+/*方法一：链条A：a+b个数字
+*链条B:c+b个数字
+*第一条遍历：a,b,c
+*第二条遍历：c,b,a
+根据遍历个数相同，且指针相同从而找到链表交点。
+*/
 // Definition for singly-linked list.
 class ListNode
 {

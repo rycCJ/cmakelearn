@@ -1,0 +1,3 @@
+D:\APPS\CMake\bin\cmake.exe -E rm -f CMakeFiles\ReverseListApp.dir/objects.a
+D:\APPS\mingw64\bin\ar.exe qc CMakeFiles\ReverseListApp.dir/objects.a @CMakeFiles\ReverseListApp.dir\objects1.rsp
+D:\APPS\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ReverseListApp.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\ReverseListApp.exe -Wl,--out-implib,..\..\lib\libReverseListApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ReverseListApp.dir\linkLibs.rsp

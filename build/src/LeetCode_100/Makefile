@@ -212,6 +212,20 @@ IntersectingApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\IntersectingApp.dir\build.make src/LeetCode_100/CMakeFiles/IntersectingApp.dir/build
 .PHONY : IntersectingApp/fast
 
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/ReverseListApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/ReverseListApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/ReverseListApp.dir/rule
+
+# Convenience name for target.
+ReverseListApp: src/LeetCode_100/CMakeFiles/ReverseListApp.dir/rule
+.PHONY : ReverseListApp
+
+# fast build rule for target.
+ReverseListApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/build
+.PHONY : ReverseListApp/fast
+
 01_twosum.obj: 01_twosum.cpp.obj
 .PHONY : 01_twosum.obj
 
@@ -284,6 +298,30 @@ IntersectingApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\IntersectingApp.dir\build.make src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.s
 .PHONY : 160_Intersecting_Linked_Lists.cpp.s
 
+206_reverse_Linked_List.obj: 206_reverse_Linked_List.cpp.obj
+.PHONY : 206_reverse_Linked_List.obj
+
+# target to build an object file
+206_reverse_Linked_List.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/206_reverse_Linked_List.cpp.obj
+.PHONY : 206_reverse_Linked_List.cpp.obj
+
+206_reverse_Linked_List.i: 206_reverse_Linked_List.cpp.i
+.PHONY : 206_reverse_Linked_List.i
+
+# target to preprocess a source file
+206_reverse_Linked_List.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/206_reverse_Linked_List.cpp.i
+.PHONY : 206_reverse_Linked_List.cpp.i
+
+206_reverse_Linked_List.s: 206_reverse_Linked_List.cpp.s
+.PHONY : 206_reverse_Linked_List.s
+
+# target to generate assembly for a file
+206_reverse_Linked_List.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/206_reverse_Linked_List.cpp.s
+.PHONY : 206_reverse_Linked_List.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -299,6 +337,7 @@ help:
 	@echo ... test
 	@echo ... GroupAnagApp
 	@echo ... IntersectingApp
+	@echo ... ReverseListApp
 	@echo ... TwoSumApp
 	@echo ... 01_twosum.obj
 	@echo ... 01_twosum.i
@@ -309,6 +348,9 @@ help:
 	@echo ... 160_Intersecting_Linked_Lists.obj
 	@echo ... 160_Intersecting_Linked_Lists.i
 	@echo ... 160_Intersecting_Linked_Lists.s
+	@echo ... 206_reverse_Linked_List.obj
+	@echo ... 206_reverse_Linked_List.i
+	@echo ... 206_reverse_Linked_List.s
 .PHONY : help
 
 

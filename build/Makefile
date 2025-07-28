@@ -353,6 +353,19 @@ IntersectingApp/fast:
 .PHONY : IntersectingApp/fast
 
 #=============================================================================
+# Target rules for targets named ReverseListApp
+
+# Build rule for target.
+ReverseListApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ReverseListApp
+.PHONY : ReverseListApp
+
+# fast build rule for target.
+ReverseListApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/build
+.PHONY : ReverseListApp/fast
+
+#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -383,6 +396,7 @@ help:
 	@echo ... GuessNumApp
 	@echo ... IntersectingApp
 	@echo ... LinkedlistApp
+	@echo ... ReverseListApp
 	@echo ... StrUtilsaApp
 	@echo ... ToDolistApp
 	@echo ... TwoSumApp
