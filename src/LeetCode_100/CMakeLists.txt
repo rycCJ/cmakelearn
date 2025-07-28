@@ -31,3 +31,9 @@ target_include_directories(ReverseListApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS ReverseListApp RUNTIME DESTINATION bin)
+
+add_executable(CycleListApp 141_cycle_Linked_List.cpp)
+target_include_directories(CycleListApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS CycleListApp RUNTIME DESTINATION bin)

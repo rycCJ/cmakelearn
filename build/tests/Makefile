@@ -184,29 +184,29 @@ tests/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
-test_strutils.obj: test_strutils.cpp.obj
-.PHONY : test_strutils.obj
+test_cyclelist.obj: test_cyclelist.cpp.obj
+.PHONY : test_cyclelist.obj
 
 # target to build an object file
-test_strutils.cpp.obj:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/test_strutils.cpp.obj
-.PHONY : test_strutils.cpp.obj
+test_cyclelist.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/test_cyclelist.cpp.obj
+.PHONY : test_cyclelist.cpp.obj
 
-test_strutils.i: test_strutils.cpp.i
-.PHONY : test_strutils.i
+test_cyclelist.i: test_cyclelist.cpp.i
+.PHONY : test_cyclelist.i
 
 # target to preprocess a source file
-test_strutils.cpp.i:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/test_strutils.cpp.i
-.PHONY : test_strutils.cpp.i
+test_cyclelist.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/test_cyclelist.cpp.i
+.PHONY : test_cyclelist.cpp.i
 
-test_strutils.s: test_strutils.cpp.s
-.PHONY : test_strutils.s
+test_cyclelist.s: test_cyclelist.cpp.s
+.PHONY : test_cyclelist.s
 
 # target to generate assembly for a file
-test_strutils.cpp.s:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/test_strutils.cpp.s
-.PHONY : test_strutils.cpp.s
+test_cyclelist.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/test_cyclelist.cpp.s
+.PHONY : test_cyclelist.cpp.s
 
 # Help Target
 help:
@@ -222,9 +222,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... tests
-	@echo ... test_strutils.obj
-	@echo ... test_strutils.i
-	@echo ... test_strutils.s
+	@echo ... test_cyclelist.obj
+	@echo ... test_cyclelist.i
+	@echo ... test_cyclelist.s
 .PHONY : help
 
 

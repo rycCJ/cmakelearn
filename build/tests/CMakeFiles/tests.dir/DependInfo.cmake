@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/cmakelearn/tests/test_strutils.cpp" "tests/CMakeFiles/tests.dir/test_strutils.cpp.obj" "gcc" "tests/CMakeFiles/tests.dir/test_strutils.cpp.obj.d"
+  "D:/cmakelearn/tests/test_cyclelist.cpp" "tests/CMakeFiles/tests.dir/test_cyclelist.cpp.obj" "gcc" "tests/CMakeFiles/tests.dir/test_cyclelist.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

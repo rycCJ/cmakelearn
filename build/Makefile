@@ -366,6 +366,19 @@ ReverseListApp/fast:
 .PHONY : ReverseListApp/fast
 
 #=============================================================================
+# Target rules for targets named CycleListApp
+
+# Build rule for target.
+CycleListApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CycleListApp
+.PHONY : CycleListApp
+
+# fast build rule for target.
+CycleListApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleListApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleListApp.dir/build
+.PHONY : CycleListApp/fast
+
+#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -392,6 +405,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... CalculatorAPP
+	@echo ... CycleListApp
 	@echo ... GroupAnagApp
 	@echo ... GuessNumApp
 	@echo ... IntersectingApp

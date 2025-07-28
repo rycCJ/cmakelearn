@@ -1,3 +1,30 @@
-Start testing: Jul 28 10:57 中国标准时间
+Start testing: Jul 28 21:58 中国标准时间
 ----------------------------------------------------------
-End testing: Jul 28 10:57 中国标准时间
+1/1 Testing: Solution1Test.HasCycle
+1/1 Test: Solution1Test.HasCycle
+Command: "D:/cmakelearn/build/bin/tests.exe" "--gtest_filter=Solution1Test.HasCycle" "--gtest_also_run_disabled_tests"
+Directory: D:/cmakelearn/build/tests
+"Solution1Test.HasCycle" start time: Jul 28 21:58 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\cmakelearn\third_party\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = Solution1Test.HasCycle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Solution1Test
+[ RUN      ] Solution1Test.HasCycle
+[       OK ] Solution1Test.HasCycle (0 ms)
+[----------] 1 test from Solution1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Solution1Test.HasCycle" end time: Jul 28 21:58 中国标准时间
+"Solution1Test.HasCycle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 28 21:58 中国标准时间
