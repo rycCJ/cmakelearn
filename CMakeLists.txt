@@ -35,5 +35,5 @@ add_subdirectory(third_party/googletest)
 message(STATUS "==> 准备进入 src 目录...")
 add_subdirectory(src)
 
-message(STATUS "==> 准备进入 tests 目录...")
-add_subdirectory(tests)
+# message(STATUS "==> 准备进入 tests 目录...")
+# add_subdirectory(tests)

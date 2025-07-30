@@ -76,15 +76,15 @@ src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj: src/LeetCode_
 src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj: D:/cmakelearn/src/LeetCode_100/02_groupAnag.cpp
 src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj -MF CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.obj.d -o CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.obj -c D:\cmakelearn\src\LeetCode_100\02_groupAnag.cpp
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj -MF CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.obj.d -o CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.obj -c D:\cmakelearn\src\LeetCode_100\02_groupAnag.cpp
 
 src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.i"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\02_groupAnag.cpp > CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.i
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\02_groupAnag.cpp > CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.i
 
 src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.s"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\02_groupAnag.cpp -o CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.s
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\02_groupAnag.cpp -o CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.s
 
 # Object files for target GroupAnagApp
 GroupAnagApp_OBJECTS = \
