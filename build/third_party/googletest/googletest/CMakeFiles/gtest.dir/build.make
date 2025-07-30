@@ -76,15 +76,15 @@ third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: thi
 third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: D:/cmakelearn/third_party/googletest/googletest/src/gtest-all.cc
 third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: third_party/googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
-	cd /d D:\cmakelearn\build\third_party\googletest\googletest && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj -MF CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c D:\cmakelearn\third_party\googletest\googletest\src\gtest-all.cc
+	cd /d D:\cmakelearn\build\third_party\googletest\googletest && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj -MF CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c D:\cmakelearn\third_party\googletest\googletest\src\gtest-all.cc
 
 third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /d D:\cmakelearn\build\third_party\googletest\googletest && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\third_party\googletest\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
+	cd /d D:\cmakelearn\build\third_party\googletest\googletest && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\third_party\googletest\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
 
 third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /d D:\cmakelearn\build\third_party\googletest\googletest && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\third_party\googletest\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
+	cd /d D:\cmakelearn\build\third_party\googletest\googletest && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\third_party\googletest\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \

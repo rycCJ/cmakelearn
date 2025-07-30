@@ -1,0 +1,3 @@
+D:\APPS\CMake\bin\cmake.exe -E rm -f CMakeFiles\PalinListApp.dir/objects.a
+D:\APPS\mingw64\bin\ar.exe qc CMakeFiles\PalinListApp.dir/objects.a @CMakeFiles\PalinListApp.dir\objects1.rsp
+D:\APPS\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\PalinListApp.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\PalinListApp.exe -Wl,--out-implib,..\..\lib\libPalinListApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PalinListApp.dir\linkLibs.rsp

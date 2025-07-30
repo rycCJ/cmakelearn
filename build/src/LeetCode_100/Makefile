@@ -240,6 +240,20 @@ CycleListApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleListApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleListApp.dir/build
 .PHONY : CycleListApp/fast
 
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/PalinListApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/PalinListApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/PalinListApp.dir/rule
+
+# Convenience name for target.
+PalinListApp: src/LeetCode_100/CMakeFiles/PalinListApp.dir/rule
+.PHONY : PalinListApp
+
+# fast build rule for target.
+PalinListApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/build
+.PHONY : PalinListApp/fast
+
 01_twosum.obj: 01_twosum.cpp.obj
 .PHONY : 01_twosum.obj
 
@@ -360,6 +374,30 @@ CycleListApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/206_reverse_Linked_List.cpp.s
 .PHONY : 206_reverse_Linked_List.cpp.s
 
+234_Palindrome_Linked_List.obj: 234_Palindrome_Linked_List.cpp.obj
+.PHONY : 234_Palindrome_Linked_List.obj
+
+# target to build an object file
+234_Palindrome_Linked_List.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.obj
+.PHONY : 234_Palindrome_Linked_List.cpp.obj
+
+234_Palindrome_Linked_List.i: 234_Palindrome_Linked_List.cpp.i
+.PHONY : 234_Palindrome_Linked_List.i
+
+# target to preprocess a source file
+234_Palindrome_Linked_List.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.i
+.PHONY : 234_Palindrome_Linked_List.cpp.i
+
+234_Palindrome_Linked_List.s: 234_Palindrome_Linked_List.cpp.s
+.PHONY : 234_Palindrome_Linked_List.s
+
+# target to generate assembly for a file
+234_Palindrome_Linked_List.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.s
+.PHONY : 234_Palindrome_Linked_List.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -376,6 +414,7 @@ help:
 	@echo ... CycleListApp
 	@echo ... GroupAnagApp
 	@echo ... IntersectingApp
+	@echo ... PalinListApp
 	@echo ... ReverseListApp
 	@echo ... TwoSumApp
 	@echo ... 01_twosum.obj
@@ -393,6 +432,9 @@ help:
 	@echo ... 206_reverse_Linked_List.obj
 	@echo ... 206_reverse_Linked_List.i
 	@echo ... 206_reverse_Linked_List.s
+	@echo ... 234_Palindrome_Linked_List.obj
+	@echo ... 234_Palindrome_Linked_List.i
+	@echo ... 234_Palindrome_Linked_List.s
 .PHONY : help
 
 

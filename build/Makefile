@@ -379,17 +379,17 @@ CycleListApp/fast:
 .PHONY : CycleListApp/fast
 
 #=============================================================================
-# Target rules for targets named tests
+# Target rules for targets named PalinListApp
 
 # Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests
-.PHONY : tests
+PalinListApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PalinListApp
+.PHONY : PalinListApp
 
 # fast build rule for target.
-tests/fast:
-	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/build
-.PHONY : tests/fast
+PalinListApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/build
+.PHONY : PalinListApp/fast
 
 # Help Target
 help:
@@ -410,6 +410,7 @@ help:
 	@echo ... GuessNumApp
 	@echo ... IntersectingApp
 	@echo ... LinkedlistApp
+	@echo ... PalinListApp
 	@echo ... ReverseListApp
 	@echo ... StrUtilsaApp
 	@echo ... ToDolistApp
@@ -420,7 +421,6 @@ help:
 	@echo ... gtest
 	@echo ... gtest_main
 	@echo ... strutils
-	@echo ... tests
 .PHONY : help
 
 

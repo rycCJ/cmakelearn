@@ -63,6 +63,7 @@ D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/GroupAnagApp.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/IntersectingApp.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/ReverseListApp.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/CycleListApp.dir
+D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/PalinListApp.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/test.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/edit_cache.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/rebuild_cache.dir
@@ -70,11 +71,3 @@ D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/list_install_components.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/install.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/install/local.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/install/strip.dir
-D:/cmakelearn/build/tests/CMakeFiles/tests.dir
-D:/cmakelearn/build/tests/CMakeFiles/test.dir
-D:/cmakelearn/build/tests/CMakeFiles/edit_cache.dir
-D:/cmakelearn/build/tests/CMakeFiles/rebuild_cache.dir
-D:/cmakelearn/build/tests/CMakeFiles/list_install_components.dir
-D:/cmakelearn/build/tests/CMakeFiles/install.dir
-D:/cmakelearn/build/tests/CMakeFiles/install/local.dir
-D:/cmakelearn/build/tests/CMakeFiles/install/strip.dir

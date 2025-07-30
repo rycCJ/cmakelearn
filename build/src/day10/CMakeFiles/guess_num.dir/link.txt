@@ -1,2 +1,0 @@
-D:\APPS\mingw64\bin\ar.exe qc ..\..\lib\libguess_num.a CMakeFiles/guess_num.dir/01_guess_num.cpp.obj
-D:\APPS\mingw64\bin\ranlib.exe ..\..\lib\libguess_num.a

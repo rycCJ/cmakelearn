@@ -37,3 +37,9 @@ target_include_directories(CycleListApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS CycleListApp RUNTIME DESTINATION bin)
+
+add_executable(PalinListApp 234_Palindrome_Linked_List.cpp)
+target_include_directories(PalinListApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS PalinListApp RUNTIME DESTINATION bin)

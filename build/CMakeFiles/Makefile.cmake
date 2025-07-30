@@ -24,7 +24,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/APPS/CMake/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Compiler/GNU.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
-  "D:/APPS/CMake/share/cmake-3.31/Modules/GoogleTest.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -55,7 +54,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/cmakelearn/src/LeetCode_100/CMakeLists.txt"
   "D:/cmakelearn/src/day10/CMakeLists.txt"
   "D:/cmakelearn/src/moduleA/CMakeLists.txt"
-  "D:/cmakelearn/tests/CMakeLists.txt"
   "D:/cmakelearn/third_party/googletest/CMakeLists.txt"
   "D:/cmakelearn/third_party/googletest/googlemock/CMakeLists.txt"
   "D:/cmakelearn/third_party/googletest/googlemock/cmake/gmock.pc.in"
@@ -89,7 +87,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/moduleA/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/day10/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/LeetCode_100/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -110,5 +107,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/LeetCode_100/CMakeFiles/IntersectingApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/ReverseListApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/CycleListApp.dir/DependInfo.cmake"
-  "tests/CMakeFiles/tests.dir/DependInfo.cmake"
+  "src/LeetCode_100/CMakeFiles/PalinListApp.dir/DependInfo.cmake"
   )
