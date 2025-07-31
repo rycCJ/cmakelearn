@@ -76,15 +76,15 @@ src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.obj:
 src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.obj: D:/cmakelearn/src/LeetCode_100/234_Palindrome_Linked_List.cpp
 src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.obj: src/LeetCode_100/CMakeFiles/PalinListApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.obj"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.obj -MF CMakeFiles\PalinListApp.dir\234_Palindrome_Linked_List.cpp.obj.d -o CMakeFiles\PalinListApp.dir\234_Palindrome_Linked_List.cpp.obj -c D:\cmakelearn\src\LeetCode_100\234_Palindrome_Linked_List.cpp
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.obj -MF CMakeFiles\PalinListApp.dir\234_Palindrome_Linked_List.cpp.obj.d -o CMakeFiles\PalinListApp.dir\234_Palindrome_Linked_List.cpp.obj -c D:\cmakelearn\src\LeetCode_100\234_Palindrome_Linked_List.cpp
 
 src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.i"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\234_Palindrome_Linked_List.cpp > CMakeFiles\PalinListApp.dir\234_Palindrome_Linked_List.cpp.i
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\234_Palindrome_Linked_List.cpp > CMakeFiles\PalinListApp.dir\234_Palindrome_Linked_List.cpp.i
 
 src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.s"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\234_Palindrome_Linked_List.cpp -o CMakeFiles\PalinListApp.dir\234_Palindrome_Linked_List.cpp.s
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\234_Palindrome_Linked_List.cpp -o CMakeFiles\PalinListApp.dir\234_Palindrome_Linked_List.cpp.s
 
 # Object files for target PalinListApp
 PalinListApp_OBJECTS = \

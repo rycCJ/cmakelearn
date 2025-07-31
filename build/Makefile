@@ -314,6 +314,19 @@ LinkedlistApp/fast:
 .PHONY : LinkedlistApp/fast
 
 #=============================================================================
+# Target rules for targets named queueandstackApp
+
+# Build rule for target.
+queueandstackApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 queueandstackApp
+.PHONY : queueandstackApp
+
+# fast build rule for target.
+queueandstackApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/build
+.PHONY : queueandstackApp/fast
+
+#=============================================================================
 # Target rules for targets named TwoSumApp
 
 # Build rule for target.
@@ -391,6 +404,19 @@ PalinListApp/fast:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/build
 .PHONY : PalinListApp/fast
 
+#=============================================================================
+# Target rules for targets named CycleList_secApp
+
+# Build rule for target.
+CycleList_secApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CycleList_secApp
+.PHONY : CycleList_secApp
+
+# fast build rule for target.
+CycleList_secApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/build
+.PHONY : CycleList_secApp/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -406,6 +432,7 @@ help:
 	@echo ... test
 	@echo ... CalculatorAPP
 	@echo ... CycleListApp
+	@echo ... CycleList_secApp
 	@echo ... GroupAnagApp
 	@echo ... GuessNumApp
 	@echo ... IntersectingApp
@@ -420,6 +447,7 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... queueandstackApp
 	@echo ... strutils
 .PHONY : help
 

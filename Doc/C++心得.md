@@ -36,4 +36,5 @@ array have fixed size but Linked list don't  Linked list have dynamic size
 这一点和其他语言不同，需要格外注意。记住访问值之前要先判断键是否存在，否则可能会意外地创建新键，导致算法出错。
 
 **unordered_set** 是 C++ 标准库中的一种哈希集合实现，用于存储不重复的元素，常见使用场景是对元素进行去重。
-
+**std::vector vs std::list**
+  ![alt text](image-4.png)

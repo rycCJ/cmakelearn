@@ -42,7 +42,7 @@ bool Solution2::isPalindrome(ListNode *head)
         p2 = p2->next; // 只有当p2为空（nullptr）时，访问 p->next 才会导致空指针解引用错误
     }
     return result;
-} 
+}
 // 辅助函数：创建链表
 ListNode *createList(const std::vector<int> &values)
 {

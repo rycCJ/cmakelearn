@@ -15,6 +15,7 @@ class Solution1
 public:
     bool hasCycle(ListNode *head);
     bool cycle_map(ListNode *head); // 返回值类型改为bool
+    ListNode *detectCycle(ListNode *head);
 };
 class Solution2
 {

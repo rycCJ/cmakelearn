@@ -240,6 +240,20 @@ LinkedlistApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\LinkedlistApp.dir\build.make src/day10/CMakeFiles/LinkedlistApp.dir/build
 .PHONY : LinkedlistApp/fast
 
+# Convenience name for target.
+src/day10/CMakeFiles/queueandstackApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/day10/CMakeFiles/queueandstackApp.dir/rule
+.PHONY : src/day10/CMakeFiles/queueandstackApp.dir/rule
+
+# Convenience name for target.
+queueandstackApp: src/day10/CMakeFiles/queueandstackApp.dir/rule
+.PHONY : queueandstackApp
+
+# fast build rule for target.
+queueandstackApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/build
+.PHONY : queueandstackApp/fast
+
 01_guess_num.obj: 01_guess_num.cpp.obj
 .PHONY : 01_guess_num.obj
 
@@ -360,6 +374,30 @@ linked_list.cpp.s:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\LinkedlistApp.dir\build.make src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.s
 .PHONY : linked_list.cpp.s
 
+queue+stack.obj: queue+stack.cpp.obj
+.PHONY : queue+stack.obj
+
+# target to build an object file
+queue+stack.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/queue+stack.cpp.obj
+.PHONY : queue+stack.cpp.obj
+
+queue+stack.i: queue+stack.cpp.i
+.PHONY : queue+stack.i
+
+# target to preprocess a source file
+queue+stack.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/queue+stack.cpp.i
+.PHONY : queue+stack.cpp.i
+
+queue+stack.s: queue+stack.cpp.s
+.PHONY : queue+stack.s
+
+# target to generate assembly for a file
+queue+stack.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/queue+stack.cpp.s
+.PHONY : queue+stack.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -378,6 +416,7 @@ help:
 	@echo ... LinkedlistApp
 	@echo ... ToDolistApp
 	@echo ... arrApp
+	@echo ... queueandstackApp
 	@echo ... 01_guess_num.obj
 	@echo ... 01_guess_num.i
 	@echo ... 01_guess_num.s
@@ -393,6 +432,9 @@ help:
 	@echo ... linked_list.obj
 	@echo ... linked_list.i
 	@echo ... linked_list.s
+	@echo ... queue+stack.obj
+	@echo ... queue+stack.i
+	@echo ... queue+stack.s
 .PHONY : help
 
 

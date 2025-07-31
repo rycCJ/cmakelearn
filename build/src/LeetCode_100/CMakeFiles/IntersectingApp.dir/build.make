@@ -76,15 +76,15 @@ src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cp
 src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.obj: D:/cmakelearn/src/LeetCode_100/160_Intersecting_Linked_Lists.cpp
 src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.obj: src/LeetCode_100/CMakeFiles/IntersectingApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.obj"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.obj -MF CMakeFiles\IntersectingApp.dir\160_Intersecting_Linked_Lists.cpp.obj.d -o CMakeFiles\IntersectingApp.dir\160_Intersecting_Linked_Lists.cpp.obj -c D:\cmakelearn\src\LeetCode_100\160_Intersecting_Linked_Lists.cpp
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.obj -MF CMakeFiles\IntersectingApp.dir\160_Intersecting_Linked_Lists.cpp.obj.d -o CMakeFiles\IntersectingApp.dir\160_Intersecting_Linked_Lists.cpp.obj -c D:\cmakelearn\src\LeetCode_100\160_Intersecting_Linked_Lists.cpp
 
 src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.i"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\160_Intersecting_Linked_Lists.cpp > CMakeFiles\IntersectingApp.dir\160_Intersecting_Linked_Lists.cpp.i
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\160_Intersecting_Linked_Lists.cpp > CMakeFiles\IntersectingApp.dir\160_Intersecting_Linked_Lists.cpp.i
 
 src/LeetCode_100/CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/IntersectingApp.dir/160_Intersecting_Linked_Lists.cpp.s"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\160_Intersecting_Linked_Lists.cpp -o CMakeFiles\IntersectingApp.dir\160_Intersecting_Linked_Lists.cpp.s
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\160_Intersecting_Linked_Lists.cpp -o CMakeFiles\IntersectingApp.dir\160_Intersecting_Linked_Lists.cpp.s
 
 # Object files for target IntersectingApp
 IntersectingApp_OBJECTS = \

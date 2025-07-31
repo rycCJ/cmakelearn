@@ -43,3 +43,9 @@ target_include_directories(PalinListApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS PalinListApp RUNTIME DESTINATION bin)
+
+add_executable(CycleList_secApp 142_cycle_Linked_List_sec.cpp)
+target_include_directories(CycleList_secApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS CycleList_secApp RUNTIME DESTINATION bin)
