@@ -102,10 +102,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/day10/CMakeFiles/ToDolistApp.dir/DependInfo.cmake"
   "src/day10/CMakeFiles/arrApp.dir/DependInfo.cmake"
   "src/day10/CMakeFiles/LinkedlistApp.dir/DependInfo.cmake"
+  "src/day10/CMakeFiles/queueandstackApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/TwoSumApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/IntersectingApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/ReverseListApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/CycleListApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/PalinListApp.dir/DependInfo.cmake"
+  "src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/DependInfo.cmake"
   )

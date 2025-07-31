@@ -76,15 +76,15 @@ src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.obj: src/day10/CMakeFiles
 src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.obj: D:/cmakelearn/src/day10/linked_list.cpp
 src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.obj: src/day10/CMakeFiles/LinkedlistApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.obj"
-	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.obj -MF CMakeFiles\LinkedlistApp.dir\linked_list.cpp.obj.d -o CMakeFiles\LinkedlistApp.dir\linked_list.cpp.obj -c D:\cmakelearn\src\day10\linked_list.cpp
+	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.obj -MF CMakeFiles\LinkedlistApp.dir\linked_list.cpp.obj.d -o CMakeFiles\LinkedlistApp.dir\linked_list.cpp.obj -c D:\cmakelearn\src\day10\linked_list.cpp
 
 src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LinkedlistApp.dir/linked_list.cpp.i"
-	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\day10\linked_list.cpp > CMakeFiles\LinkedlistApp.dir\linked_list.cpp.i
+	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\day10\linked_list.cpp > CMakeFiles\LinkedlistApp.dir\linked_list.cpp.i
 
 src/day10/CMakeFiles/LinkedlistApp.dir/linked_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LinkedlistApp.dir/linked_list.cpp.s"
-	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\day10\linked_list.cpp -o CMakeFiles\LinkedlistApp.dir\linked_list.cpp.s
+	cd /d D:\cmakelearn\build\src\day10 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\day10\linked_list.cpp -o CMakeFiles\LinkedlistApp.dir\linked_list.cpp.s
 
 # Object files for target LinkedlistApp
 LinkedlistApp_OBJECTS = \

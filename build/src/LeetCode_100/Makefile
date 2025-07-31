@@ -254,6 +254,20 @@ PalinListApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/build
 .PHONY : PalinListApp/fast
 
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/rule
+
+# Convenience name for target.
+CycleList_secApp: src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/rule
+.PHONY : CycleList_secApp
+
+# fast build rule for target.
+CycleList_secApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/build
+.PHONY : CycleList_secApp/fast
+
 01_twosum.obj: 01_twosum.cpp.obj
 .PHONY : 01_twosum.obj
 
@@ -325,6 +339,30 @@ PalinListApp/fast:
 141_cycle_Linked_List.cpp.s:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleListApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleListApp.dir/141_cycle_Linked_List.cpp.s
 .PHONY : 141_cycle_Linked_List.cpp.s
+
+142_cycle_Linked_List_sec.obj: 142_cycle_Linked_List_sec.cpp.obj
+.PHONY : 142_cycle_Linked_List_sec.obj
+
+# target to build an object file
+142_cycle_Linked_List_sec.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/142_cycle_Linked_List_sec.cpp.obj
+.PHONY : 142_cycle_Linked_List_sec.cpp.obj
+
+142_cycle_Linked_List_sec.i: 142_cycle_Linked_List_sec.cpp.i
+.PHONY : 142_cycle_Linked_List_sec.i
+
+# target to preprocess a source file
+142_cycle_Linked_List_sec.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/142_cycle_Linked_List_sec.cpp.i
+.PHONY : 142_cycle_Linked_List_sec.cpp.i
+
+142_cycle_Linked_List_sec.s: 142_cycle_Linked_List_sec.cpp.s
+.PHONY : 142_cycle_Linked_List_sec.s
+
+# target to generate assembly for a file
+142_cycle_Linked_List_sec.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/142_cycle_Linked_List_sec.cpp.s
+.PHONY : 142_cycle_Linked_List_sec.cpp.s
 
 160_Intersecting_Linked_Lists.obj: 160_Intersecting_Linked_Lists.cpp.obj
 .PHONY : 160_Intersecting_Linked_Lists.obj
@@ -412,6 +450,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... CycleListApp
+	@echo ... CycleList_secApp
 	@echo ... GroupAnagApp
 	@echo ... IntersectingApp
 	@echo ... PalinListApp
@@ -426,6 +465,9 @@ help:
 	@echo ... 141_cycle_Linked_List.obj
 	@echo ... 141_cycle_Linked_List.i
 	@echo ... 141_cycle_Linked_List.s
+	@echo ... 142_cycle_Linked_List_sec.obj
+	@echo ... 142_cycle_Linked_List_sec.i
+	@echo ... 142_cycle_Linked_List_sec.s
 	@echo ... 160_Intersecting_Linked_Lists.obj
 	@echo ... 160_Intersecting_Linked_Lists.i
 	@echo ... 160_Intersecting_Linked_Lists.s

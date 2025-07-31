@@ -1,0 +1,3 @@
+D:\APPS\CMake\bin\cmake.exe -E rm -f CMakeFiles\queueandstackApp.dir/objects.a
+D:\APPS\mingw64\bin\ar.exe qc CMakeFiles\queueandstackApp.dir/objects.a @CMakeFiles\queueandstackApp.dir\objects1.rsp
+D:\APPS\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\queueandstackApp.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\queueandstackApp.exe -Wl,--out-implib,..\..\lib\libqueueandstackApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\queueandstackApp.dir\linkLibs.rsp

@@ -40,15 +40,21 @@ src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.obj:
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
@@ -82,6 +88,8 @@ src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.obj:
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -156,8 +164,6 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
-
 D:/APPS/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:
@@ -182,11 +188,11 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h:
-
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc:
+
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h:
 
@@ -222,11 +228,15 @@ D:/APPS/mingw64/x86_64-w64-mingw32/include/stdlib.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype:
 
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:
+
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h:
 
 D:/APPS/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h:
+
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:
 
@@ -240,8 +250,6 @@ D:/APPS/mingw64/x86_64-w64-mingw32/include/malloc.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception:
-
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h:
@@ -252,13 +260,19 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:
 
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
+
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
 
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
+
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h:
+
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
 
@@ -266,11 +280,17 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
-
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib:
 
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception:
+
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h:
+
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
+
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h:
+
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h:
 
@@ -309,6 +329,10 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string_view:
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
+
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
+
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 

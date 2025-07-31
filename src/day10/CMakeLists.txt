@@ -44,3 +44,10 @@ target_include_directories(LinkedlistApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS LinkedlistApp RUNTIME DESTINATION bin)
+
+add_executable(queueandstackApp queue+stack.cpp)
+
+target_include_directories(queueandstackApp PRIVATE 
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS queueandstackApp RUNTIME DESTINATION bin)
