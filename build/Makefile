@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = D:\cmakelearn\build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
-	D:\APPS\CMake\bin\ctest.exe --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-.PHONY : test/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -96,7 +86,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\" \"gmock\" \"gtest\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -169,58 +159,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named gmock
-
-# Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
-.PHONY : gmock
-
-# fast build rule for target.
-gmock/fast:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock.dir/build
-.PHONY : gmock/fast
-
-#=============================================================================
-# Target rules for targets named gmock_main
-
-# Build rule for target.
-gmock_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
-.PHONY : gmock_main
-
-# fast build rule for target.
-gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-.PHONY : gmock_main/fast
-
-#=============================================================================
-# Target rules for targets named gtest
-
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
-.PHONY : gtest
-
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
-
-#=============================================================================
-# Target rules for targets named gtest_main
-
-# Build rule for target.
-gtest_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
-.PHONY : gtest_main
-
-# fast build rule for target.
-gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest_main.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build
-.PHONY : gtest_main/fast
 
 #=============================================================================
 # Target rules for targets named strutils
@@ -417,6 +355,32 @@ CycleList_secApp/fast:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/build
 .PHONY : CycleList_secApp/fast
 
+#=============================================================================
+# Target rules for targets named ValidbracketsApp
+
+# Build rule for target.
+ValidbracketsApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ValidbracketsApp
+.PHONY : ValidbracketsApp
+
+# fast build rule for target.
+ValidbracketsApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/build
+.PHONY : ValidbracketsApp/fast
+
+#=============================================================================
+# Target rules for targets named MinstackApp
+
+# Build rule for target.
+MinstackApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MinstackApp
+.PHONY : MinstackApp
+
+# fast build rule for target.
+MinstackApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/build
+.PHONY : MinstackApp/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -429,7 +393,6 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... test
 	@echo ... CalculatorAPP
 	@echo ... CycleListApp
 	@echo ... CycleList_secApp
@@ -437,16 +400,14 @@ help:
 	@echo ... GuessNumApp
 	@echo ... IntersectingApp
 	@echo ... LinkedlistApp
+	@echo ... MinstackApp
 	@echo ... PalinListApp
 	@echo ... ReverseListApp
 	@echo ... StrUtilsaApp
 	@echo ... ToDolistApp
 	@echo ... TwoSumApp
+	@echo ... ValidbracketsApp
 	@echo ... arrApp
-	@echo ... gmock
-	@echo ... gmock_main
-	@echo ... gtest
-	@echo ... gtest_main
 	@echo ... queueandstackApp
 	@echo ... strutils
 .PHONY : help

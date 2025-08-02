@@ -1,27 +1,89 @@
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "label": "Build and Install C++ Project",
+//             "type": "shell",
+//             // 关键：这个任务会依次执行三个命令
+//             // 1. cmake ... -DCMAKE_BUILD_TYPE=Debug : 强制以Debug模式配置项目
+//             // 2. cmake --build . : 编译项目
+//             // 3. cmake --install . : 安装项目
+//             "command": "cmake -S .. -B . -G \"MinGW Makefiles\" -DCMAKE_BUILD_TYPE=Debug ; cmake --build . ; cmake --install .",
+//             "options": {
+//                 // 关键：确保这些命令在 build 目录下执行
+//                 "cwd": "${workspaceFolder}/build"
+//             },
+//             // 将此任务标记为默认的构建任务
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             },
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "detail": "首先生成构建系统，然后编译，最后安装。"
+//         }
+//     ]
+// }
 {
     "version": "2.0.0",
     "tasks": [
+        // 任务1：配置项目 (手动运行，或在CMake配置改变时自动运行)
         {
-            "label": "Build and Install C++ Project",
+            "label": "CMake: Configure",
             "type": "shell",
-            // 关键：这个任务会依次执行三个命令
-            // 1. cmake ... -DCMAKE_BUILD_TYPE=Debug : 强制以Debug模式配置项目
-            // 2. cmake --build . : 编译项目
-            // 3. cmake --install . : 安装项目
-            "command": "cmake -S .. -B . -G \"MinGW Makefiles\" -DCMAKE_BUILD_TYPE=Debug ; cmake --build . ; cmake --install .",
-            "options": {
-                // 关键：确保这些命令在 build 目录下执行
-                "cwd": "${workspaceFolder}/build"
-            },
-            // 将此任务标记为默认的构建任务
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "command": "cmake",
+            "args": [
+                "-S",
+                "${workspaceFolder}",
+                "-B",
+                "${workspaceFolder}/build",
+                "-G",
+                "MinGW Makefiles",
+                "-DCMAKE_BUILD_TYPE=Debug"
+            ],
+            "problemMatcher": [],
+            "detail": "运行CMake来配置项目"
+        },
+        // 任务2：构建项目 (只编译)
+        {
+            "label": "CMake: Build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build",
+                // 在这里添加下面两行，指定只构建 MinstackApp
+                "--target",
+                "MinstackApp"
+            ],
+            "group": "build", // 可以通过 Ctrl+Shift+B 快捷键运行
             "problemMatcher": [
                 "$gcc"
             ],
-            "detail": "首先生成构建系统，然后编译，最后安装。"
+            "detail": "仅编译MinstackApp项目，不安装"
+        },
+        // 任务3：安装项目 (只安装)
+        {
+            "label": "CMake: Install",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--install",
+                "${workspaceFolder}/build"
+            ],
+            "problemMatcher": [],
+            "detail": "将编译好的文件安装到install目录"
+        },
+        // 任务4：复合任务 - 构建并安装 (给调试器使用)
+        {
+            "label": "CMake: Build & Install",
+            "dependsOn": [ // 依赖于下面两个任务，会按顺序执行
+                "CMake: Build",
+                "CMake: Install"
+            ],
+            "problemMatcher": [],
+            "detail": "先编译，然后安装。用于调试前的准备工作。"
         }
     ]
 }

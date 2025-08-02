@@ -49,3 +49,15 @@ target_include_directories(CycleList_secApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS CycleList_secApp RUNTIME DESTINATION bin)
+
+add_executable(ValidbracketsApp 20_valid_brackets.cpp)
+target_include_directories(ValidbracketsApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS ValidbracketsApp RUNTIME DESTINATION bin)
+
+add_executable(MinstackApp 155_min_stack.cpp)
+target_include_directories(MinstackApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS MinstackApp RUNTIME DESTINATION bin)

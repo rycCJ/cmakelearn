@@ -7,15 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "D:/APPS/CMake/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeCInformation.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeCXXInformation.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
-  "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeDependentOption.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
-  "D:/APPS/CMake/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -23,7 +20,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/APPS/CMake/share/cmake-3.31/Modules/Compiler/GNU-C.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Compiler/GNU.cmake"
-  "D:/APPS/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -44,7 +40,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/APPS/CMake/share/cmake-3.31/Modules/Platform/Windows-windres.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake"
   "D:/APPS/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake"
-  "D:/APPS/CMake/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
   "D:/cmakelearn/CMakeLists.txt"
   "CMakeFiles/3.31.0-rc2/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.0-rc2/CMakeCXXCompiler.cmake"
@@ -54,15 +49,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/cmakelearn/src/LeetCode_100/CMakeLists.txt"
   "D:/cmakelearn/src/day10/CMakeLists.txt"
   "D:/cmakelearn/src/moduleA/CMakeLists.txt"
-  "D:/cmakelearn/third_party/googletest/CMakeLists.txt"
-  "D:/cmakelearn/third_party/googletest/googlemock/CMakeLists.txt"
-  "D:/cmakelearn/third_party/googletest/googlemock/cmake/gmock.pc.in"
-  "D:/cmakelearn/third_party/googletest/googlemock/cmake/gmock_main.pc.in"
-  "D:/cmakelearn/third_party/googletest/googletest/CMakeLists.txt"
-  "D:/cmakelearn/third_party/googletest/googletest/cmake/Config.cmake.in"
-  "D:/cmakelearn/third_party/googletest/googletest/cmake/gtest.pc.in"
-  "D:/cmakelearn/third_party/googletest/googletest/cmake/gtest_main.pc.in"
-  "D:/cmakelearn/third_party/googletest/googletest/cmake/internal_utils.cmake"
   )
 
 # The corresponding makefile is:
@@ -74,15 +60,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third_party/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third_party/googletest/googletest/generated/gmock.pc"
-  "third_party/googletest/googletest/generated/gmock_main.pc"
-  "third_party/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third_party/googletest/googletest/generated/GTestConfigVersion.cmake"
-  "third_party/googletest/googletest/generated/GTestConfig.cmake"
-  "third_party/googletest/googletest/generated/gtest.pc"
-  "third_party/googletest/googletest/generated/gtest_main.pc"
-  "third_party/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/moduleA/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/day10/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -91,10 +68,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "third_party/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "third_party/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "third_party/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "src/moduleA/CMakeFiles/strutils.dir/DependInfo.cmake"
   "src/moduleA/CMakeFiles/StrUtilsaApp.dir/DependInfo.cmake"
   "src/day10/CMakeFiles/GuessNumApp.dir/DependInfo.cmake"
@@ -110,4 +83,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/LeetCode_100/CMakeFiles/CycleListApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/PalinListApp.dir/DependInfo.cmake"
   "src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/DependInfo.cmake"
+  "src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/DependInfo.cmake"
+  "src/LeetCode_100/CMakeFiles/MinstackApp.dir/DependInfo.cmake"
   )

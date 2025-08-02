@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = D:\cmakelearn\build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
-	D:\APPS\CMake\bin\ctest.exe --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-.PHONY : test/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -96,7 +86,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\" \"gmock\" \"gtest\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -268,6 +258,34 @@ CycleList_secApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/build
 .PHONY : CycleList_secApp/fast
 
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/rule
+
+# Convenience name for target.
+ValidbracketsApp: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/rule
+.PHONY : ValidbracketsApp
+
+# fast build rule for target.
+ValidbracketsApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/build
+.PHONY : ValidbracketsApp/fast
+
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/MinstackApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/MinstackApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/MinstackApp.dir/rule
+
+# Convenience name for target.
+MinstackApp: src/LeetCode_100/CMakeFiles/MinstackApp.dir/rule
+.PHONY : MinstackApp
+
+# fast build rule for target.
+MinstackApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/build
+.PHONY : MinstackApp/fast
+
 01_twosum.obj: 01_twosum.cpp.obj
 .PHONY : 01_twosum.obj
 
@@ -364,6 +382,30 @@ CycleList_secApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/142_cycle_Linked_List_sec.cpp.s
 .PHONY : 142_cycle_Linked_List_sec.cpp.s
 
+155_min_stack.obj: 155_min_stack.cpp.obj
+.PHONY : 155_min_stack.obj
+
+# target to build an object file
+155_min_stack.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/155_min_stack.cpp.obj
+.PHONY : 155_min_stack.cpp.obj
+
+155_min_stack.i: 155_min_stack.cpp.i
+.PHONY : 155_min_stack.i
+
+# target to preprocess a source file
+155_min_stack.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/155_min_stack.cpp.i
+.PHONY : 155_min_stack.cpp.i
+
+155_min_stack.s: 155_min_stack.cpp.s
+.PHONY : 155_min_stack.s
+
+# target to generate assembly for a file
+155_min_stack.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/155_min_stack.cpp.s
+.PHONY : 155_min_stack.cpp.s
+
 160_Intersecting_Linked_Lists.obj: 160_Intersecting_Linked_Lists.cpp.obj
 .PHONY : 160_Intersecting_Linked_Lists.obj
 
@@ -412,6 +454,30 @@ CycleList_secApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/206_reverse_Linked_List.cpp.s
 .PHONY : 206_reverse_Linked_List.cpp.s
 
+20_valid_brackets.obj: 20_valid_brackets.cpp.obj
+.PHONY : 20_valid_brackets.obj
+
+# target to build an object file
+20_valid_brackets.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj
+.PHONY : 20_valid_brackets.cpp.obj
+
+20_valid_brackets.i: 20_valid_brackets.cpp.i
+.PHONY : 20_valid_brackets.i
+
+# target to preprocess a source file
+20_valid_brackets.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.i
+.PHONY : 20_valid_brackets.cpp.i
+
+20_valid_brackets.s: 20_valid_brackets.cpp.s
+.PHONY : 20_valid_brackets.s
+
+# target to generate assembly for a file
+20_valid_brackets.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.s
+.PHONY : 20_valid_brackets.cpp.s
+
 234_Palindrome_Linked_List.obj: 234_Palindrome_Linked_List.cpp.obj
 .PHONY : 234_Palindrome_Linked_List.obj
 
@@ -448,14 +514,15 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... test
 	@echo ... CycleListApp
 	@echo ... CycleList_secApp
 	@echo ... GroupAnagApp
 	@echo ... IntersectingApp
+	@echo ... MinstackApp
 	@echo ... PalinListApp
 	@echo ... ReverseListApp
 	@echo ... TwoSumApp
+	@echo ... ValidbracketsApp
 	@echo ... 01_twosum.obj
 	@echo ... 01_twosum.i
 	@echo ... 01_twosum.s
@@ -468,12 +535,18 @@ help:
 	@echo ... 142_cycle_Linked_List_sec.obj
 	@echo ... 142_cycle_Linked_List_sec.i
 	@echo ... 142_cycle_Linked_List_sec.s
+	@echo ... 155_min_stack.obj
+	@echo ... 155_min_stack.i
+	@echo ... 155_min_stack.s
 	@echo ... 160_Intersecting_Linked_Lists.obj
 	@echo ... 160_Intersecting_Linked_Lists.i
 	@echo ... 160_Intersecting_Linked_Lists.s
 	@echo ... 206_reverse_Linked_List.obj
 	@echo ... 206_reverse_Linked_List.i
 	@echo ... 206_reverse_Linked_List.s
+	@echo ... 20_valid_brackets.obj
+	@echo ... 20_valid_brackets.i
+	@echo ... 20_valid_brackets.s
 	@echo ... 234_Palindrome_Linked_List.obj
 	@echo ... 234_Palindrome_Linked_List.i
 	@echo ... 234_Palindrome_Linked_List.s

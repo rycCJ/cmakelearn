@@ -62,22 +62,18 @@ CMAKE_BINARY_DIR = D:\cmakelearn\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: third_party/googletest/all
 all: src/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: third_party/googletest/codegen
 codegen: src/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall: third_party/googletest/preinstall
 preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: third_party/googletest/clean
 clean: src/clean
 .PHONY : clean
 
@@ -119,6 +115,8 @@ src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/ReverseListApp.dir/all
 src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/CycleListApp.dir/all
 src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/PalinListApp.dir/all
 src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/all
+src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/all
+src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/MinstackApp.dir/all
 .PHONY : src/LeetCode_100/all
 
 # Recursive "codegen" directory target.
@@ -129,6 +127,8 @@ src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/ReverseListApp.dir/codegen
 src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/CycleListApp.dir/codegen
 src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/PalinListApp.dir/codegen
 src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/codegen
+src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/codegen
+src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/MinstackApp.dir/codegen
 .PHONY : src/LeetCode_100/codegen
 
 # Recursive "preinstall" directory target.
@@ -143,6 +143,8 @@ src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/ReverseListApp.dir/clean
 src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/CycleListApp.dir/clean
 src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/PalinListApp.dir/clean
 src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/clean
+src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/clean
+src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/MinstackApp.dir/clean
 .PHONY : src/LeetCode_100/clean
 
 #=============================================================================
@@ -202,204 +204,13 @@ src/moduleA/clean: src/moduleA/CMakeFiles/StrUtilsaApp.dir/clean
 .PHONY : src/moduleA/clean
 
 #=============================================================================
-# Directory level rules for directory third_party/googletest
-
-# Recursive "all" directory target.
-third_party/googletest/all: third_party/googletest/googlemock/all
-.PHONY : third_party/googletest/all
-
-# Recursive "codegen" directory target.
-third_party/googletest/codegen: third_party/googletest/googlemock/codegen
-.PHONY : third_party/googletest/codegen
-
-# Recursive "preinstall" directory target.
-third_party/googletest/preinstall: third_party/googletest/googlemock/preinstall
-.PHONY : third_party/googletest/preinstall
-
-# Recursive "clean" directory target.
-third_party/googletest/clean: third_party/googletest/googlemock/clean
-.PHONY : third_party/googletest/clean
-
-#=============================================================================
-# Directory level rules for directory third_party/googletest/googlemock
-
-# Recursive "all" directory target.
-third_party/googletest/googlemock/all: third_party/googletest/googlemock/CMakeFiles/gmock.dir/all
-third_party/googletest/googlemock/all: third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/all
-third_party/googletest/googlemock/all: third_party/googletest/googletest/all
-.PHONY : third_party/googletest/googlemock/all
-
-# Recursive "codegen" directory target.
-third_party/googletest/googlemock/codegen: third_party/googletest/googlemock/CMakeFiles/gmock.dir/codegen
-third_party/googletest/googlemock/codegen: third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/codegen
-third_party/googletest/googlemock/codegen: third_party/googletest/googletest/codegen
-.PHONY : third_party/googletest/googlemock/codegen
-
-# Recursive "preinstall" directory target.
-third_party/googletest/googlemock/preinstall: third_party/googletest/googletest/preinstall
-.PHONY : third_party/googletest/googlemock/preinstall
-
-# Recursive "clean" directory target.
-third_party/googletest/googlemock/clean: third_party/googletest/googlemock/CMakeFiles/gmock.dir/clean
-third_party/googletest/googlemock/clean: third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
-third_party/googletest/googlemock/clean: third_party/googletest/googletest/clean
-.PHONY : third_party/googletest/googlemock/clean
-
-#=============================================================================
-# Directory level rules for directory third_party/googletest/googletest
-
-# Recursive "all" directory target.
-third_party/googletest/googletest/all: third_party/googletest/googletest/CMakeFiles/gtest.dir/all
-third_party/googletest/googletest/all: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all
-.PHONY : third_party/googletest/googletest/all
-
-# Recursive "codegen" directory target.
-third_party/googletest/googletest/codegen: third_party/googletest/googletest/CMakeFiles/gtest.dir/codegen
-third_party/googletest/googletest/codegen: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/codegen
-.PHONY : third_party/googletest/googletest/codegen
-
-# Recursive "preinstall" directory target.
-third_party/googletest/googletest/preinstall:
-.PHONY : third_party/googletest/googletest/preinstall
-
-# Recursive "clean" directory target.
-third_party/googletest/googletest/clean: third_party/googletest/googletest/CMakeFiles/gtest.dir/clean
-third_party/googletest/googletest/clean: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/clean
-.PHONY : third_party/googletest/googletest/clean
-
-#=============================================================================
-# Target rules for target third_party/googletest/googlemock/CMakeFiles/gmock.dir
-
-# All Build rule for target.
-third_party/googletest/googlemock/CMakeFiles/gmock.dir/all: third_party/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock.dir/depend
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=27,28 "Built target gmock"
-.PHONY : third_party/googletest/googlemock/CMakeFiles/gmock.dir/all
-
-# Build rule for subdir invocation for target.
-third_party/googletest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 third_party/googletest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
-.PHONY : third_party/googletest/googlemock/CMakeFiles/gmock.dir/rule
-
-# Convenience name for target.
-gmock: third_party/googletest/googlemock/CMakeFiles/gmock.dir/rule
-.PHONY : gmock
-
-# codegen rule for target.
-third_party/googletest/googlemock/CMakeFiles/gmock.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock.dir/codegen
-.PHONY : third_party/googletest/googlemock/CMakeFiles/gmock.dir/codegen
-
-# clean rule for target.
-third_party/googletest/googlemock/CMakeFiles/gmock.dir/clean:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock.dir/clean
-.PHONY : third_party/googletest/googlemock/CMakeFiles/gmock.dir/clean
-
-#=============================================================================
-# Target rules for target third_party/googletest/googlemock/CMakeFiles/gmock_main.dir
-
-# All Build rule for target.
-third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/all: third_party/googletest/googlemock/CMakeFiles/gmock.dir/all
-third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/all: third_party/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=29,30 "Built target gmock_main"
-.PHONY : third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/all
-
-# Build rule for subdir invocation for target.
-third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
-.PHONY : third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
-
-# Convenience name for target.
-gmock_main: third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
-.PHONY : gmock_main
-
-# codegen rule for target.
-third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/codegen
-.PHONY : third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/codegen
-
-# clean rule for target.
-third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
-.PHONY : third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
-
-#=============================================================================
-# Target rules for target third_party/googletest/googletest/CMakeFiles/gtest.dir
-
-# All Build rule for target.
-third_party/googletest/googletest/CMakeFiles/gtest.dir/all:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest.dir/depend
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=31,32 "Built target gtest"
-.PHONY : third_party/googletest/googletest/CMakeFiles/gtest.dir/all
-
-# Build rule for subdir invocation for target.
-third_party/googletest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 third_party/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
-.PHONY : third_party/googletest/googletest/CMakeFiles/gtest.dir/rule
-
-# Convenience name for target.
-gtest: third_party/googletest/googletest/CMakeFiles/gtest.dir/rule
-.PHONY : gtest
-
-# codegen rule for target.
-third_party/googletest/googletest/CMakeFiles/gtest.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest.dir/codegen
-.PHONY : third_party/googletest/googletest/CMakeFiles/gtest.dir/codegen
-
-# clean rule for target.
-third_party/googletest/googletest/CMakeFiles/gtest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest.dir/clean
-.PHONY : third_party/googletest/googletest/CMakeFiles/gtest.dir/clean
-
-#=============================================================================
-# Target rules for target third_party/googletest/googletest/CMakeFiles/gtest_main.dir
-
-# All Build rule for target.
-third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all: third_party/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest_main.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest_main.dir/depend
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest_main.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=33,34 "Built target gtest_main"
-.PHONY : third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all
-
-# Build rule for subdir invocation for target.
-third_party/googletest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 third_party/googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
-.PHONY : third_party/googletest/googletest/CMakeFiles/gtest_main.dir/rule
-
-# Convenience name for target.
-gtest_main: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/rule
-.PHONY : gtest_main
-
-# codegen rule for target.
-third_party/googletest/googletest/CMakeFiles/gtest_main.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest_main.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest_main.dir/codegen
-.PHONY : third_party/googletest/googletest/CMakeFiles/gtest_main.dir/codegen
-
-# clean rule for target.
-third_party/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f third_party\googletest\googletest\CMakeFiles\gtest_main.dir\build.make third_party/googletest/googletest/CMakeFiles/gtest_main.dir/clean
-.PHONY : third_party/googletest/googletest/CMakeFiles/gtest_main.dir/clean
-
-#=============================================================================
 # Target rules for target src/moduleA/CMakeFiles/strutils.dir
 
 # All Build rule for target.
 src/moduleA/CMakeFiles/strutils.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\strutils.dir\build.make src/moduleA/CMakeFiles/strutils.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\strutils.dir\build.make src/moduleA/CMakeFiles/strutils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=37,38 "Built target strutils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=33,34 "Built target strutils"
 .PHONY : src/moduleA/CMakeFiles/strutils.dir/all
 
 # Build rule for subdir invocation for target.
@@ -430,7 +241,7 @@ src/moduleA/CMakeFiles/strutils.dir/clean:
 src/moduleA/CMakeFiles/StrUtilsaApp.dir/all: src/moduleA/CMakeFiles/strutils.dir/all
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=19,20 "Built target StrUtilsaApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=21,22 "Built target StrUtilsaApp"
 .PHONY : src/moduleA/CMakeFiles/StrUtilsaApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -523,7 +334,7 @@ src/day10/CMakeFiles/CalculatorAPP.dir/clean:
 src/day10/CMakeFiles/ToDolistApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=21,22 "Built target ToDolistApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=23,24 "Built target ToDolistApp"
 .PHONY : src/day10/CMakeFiles/ToDolistApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -554,7 +365,7 @@ src/day10/CMakeFiles/ToDolistApp.dir/clean:
 src/day10/CMakeFiles/arrApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=25,26 "Built target arrApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=29,30 "Built target arrApp"
 .PHONY : src/day10/CMakeFiles/arrApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -616,7 +427,7 @@ src/day10/CMakeFiles/LinkedlistApp.dir/clean:
 src/day10/CMakeFiles/queueandstackApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=35,36 "Built target queueandstackApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=31,32 "Built target queueandstackApp"
 .PHONY : src/day10/CMakeFiles/queueandstackApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -647,7 +458,7 @@ src/day10/CMakeFiles/queueandstackApp.dir/clean:
 src/LeetCode_100/CMakeFiles/TwoSumApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=23,24 "Built target TwoSumApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=25,26 "Built target TwoSumApp"
 .PHONY : src/LeetCode_100/CMakeFiles/TwoSumApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -740,7 +551,7 @@ src/LeetCode_100/CMakeFiles/IntersectingApp.dir/clean:
 src/LeetCode_100/CMakeFiles/ReverseListApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=17,18 "Built target ReverseListApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=19,20 "Built target ReverseListApp"
 .PHONY : src/LeetCode_100/CMakeFiles/ReverseListApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -802,7 +613,7 @@ src/LeetCode_100/CMakeFiles/CycleListApp.dir/clean:
 src/LeetCode_100/CMakeFiles/PalinListApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=15,16 "Built target PalinListApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=17,18 "Built target PalinListApp"
 .PHONY : src/LeetCode_100/CMakeFiles/PalinListApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -856,6 +667,68 @@ src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/codegen:
 src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/clean
 .PHONY : src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/clean
+
+#=============================================================================
+# Target rules for target src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir
+
+# All Build rule for target.
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=27,28 "Built target ValidbracketsApp"
+.PHONY : src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/all
+
+# Build rule for subdir invocation for target.
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
+.PHONY : src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/rule
+
+# Convenience name for target.
+ValidbracketsApp: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/rule
+.PHONY : ValidbracketsApp
+
+# codegen rule for target.
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/codegen
+.PHONY : src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/codegen
+
+# clean rule for target.
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/clean
+.PHONY : src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/clean
+
+#=============================================================================
+# Target rules for target src/LeetCode_100/CMakeFiles/MinstackApp.dir
+
+# All Build rule for target.
+src/LeetCode_100/CMakeFiles/MinstackApp.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=15,16 "Built target MinstackApp"
+.PHONY : src/LeetCode_100/CMakeFiles/MinstackApp.dir/all
+
+# Build rule for subdir invocation for target.
+src/LeetCode_100/CMakeFiles/MinstackApp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/MinstackApp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
+.PHONY : src/LeetCode_100/CMakeFiles/MinstackApp.dir/rule
+
+# Convenience name for target.
+MinstackApp: src/LeetCode_100/CMakeFiles/MinstackApp.dir/rule
+.PHONY : MinstackApp
+
+# codegen rule for target.
+src/LeetCode_100/CMakeFiles/MinstackApp.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/codegen
+.PHONY : src/LeetCode_100/CMakeFiles/MinstackApp.dir/codegen
+
+# clean rule for target.
+src/LeetCode_100/CMakeFiles/MinstackApp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/clean
+.PHONY : src/LeetCode_100/CMakeFiles/MinstackApp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
