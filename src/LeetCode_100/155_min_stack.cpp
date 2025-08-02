@@ -2,49 +2,94 @@
 #include <stack>
 #include <vector>
 #include <unordered_map>
+// 方法二
+#include <utility>   // for std::pair
+#include <algorithm> // for std::min
+// class MinStack
+// {
+// private:
+//     std::stack<int> sta;
+//     std::stack<int> Min_sta;
 
+// public:
+//     MinStack()
+//     {
+//     }
+
+//     void push(int val)
+//     {
+//         sta.push(val);
+//         if (Min_sta.empty())
+//             Min_sta.push(val);
+//         else                                                                        // aaa
+//             val >= Min_sta.top() ? Min_sta.push(Min_sta.top()) : Min_sta.push(val); // 当sta中还没有值时sta.top是什么
+//     }
+
+//     void pop()
+//     {
+//         if (!sta.empty())
+//         {
+//             Min_sta.pop();
+//             sta.pop();
+//         }
+//     }
+
+//     int top()
+//     {
+//         return sta.top();
+//     }
+
+//     int getMin()
+//     {
+//         return Min_sta.top();
+//     }
+//     bool empty()
+//     {
+//         // 我们可以通过判断主栈 sta 是否为空，来确定整个 MinStack 是否为空
+//         return sta.empty();
+//     }
+// };
+
+// 方法二
 class MinStack
 {
 private:
-    std::stack<int> sta;
-    std::stack<int> Min_sta;
+    std::stack<std::pair<int, int>> data_stack;
 
 public:
-    MinStack()
+    MinStack2()
     {
-    }
 
+        int min_num;
+    }
     void push(int val)
     {
-        sta.push(val);
-        if (Min_sta.empty())
-            Min_sta.push(val);
-        else                                                                        // aaa
-            val >= Min_sta.top() ? Min_sta.push(Min_sta.top()) : Min_sta.push(val); // 当sta中还没有值时sta.top是什么
-    }
-
-    void pop()
-    {
-        if (!sta.empty())
+        if (!data_stack.empty())
         {
-            Min_sta.pop();
-            sta.pop();
+            int current_num = data_stack.top().second;
+            int min_num = std::min(val, current_num);
+            data_stack.push({val, min_num});
+        }
+        else
+        {
+            data_stack.push({val, val});
         }
     }
-
+    void pop()
+    {
+        data_stack.pop();
+    }
     int top()
     {
-        return sta.top();
+        return data_stack.top().first;
     }
-
     int getMin()
     {
-        return Min_sta.top();
+        return data_stack.top().second;
     }
     bool empty()
     {
-        // 我们可以通过判断主栈 sta 是否为空，来确定整个 MinStack 是否为空
-        return sta.empty();
+        return data_stack.empty();
     }
 };
 // 测试
