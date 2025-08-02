@@ -1,3 +1,3 @@
 D:\APPS\CMake\bin\cmake.exe -E rm -f CMakeFiles\IntersectingApp.dir/objects.a
 D:\APPS\mingw64\bin\ar.exe qc CMakeFiles\IntersectingApp.dir/objects.a @CMakeFiles\IntersectingApp.dir\objects1.rsp
-D:\APPS\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\IntersectingApp.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\IntersectingApp.exe -Wl,--out-implib,..\..\lib\libIntersectingApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\IntersectingApp.dir\linkLibs.rsp
+D:\APPS\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\IntersectingApp.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\IntersectingApp.exe -Wl,--out-implib,..\..\lib\libIntersectingApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\IntersectingApp.dir\linkLibs.rsp

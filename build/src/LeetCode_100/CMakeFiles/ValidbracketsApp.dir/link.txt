@@ -1,0 +1,3 @@
+D:\APPS\CMake\bin\cmake.exe -E rm -f CMakeFiles\ValidbracketsApp.dir/objects.a
+D:\APPS\mingw64\bin\ar.exe qc CMakeFiles\ValidbracketsApp.dir/objects.a @CMakeFiles\ValidbracketsApp.dir\objects1.rsp
+D:\APPS\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ValidbracketsApp.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\ValidbracketsApp.exe -Wl,--out-implib,..\..\lib\libValidbracketsApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ValidbracketsApp.dir\linkLibs.rsp

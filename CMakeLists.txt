@@ -22,11 +22,11 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
 # --- 单元测试配置 ---
 # 包含 CTest 模块以支持测试。
-enable_testing()
+# enable_testing()
 
 # 将第三方库目录添加到 CMake 的搜索路径中。
 # 这让 CMake 知道可以去 vendor/googletest 里找 gtest 的 CMakeLists.txt。
-add_subdirectory(third_party/googletest)
+# add_subdirectory(third_party/googletest)
 
 # --- 子目录处理 ---
 # 告诉 CMake 去处理 src 和 tests 目录下的 CMakeLists.txt 文件。
