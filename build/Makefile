@@ -265,6 +265,19 @@ queueandstackApp/fast:
 .PHONY : queueandstackApp/fast
 
 #=============================================================================
+# Target rules for targets named BinaryTreekApp
+
+# Build rule for target.
+BinaryTreekApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BinaryTreekApp
+.PHONY : BinaryTreekApp
+
+# fast build rule for target.
+BinaryTreekApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\BinaryTreekApp.dir\build.make src/day10/CMakeFiles/BinaryTreekApp.dir/build
+.PHONY : BinaryTreekApp/fast
+
+#=============================================================================
 # Target rules for targets named TwoSumApp
 
 # Build rule for target.
@@ -381,6 +394,19 @@ MinstackApp/fast:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/build
 .PHONY : MinstackApp/fast
 
+#=============================================================================
+# Target rules for targets named DecodeStringApp
+
+# Build rule for target.
+DecodeStringApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DecodeStringApp
+.PHONY : DecodeStringApp
+
+# fast build rule for target.
+DecodeStringApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/build
+.PHONY : DecodeStringApp/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -393,9 +419,11 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... BinaryTreekApp
 	@echo ... CalculatorAPP
 	@echo ... CycleListApp
 	@echo ... CycleList_secApp
+	@echo ... DecodeStringApp
 	@echo ... GroupAnagApp
 	@echo ... GuessNumApp
 	@echo ... IntersectingApp

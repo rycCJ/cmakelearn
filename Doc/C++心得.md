@@ -38,3 +38,34 @@ array have fixed size but Linked list don't  Linked list have dynamic size
 **unordered_set** 是 C++ 标准库中的一种哈希集合实现，用于存储不重复的元素，常见使用场景是对元素进行去重。
 **std::vector vs std::list**
   ![alt text](image-4.png)
+
+---
+**如何判断一个字符是数字还是字母**
+- <cctype> (在C语言中是 <ctype.h>)，它包含了一系列用于字符分类的函数。这是最标准、最清晰、最可移植的方法。
+>isdigit(char c): 判断字符 c 是否为数字（'0' 到 '9'）。
+>isalpha(char c): 判断字符 c 是否为字母（'a' 到 'z' 或 'A' 到 'Z'）。
+- 利用 ASCII 码范围手动判断
+```
+#include <iostream>
+
+void checkCharManual(char c) {
+    if (c >= '0' && c <= '9') {
+        std::cout << "'" << c << "' 是一个数字。" << std::endl;
+    } else if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
+        std::cout << "'" << c << "' 是一个字母。" << std::endl;
+    } else {
+        // ...
+    }
+}
+```
+
+**string转int**
+- 并且，字符和其对应的整数值之间的转换有一个小技巧：'字符' - '0'。例如，'5' - '0' 的结果就是整数 5
+```
+#include <string>
+std::string num_str = "300";
+int number = std::stoi(num_str);
+```
+
+- 手动遍历计算 (最适用于“字符串解码”算法)
+> 并且，字符和其对应的整数值之间的转换有一个小技巧：'字符' - '0'。例如，'5' - '0' 的结果就是整数 5

@@ -286,6 +286,20 @@ MinstackApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/build
 .PHONY : MinstackApp/fast
 
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/rule
+
+# Convenience name for target.
+DecodeStringApp: src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/rule
+.PHONY : DecodeStringApp
+
+# fast build rule for target.
+DecodeStringApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/build
+.PHONY : DecodeStringApp/fast
+
 01_twosum.obj: 01_twosum.cpp.obj
 .PHONY : 01_twosum.obj
 
@@ -502,6 +516,30 @@ MinstackApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/234_Palindrome_Linked_List.cpp.s
 .PHONY : 234_Palindrome_Linked_List.cpp.s
 
+394_decodeString.obj: 394_decodeString.cpp.obj
+.PHONY : 394_decodeString.obj
+
+# target to build an object file
+394_decodeString.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/394_decodeString.cpp.obj
+.PHONY : 394_decodeString.cpp.obj
+
+394_decodeString.i: 394_decodeString.cpp.i
+.PHONY : 394_decodeString.i
+
+# target to preprocess a source file
+394_decodeString.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/394_decodeString.cpp.i
+.PHONY : 394_decodeString.cpp.i
+
+394_decodeString.s: 394_decodeString.cpp.s
+.PHONY : 394_decodeString.s
+
+# target to generate assembly for a file
+394_decodeString.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/394_decodeString.cpp.s
+.PHONY : 394_decodeString.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -516,6 +554,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... CycleListApp
 	@echo ... CycleList_secApp
+	@echo ... DecodeStringApp
 	@echo ... GroupAnagApp
 	@echo ... IntersectingApp
 	@echo ... MinstackApp
@@ -550,6 +589,9 @@ help:
 	@echo ... 234_Palindrome_Linked_List.obj
 	@echo ... 234_Palindrome_Linked_List.i
 	@echo ... 234_Palindrome_Linked_List.s
+	@echo ... 394_decodeString.obj
+	@echo ... 394_decodeString.i
+	@echo ... 394_decodeString.s
 .PHONY : help
 
 

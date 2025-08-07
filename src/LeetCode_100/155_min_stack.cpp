@@ -57,7 +57,7 @@ private:
     std::stack<std::pair<int, int>> data_stack;
 
 public:
-    MinStack2()
+    MinStack()
     {
 
         int min_num;

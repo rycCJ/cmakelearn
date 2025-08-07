@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/arrApp.exe"
+			"path" : "bin/DecodeStringApp.exe"
 		},
 		{
-			"path" : "bin/arrApp.pdb"
+			"path" : "bin/DecodeStringApp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -19,7 +19,7 @@
 		],
 		"files" : 
 		[
-			"src/day10/CMakeLists.txt"
+			"src/LeetCode_100/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 34,
+				"line" : 65,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 39,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 36,
+				"line" : 66,
 				"parent" : 0
 			}
 		]
@@ -77,7 +77,7 @@
 			]
 		}
 	],
-	"id" : "arrApp::@02f70fd0039ce8bebe7c",
+	"id" : "DecodeStringApp::@a7c91b1d3e3cce786bd1",
 	"install" : 
 	{
 		"destinations" : 
@@ -111,12 +111,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "arrApp",
-	"nameOnDisk" : "arrApp.exe",
+	"name" : "DecodeStringApp",
+	"nameOnDisk" : "DecodeStringApp.exe",
 	"paths" : 
 	{
-		"build" : "src/day10",
-		"source" : "src/day10"
+		"build" : "src/LeetCode_100",
+		"source" : "src/LeetCode_100"
 	},
 	"sourceGroups" : 
 	[
@@ -133,7 +133,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/day10/arrgroup.cpp",
+			"path" : "src/LeetCode_100/394_decodeString.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

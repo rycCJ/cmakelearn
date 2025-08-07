@@ -61,3 +61,9 @@ target_include_directories(MinstackApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS MinstackApp RUNTIME DESTINATION bin)
+
+add_executable(DecodeStringApp 394_decodeString.cpp)
+target_include_directories(DecodeStringApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS DecodeStringApp RUNTIME DESTINATION bin)

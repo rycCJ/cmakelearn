@@ -244,6 +244,20 @@ queueandstackApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/build
 .PHONY : queueandstackApp/fast
 
+# Convenience name for target.
+src/day10/CMakeFiles/BinaryTreekApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/day10/CMakeFiles/BinaryTreekApp.dir/rule
+.PHONY : src/day10/CMakeFiles/BinaryTreekApp.dir/rule
+
+# Convenience name for target.
+BinaryTreekApp: src/day10/CMakeFiles/BinaryTreekApp.dir/rule
+.PHONY : BinaryTreekApp
+
+# fast build rule for target.
+BinaryTreekApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\BinaryTreekApp.dir\build.make src/day10/CMakeFiles/BinaryTreekApp.dir/build
+.PHONY : BinaryTreekApp/fast
+
 01_guess_num.obj: 01_guess_num.cpp.obj
 .PHONY : 01_guess_num.obj
 
@@ -315,6 +329,30 @@ queueandstackApp/fast:
 03_todolist.cpp.s:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/03_todolist.cpp.s
 .PHONY : 03_todolist.cpp.s
+
+Binary_search_tree.obj: Binary_search_tree.cpp.obj
+.PHONY : Binary_search_tree.obj
+
+# target to build an object file
+Binary_search_tree.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\BinaryTreekApp.dir\build.make src/day10/CMakeFiles/BinaryTreekApp.dir/Binary_search_tree.cpp.obj
+.PHONY : Binary_search_tree.cpp.obj
+
+Binary_search_tree.i: Binary_search_tree.cpp.i
+.PHONY : Binary_search_tree.i
+
+# target to preprocess a source file
+Binary_search_tree.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\BinaryTreekApp.dir\build.make src/day10/CMakeFiles/BinaryTreekApp.dir/Binary_search_tree.cpp.i
+.PHONY : Binary_search_tree.cpp.i
+
+Binary_search_tree.s: Binary_search_tree.cpp.s
+.PHONY : Binary_search_tree.s
+
+# target to generate assembly for a file
+Binary_search_tree.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\BinaryTreekApp.dir\build.make src/day10/CMakeFiles/BinaryTreekApp.dir/Binary_search_tree.cpp.s
+.PHONY : Binary_search_tree.cpp.s
 
 arrgroup.obj: arrgroup.cpp.obj
 .PHONY : arrgroup.obj
@@ -400,6 +438,7 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... BinaryTreekApp
 	@echo ... CalculatorAPP
 	@echo ... GuessNumApp
 	@echo ... LinkedlistApp
@@ -415,6 +454,9 @@ help:
 	@echo ... 03_todolist.obj
 	@echo ... 03_todolist.i
 	@echo ... 03_todolist.s
+	@echo ... Binary_search_tree.obj
+	@echo ... Binary_search_tree.i
+	@echo ... Binary_search_tree.s
 	@echo ... arrgroup.obj
 	@echo ... arrgroup.i
 	@echo ... arrgroup.s

@@ -129,11 +129,11 @@
             "preLaunchTask": "CMake: Build & Install"
         },
         {
-            "name": "(gdb) 调试MinstackApp", //修改这个，调试哪个改为哪个
+            "name": "(gdb) 调试DecodeStringApp", //修改这个，调试哪个改为哪个
             "type": "cppdbg",
             "request": "launch",
             // 关键：路径已更新为指向 install 目录下的最终产品
-            "program": "${workspaceFolder}/install/bin/MinstackApp.exe", //修改这个，调试哪个改为哪个
+            "program": "${workspaceFolder}/install/bin/DecodeStringApp.exe", //修改这个，调试哪个改为哪个
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

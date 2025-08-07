@@ -24,6 +24,7 @@ D:/cmakelearn/build/src/day10/CMakeFiles/ToDolistApp.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/arrApp.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/LinkedlistApp.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/queueandstackApp.dir
+D:/cmakelearn/build/src/day10/CMakeFiles/BinaryTreekApp.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/edit_cache.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/rebuild_cache.dir
 D:/cmakelearn/build/src/day10/CMakeFiles/list_install_components.dir
@@ -39,6 +40,7 @@ D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/PalinListApp.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/CycleList_secApp.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/MinstackApp.dir
+D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/DecodeStringApp.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/edit_cache.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/rebuild_cache.dir
 D:/cmakelearn/build/src/LeetCode_100/CMakeFiles/list_install_components.dir

@@ -48,6 +48,12 @@
   "output": "src/day10/CMakeFiles/queueandstackApp.dir/queue+stack.cpp.obj"
 },
 {
+  "directory": "D:/cmakelearn/build/src/day10",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/BinaryTreekApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BinaryTreekApp.dir\\Binary_search_tree.cpp.obj -c D:\\cmakelearn\\src\\day10\\Binary_search_tree.cpp",
+  "file": "D:/cmakelearn/src/day10/Binary_search_tree.cpp",
+  "output": "src/day10/CMakeFiles/BinaryTreekApp.dir/Binary_search_tree.cpp.obj"
+},
+{
   "directory": "D:/cmakelearn/build/src/LeetCode_100",
   "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/TwoSumApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TwoSumApp.dir\\01_twosum.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\01_twosum.cpp",
   "file": "D:/cmakelearn/src/LeetCode_100/01_twosum.cpp",
@@ -100,5 +106,11 @@
   "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/MinstackApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MinstackApp.dir\\155_min_stack.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\155_min_stack.cpp",
   "file": "D:/cmakelearn/src/LeetCode_100/155_min_stack.cpp",
   "output": "src/LeetCode_100/CMakeFiles/MinstackApp.dir/155_min_stack.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/DecodeStringApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\DecodeStringApp.dir\\394_decodeString.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\394_decodeString.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/394_decodeString.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/394_decodeString.cpp.obj"
 }
 ]

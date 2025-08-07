@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/GuessNumApp.exe"
+			"path" : "bin/queueandstackApp.exe"
 		},
 		{
-			"path" : "bin/GuessNumApp.pdb"
+			"path" : "bin/queueandstackApp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 7,
+				"line" : 47,
 				"parent" : 0
 			}
 		]
@@ -77,7 +77,7 @@
 			]
 		}
 	],
-	"id" : "GuessNumApp::@02f70fd0039ce8bebe7c",
+	"id" : "queueandstackApp::@02f70fd0039ce8bebe7c",
 	"install" : 
 	{
 		"destinations" : 
@@ -111,8 +111,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "GuessNumApp",
-	"nameOnDisk" : "GuessNumApp.exe",
+	"name" : "queueandstackApp",
+	"nameOnDisk" : "queueandstackApp.exe",
 	"paths" : 
 	{
 		"build" : "src/day10",
@@ -133,7 +133,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/day10/01_guess_num.cpp",
+			"path" : "src/day10/queue+stack.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

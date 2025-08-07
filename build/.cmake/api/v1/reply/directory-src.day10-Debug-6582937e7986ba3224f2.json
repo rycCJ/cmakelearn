@@ -23,31 +23,37 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 32,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 39,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 46,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 53,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
 				"parent" : 0
 			}
 		]
@@ -63,7 +69,7 @@
 				"bin/GuessNumApp.exe"
 			],
 			"targetId" : "GuessNumApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 4,
+			"targetIndex" : 6,
 			"type" : "target"
 		},
 		{
@@ -75,7 +81,7 @@
 				"bin/CalculatorAPP.exe"
 			],
 			"targetId" : "CalculatorAPP::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 0,
+			"targetIndex" : 1,
 			"type" : "target"
 		},
 		{
@@ -87,7 +93,7 @@
 				"bin/ToDolistApp.exe"
 			],
 			"targetId" : "ToDolistApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 11,
+			"targetIndex" : 13,
 			"type" : "target"
 		},
 		{
@@ -99,7 +105,7 @@
 				"bin/arrApp.exe"
 			],
 			"targetId" : "arrApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 14,
+			"targetIndex" : 16,
 			"type" : "target"
 		},
 		{
@@ -111,7 +117,7 @@
 				"bin/LinkedlistApp.exe"
 			],
 			"targetId" : "LinkedlistApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 6,
+			"targetIndex" : 8,
 			"type" : "target"
 		},
 		{
@@ -123,7 +129,19 @@
 				"bin/queueandstackApp.exe"
 			],
 			"targetId" : "queueandstackApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 15,
+			"targetIndex" : 17,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/BinaryTreekApp.exe"
+			],
+			"targetId" : "BinaryTreekApp::@02f70fd0039ce8bebe7c",
+			"targetIndex" : 0,
 			"type" : "target"
 		}
 	],

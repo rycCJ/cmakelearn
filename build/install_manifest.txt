@@ -7,6 +7,7 @@ D:/cmakelearn/install/bin/ToDolistApp.exe
 D:/cmakelearn/install/bin/arrApp.exe
 D:/cmakelearn/install/bin/LinkedlistApp.exe
 D:/cmakelearn/install/bin/queueandstackApp.exe
+D:/cmakelearn/install/bin/BinaryTreekApp.exe
 D:/cmakelearn/install/bin/TwoSumApp.exe
 D:/cmakelearn/install/bin/GroupAnagApp.exe
 D:/cmakelearn/install/bin/IntersectingApp.exe
@@ -16,3 +17,4 @@ D:/cmakelearn/install/bin/PalinListApp.exe
 D:/cmakelearn/install/bin/CycleList_secApp.exe
 D:/cmakelearn/install/bin/ValidbracketsApp.exe
 D:/cmakelearn/install/bin/MinstackApp.exe
+D:/cmakelearn/install/bin/DecodeStringApp.exe

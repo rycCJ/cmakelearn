@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/CalculatorAPP.exe"
+			"path" : "bin/BinaryTreekApp.exe"
 		},
 		{
-			"path" : "bin/CalculatorAPP.pdb"
+			"path" : "bin/BinaryTreekApp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 23,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 20,
+				"line" : 54,
 				"parent" : 0
 			}
 		]
@@ -77,7 +77,7 @@
 			]
 		}
 	],
-	"id" : "CalculatorAPP::@02f70fd0039ce8bebe7c",
+	"id" : "BinaryTreekApp::@02f70fd0039ce8bebe7c",
 	"install" : 
 	{
 		"destinations" : 
@@ -111,8 +111,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "CalculatorAPP",
-	"nameOnDisk" : "CalculatorAPP.exe",
+	"name" : "BinaryTreekApp",
+	"nameOnDisk" : "BinaryTreekApp.exe",
 	"paths" : 
 	{
 		"build" : "src/day10",
@@ -133,7 +133,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/day10/02_calculator.cpp",
+			"path" : "src/day10/Binary_search_tree.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
