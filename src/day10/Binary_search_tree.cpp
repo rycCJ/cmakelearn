@@ -147,6 +147,7 @@ void levelOrderTraverse3(TreeNode *root)
         }
     }
 }
+
 int main()
 {
     // 你可以这样构建一棵二叉树：
