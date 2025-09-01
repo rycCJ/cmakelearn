@@ -112,5 +112,11 @@
   "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/DecodeStringApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\DecodeStringApp.dir\\394_decodeString.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\394_decodeString.cpp",
   "file": "D:/cmakelearn/src/LeetCode_100/394_decodeString.cpp",
   "output": "src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/394_decodeString.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/BFSApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BFSApp.dir\\102_BinaryTree_Order.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\102_BinaryTree_Order.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/102_BinaryTree_Order.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/BFSApp.dir/102_BinaryTree_Order.cpp.obj"
 }
 ]

@@ -69,7 +69,7 @@
 				"bin/GuessNumApp.exe"
 			],
 			"targetId" : "GuessNumApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 6,
+			"targetIndex" : 7,
 			"type" : "target"
 		},
 		{
@@ -81,7 +81,7 @@
 				"bin/CalculatorAPP.exe"
 			],
 			"targetId" : "CalculatorAPP::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 1,
+			"targetIndex" : 2,
 			"type" : "target"
 		},
 		{
@@ -93,7 +93,7 @@
 				"bin/ToDolistApp.exe"
 			],
 			"targetId" : "ToDolistApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 13,
+			"targetIndex" : 14,
 			"type" : "target"
 		},
 		{
@@ -105,7 +105,7 @@
 				"bin/arrApp.exe"
 			],
 			"targetId" : "arrApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 16,
+			"targetIndex" : 17,
 			"type" : "target"
 		},
 		{
@@ -117,7 +117,7 @@
 				"bin/LinkedlistApp.exe"
 			],
 			"targetId" : "LinkedlistApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 8,
+			"targetIndex" : 9,
 			"type" : "target"
 		},
 		{
@@ -129,7 +129,7 @@
 				"bin/queueandstackApp.exe"
 			],
 			"targetId" : "queueandstackApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 17,
+			"targetIndex" : 18,
 			"type" : "target"
 		},
 		{
@@ -141,7 +141,7 @@
 				"bin/BinaryTreekApp.exe"
 			],
 			"targetId" : "BinaryTreekApp::@02f70fd0039ce8bebe7c",
-			"targetIndex" : 0,
+			"targetIndex" : 1,
 			"type" : "target"
 		}
 	],

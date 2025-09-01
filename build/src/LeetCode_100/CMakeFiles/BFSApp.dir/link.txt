@@ -1,0 +1,3 @@
+D:\APPS\CMake\bin\cmake.exe -E rm -f CMakeFiles\BFSApp.dir/objects.a
+D:\APPS\mingw64\bin\ar.exe qc CMakeFiles\BFSApp.dir/objects.a @CMakeFiles\BFSApp.dir\objects1.rsp
+D:\APPS\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BFSApp.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\BFSApp.exe -Wl,--out-implib,..\..\lib\libBFSApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BFSApp.dir\linkLibs.rsp

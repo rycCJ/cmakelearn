@@ -67,3 +67,9 @@ target_include_directories(DecodeStringApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS DecodeStringApp RUNTIME DESTINATION bin)
+
+add_executable(BFSApp 102_BinaryTree_Order.cpp)
+target_include_directories(BFSApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS BFSApp RUNTIME DESTINATION bin)

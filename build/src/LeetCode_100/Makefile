@@ -300,6 +300,20 @@ DecodeStringApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/build
 .PHONY : DecodeStringApp/fast
 
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/BFSApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/BFSApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/BFSApp.dir/rule
+
+# Convenience name for target.
+BFSApp: src/LeetCode_100/CMakeFiles/BFSApp.dir/rule
+.PHONY : BFSApp
+
+# fast build rule for target.
+BFSApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/build
+.PHONY : BFSApp/fast
+
 01_twosum.obj: 01_twosum.cpp.obj
 .PHONY : 01_twosum.obj
 
@@ -347,6 +361,30 @@ DecodeStringApp/fast:
 02_groupAnag.cpp.s:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.s
 .PHONY : 02_groupAnag.cpp.s
+
+102_BinaryTree_Order.obj: 102_BinaryTree_Order.cpp.obj
+.PHONY : 102_BinaryTree_Order.obj
+
+# target to build an object file
+102_BinaryTree_Order.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/102_BinaryTree_Order.cpp.obj
+.PHONY : 102_BinaryTree_Order.cpp.obj
+
+102_BinaryTree_Order.i: 102_BinaryTree_Order.cpp.i
+.PHONY : 102_BinaryTree_Order.i
+
+# target to preprocess a source file
+102_BinaryTree_Order.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/102_BinaryTree_Order.cpp.i
+.PHONY : 102_BinaryTree_Order.cpp.i
+
+102_BinaryTree_Order.s: 102_BinaryTree_Order.cpp.s
+.PHONY : 102_BinaryTree_Order.s
+
+# target to generate assembly for a file
+102_BinaryTree_Order.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/102_BinaryTree_Order.cpp.s
+.PHONY : 102_BinaryTree_Order.cpp.s
 
 141_cycle_Linked_List.obj: 141_cycle_Linked_List.cpp.obj
 .PHONY : 141_cycle_Linked_List.obj
@@ -552,6 +590,7 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... BFSApp
 	@echo ... CycleListApp
 	@echo ... CycleList_secApp
 	@echo ... DecodeStringApp
@@ -568,6 +607,9 @@ help:
 	@echo ... 02_groupAnag.obj
 	@echo ... 02_groupAnag.i
 	@echo ... 02_groupAnag.s
+	@echo ... 102_BinaryTree_Order.obj
+	@echo ... 102_BinaryTree_Order.i
+	@echo ... 102_BinaryTree_Order.s
 	@echo ... 141_cycle_Linked_List.obj
 	@echo ... 141_cycle_Linked_List.i
 	@echo ... 141_cycle_Linked_List.s

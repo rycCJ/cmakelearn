@@ -73,6 +73,12 @@
 				"file" : 0,
 				"line" : 69,
 				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
 			}
 		]
 	},
@@ -87,7 +93,7 @@
 				"bin/TwoSumApp.exe"
 			],
 			"targetId" : "TwoSumApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 14,
+			"targetIndex" : 15,
 			"type" : "target"
 		},
 		{
@@ -99,7 +105,7 @@
 				"bin/GroupAnagApp.exe"
 			],
 			"targetId" : "GroupAnagApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 5,
+			"targetIndex" : 6,
 			"type" : "target"
 		},
 		{
@@ -111,7 +117,7 @@
 				"bin/IntersectingApp.exe"
 			],
 			"targetId" : "IntersectingApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 7,
+			"targetIndex" : 8,
 			"type" : "target"
 		},
 		{
@@ -123,7 +129,7 @@
 				"bin/ReverseListApp.exe"
 			],
 			"targetId" : "ReverseListApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 11,
+			"targetIndex" : 12,
 			"type" : "target"
 		},
 		{
@@ -135,7 +141,7 @@
 				"bin/CycleListApp.exe"
 			],
 			"targetId" : "CycleListApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 2,
+			"targetIndex" : 3,
 			"type" : "target"
 		},
 		{
@@ -147,7 +153,7 @@
 				"bin/PalinListApp.exe"
 			],
 			"targetId" : "PalinListApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 10,
+			"targetIndex" : 11,
 			"type" : "target"
 		},
 		{
@@ -159,7 +165,7 @@
 				"bin/CycleList_secApp.exe"
 			],
 			"targetId" : "CycleList_secApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 3,
+			"targetIndex" : 4,
 			"type" : "target"
 		},
 		{
@@ -171,7 +177,7 @@
 				"bin/ValidbracketsApp.exe"
 			],
 			"targetId" : "ValidbracketsApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 15,
+			"targetIndex" : 16,
 			"type" : "target"
 		},
 		{
@@ -183,7 +189,7 @@
 				"bin/MinstackApp.exe"
 			],
 			"targetId" : "MinstackApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 9,
+			"targetIndex" : 10,
 			"type" : "target"
 		},
 		{
@@ -195,7 +201,19 @@
 				"bin/DecodeStringApp.exe"
 			],
 			"targetId" : "DecodeStringApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 4,
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/BFSApp.exe"
+			],
+			"targetId" : "BFSApp::@a7c91b1d3e3cce786bd1",
+			"targetIndex" : 0,
 			"type" : "target"
 		}
 	],

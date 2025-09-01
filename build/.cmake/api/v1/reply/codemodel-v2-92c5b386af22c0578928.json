@@ -40,7 +40,7 @@
 				{
 					"build" : "src/moduleA",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-src.moduleA-Debug-7bd781ebf363d20bcb14.json",
+					"jsonFile" : "directory-src.moduleA-Debug-9210e2e4f890e660f3c5.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -50,14 +50,14 @@
 					"source" : "src/moduleA",
 					"targetIndexes" : 
 					[
-						12,
-						18
+						13,
+						19
 					]
 				},
 				{
 					"build" : "src/day10",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-src.day10-Debug-6582937e7986ba3224f2.json",
+					"jsonFile" : "directory-src.day10-Debug-d914f0690a365012b84d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -67,19 +67,19 @@
 					"source" : "src/day10",
 					"targetIndexes" : 
 					[
-						0,
 						1,
-						6,
-						8,
-						13,
-						16,
-						17
+						2,
+						7,
+						9,
+						14,
+						17,
+						18
 					]
 				},
 				{
 					"build" : "src/LeetCode_100",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-src.LeetCode_100-Debug-0fd7d2bfa0ebebed4784.json",
+					"jsonFile" : "directory-src.LeetCode_100-Debug-ec8393c5dbd272a66c47.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -89,16 +89,17 @@
 					"source" : "src/LeetCode_100",
 					"targetIndexes" : 
 					[
-						2,
+						0,
 						3,
 						4,
 						5,
-						7,
-						9,
+						6,
+						8,
 						10,
 						11,
-						14,
-						15
+						12,
+						15,
+						16
 					]
 				}
 			],
@@ -135,12 +136,20 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 4,
+					"id" : "BFSApp::@a7c91b1d3e3cce786bd1",
+					"jsonFile" : "target-BFSApp-Debug-7227f6bc7954a2a92c97.json",
+					"name" : "BFSApp",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 3,
 					"id" : "BinaryTreekApp::@02f70fd0039ce8bebe7c",

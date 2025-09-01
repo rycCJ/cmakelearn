@@ -407,6 +407,19 @@ DecodeStringApp/fast:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/build
 .PHONY : DecodeStringApp/fast
 
+#=============================================================================
+# Target rules for targets named BFSApp
+
+# Build rule for target.
+BFSApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BFSApp
+.PHONY : BFSApp
+
+# fast build rule for target.
+BFSApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/build
+.PHONY : BFSApp/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -419,6 +432,7 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... BFSApp
 	@echo ... BinaryTreekApp
 	@echo ... CalculatorAPP
 	@echo ... CycleListApp

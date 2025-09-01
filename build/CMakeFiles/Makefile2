@@ -118,6 +118,7 @@ src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/all
 src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/all
 src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/MinstackApp.dir/all
 src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/all
+src/LeetCode_100/all: src/LeetCode_100/CMakeFiles/BFSApp.dir/all
 .PHONY : src/LeetCode_100/all
 
 # Recursive "codegen" directory target.
@@ -131,6 +132,7 @@ src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/codeg
 src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/codegen
 src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/MinstackApp.dir/codegen
 src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/codegen
+src/LeetCode_100/codegen: src/LeetCode_100/CMakeFiles/BFSApp.dir/codegen
 .PHONY : src/LeetCode_100/codegen
 
 # Recursive "preinstall" directory target.
@@ -148,6 +150,7 @@ src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/clean
 src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/clean
 src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/MinstackApp.dir/clean
 src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/clean
+src/LeetCode_100/clean: src/LeetCode_100/CMakeFiles/BFSApp.dir/clean
 .PHONY : src/LeetCode_100/clean
 
 #=============================================================================
@@ -216,7 +219,7 @@ src/moduleA/clean: src/moduleA/CMakeFiles/StrUtilsaApp.dir/clean
 src/moduleA/CMakeFiles/strutils.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\strutils.dir\build.make src/moduleA/CMakeFiles/strutils.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\strutils.dir\build.make src/moduleA/CMakeFiles/strutils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=37,38 "Built target strutils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=39,40 "Built target strutils"
 .PHONY : src/moduleA/CMakeFiles/strutils.dir/all
 
 # Build rule for subdir invocation for target.
@@ -247,7 +250,7 @@ src/moduleA/CMakeFiles/strutils.dir/clean:
 src/moduleA/CMakeFiles/StrUtilsaApp.dir/all: src/moduleA/CMakeFiles/strutils.dir/all
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\moduleA\CMakeFiles\StrUtilsaApp.dir\build.make src/moduleA/CMakeFiles/StrUtilsaApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=25,26 "Built target StrUtilsaApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=27,28 "Built target StrUtilsaApp"
 .PHONY : src/moduleA/CMakeFiles/StrUtilsaApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,7 +281,7 @@ src/moduleA/CMakeFiles/StrUtilsaApp.dir/clean:
 src/day10/CMakeFiles/GuessNumApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\GuessNumApp.dir\build.make src/day10/CMakeFiles/GuessNumApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=13,14 "Built target GuessNumApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=15,16 "Built target GuessNumApp"
 .PHONY : src/day10/CMakeFiles/GuessNumApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -309,7 +312,7 @@ src/day10/CMakeFiles/GuessNumApp.dir/clean:
 src/day10/CMakeFiles/CalculatorAPP.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\CalculatorAPP.dir\build.make src/day10/CMakeFiles/CalculatorAPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=3,4 "Built target CalculatorAPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=5,6 "Built target CalculatorAPP"
 .PHONY : src/day10/CMakeFiles/CalculatorAPP.dir/all
 
 # Build rule for subdir invocation for target.
@@ -340,7 +343,7 @@ src/day10/CMakeFiles/CalculatorAPP.dir/clean:
 src/day10/CMakeFiles/ToDolistApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\ToDolistApp.dir\build.make src/day10/CMakeFiles/ToDolistApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=27,28 "Built target ToDolistApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=29,30 "Built target ToDolistApp"
 .PHONY : src/day10/CMakeFiles/ToDolistApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -371,7 +374,7 @@ src/day10/CMakeFiles/ToDolistApp.dir/clean:
 src/day10/CMakeFiles/arrApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\arrApp.dir\build.make src/day10/CMakeFiles/arrApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=33,34 "Built target arrApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=35,36 "Built target arrApp"
 .PHONY : src/day10/CMakeFiles/arrApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -402,7 +405,7 @@ src/day10/CMakeFiles/arrApp.dir/clean:
 src/day10/CMakeFiles/LinkedlistApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\LinkedlistApp.dir\build.make src/day10/CMakeFiles/LinkedlistApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\LinkedlistApp.dir\build.make src/day10/CMakeFiles/LinkedlistApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=17,18 "Built target LinkedlistApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=19,20 "Built target LinkedlistApp"
 .PHONY : src/day10/CMakeFiles/LinkedlistApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -433,7 +436,7 @@ src/day10/CMakeFiles/LinkedlistApp.dir/clean:
 src/day10/CMakeFiles/queueandstackApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\queueandstackApp.dir\build.make src/day10/CMakeFiles/queueandstackApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=35,36 "Built target queueandstackApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=37,38 "Built target queueandstackApp"
 .PHONY : src/day10/CMakeFiles/queueandstackApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -464,7 +467,7 @@ src/day10/CMakeFiles/queueandstackApp.dir/clean:
 src/day10/CMakeFiles/BinaryTreekApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\BinaryTreekApp.dir\build.make src/day10/CMakeFiles/BinaryTreekApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\day10\CMakeFiles\BinaryTreekApp.dir\build.make src/day10/CMakeFiles/BinaryTreekApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=1,2 "Built target BinaryTreekApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=3,4 "Built target BinaryTreekApp"
 .PHONY : src/day10/CMakeFiles/BinaryTreekApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -495,7 +498,7 @@ src/day10/CMakeFiles/BinaryTreekApp.dir/clean:
 src/LeetCode_100/CMakeFiles/TwoSumApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=29,30 "Built target TwoSumApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=31,32 "Built target TwoSumApp"
 .PHONY : src/LeetCode_100/CMakeFiles/TwoSumApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -526,7 +529,7 @@ src/LeetCode_100/CMakeFiles/TwoSumApp.dir/clean:
 src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=11,12 "Built target GroupAnagApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=13,14 "Built target GroupAnagApp"
 .PHONY : src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -557,7 +560,7 @@ src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/clean:
 src/LeetCode_100/CMakeFiles/IntersectingApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\IntersectingApp.dir\build.make src/LeetCode_100/CMakeFiles/IntersectingApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\IntersectingApp.dir\build.make src/LeetCode_100/CMakeFiles/IntersectingApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=15,16 "Built target IntersectingApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=17,18 "Built target IntersectingApp"
 .PHONY : src/LeetCode_100/CMakeFiles/IntersectingApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -588,7 +591,7 @@ src/LeetCode_100/CMakeFiles/IntersectingApp.dir/clean:
 src/LeetCode_100/CMakeFiles/ReverseListApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=23,24 "Built target ReverseListApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=25,26 "Built target ReverseListApp"
 .PHONY : src/LeetCode_100/CMakeFiles/ReverseListApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -619,7 +622,7 @@ src/LeetCode_100/CMakeFiles/ReverseListApp.dir/clean:
 src/LeetCode_100/CMakeFiles/CycleListApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleListApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleListApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleListApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleListApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=5,6 "Built target CycleListApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=7,8 "Built target CycleListApp"
 .PHONY : src/LeetCode_100/CMakeFiles/CycleListApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -650,7 +653,7 @@ src/LeetCode_100/CMakeFiles/CycleListApp.dir/clean:
 src/LeetCode_100/CMakeFiles/PalinListApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\PalinListApp.dir\build.make src/LeetCode_100/CMakeFiles/PalinListApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=21,22 "Built target PalinListApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=23,24 "Built target PalinListApp"
 .PHONY : src/LeetCode_100/CMakeFiles/PalinListApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -681,7 +684,7 @@ src/LeetCode_100/CMakeFiles/PalinListApp.dir/clean:
 src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\CycleList_secApp.dir\build.make src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=7,8 "Built target CycleList_secApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=9,10 "Built target CycleList_secApp"
 .PHONY : src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -712,7 +715,7 @@ src/LeetCode_100/CMakeFiles/CycleList_secApp.dir/clean:
 src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=31,32 "Built target ValidbracketsApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=33,34 "Built target ValidbracketsApp"
 .PHONY : src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -743,7 +746,7 @@ src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/clean:
 src/LeetCode_100/CMakeFiles/MinstackApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MinstackApp.dir\build.make src/LeetCode_100/CMakeFiles/MinstackApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=19,20 "Built target MinstackApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=21,22 "Built target MinstackApp"
 .PHONY : src/LeetCode_100/CMakeFiles/MinstackApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -774,7 +777,7 @@ src/LeetCode_100/CMakeFiles/MinstackApp.dir/clean:
 src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=9,10 "Built target DecodeStringApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=11,12 "Built target DecodeStringApp"
 .PHONY : src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -797,6 +800,37 @@ src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/codegen:
 src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\DecodeStringApp.dir\build.make src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/clean
 .PHONY : src/LeetCode_100/CMakeFiles/DecodeStringApp.dir/clean
+
+#=============================================================================
+# Target rules for target src/LeetCode_100/CMakeFiles/BFSApp.dir
+
+# All Build rule for target.
+src/LeetCode_100/CMakeFiles/BFSApp.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=1,2 "Built target BFSApp"
+.PHONY : src/LeetCode_100/CMakeFiles/BFSApp.dir/all
+
+# Build rule for subdir invocation for target.
+src/LeetCode_100/CMakeFiles/BFSApp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/BFSApp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cmakelearn\build\CMakeFiles 0
+.PHONY : src/LeetCode_100/CMakeFiles/BFSApp.dir/rule
+
+# Convenience name for target.
+BFSApp: src/LeetCode_100/CMakeFiles/BFSApp.dir/rule
+.PHONY : BFSApp
+
+# codegen rule for target.
+src/LeetCode_100/CMakeFiles/BFSApp.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/codegen
+.PHONY : src/LeetCode_100/CMakeFiles/BFSApp.dir/codegen
+
+# clean rule for target.
+src/LeetCode_100/CMakeFiles/BFSApp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/clean
+.PHONY : src/LeetCode_100/CMakeFiles/BFSApp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
