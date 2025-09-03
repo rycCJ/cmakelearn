@@ -18,8 +18,8 @@ struct TreeNode
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
-class Solution
+/*-----------------------方法一：一个队列----------------------*/
+class Solution2 // 测试哪个，把哪个改为Solution
 {
 public:
     vector<vector<int>> levelOrder(TreeNode *root)
@@ -53,6 +53,40 @@ public:
             depth++;
             ans.push_back(vals);
             // ans,emplace_back(vals);
+        }
+        return ans;
+    }
+};
+/*----------------------方法二两个数组----------------------*/
+class Solution
+{
+public:
+    vector<vector<int>> levelOrder(TreeNode *root)
+    {
+        if (root == nullptr)
+        {
+            return {}; // 为什么使用{}  相当于 return vector<vector<int>>();
+        }
+        vector<vector<int>> ans;
+        vector<TreeNode *> cur = {root}; // 为什么使用{}
+
+        while (!cur.empty())
+        {
+            vector<int> val;
+            vector<TreeNode *> next;
+            for (auto node : cur)
+            {
+                val.push_back(node->val);
+                if (node->left)
+                    next.push_back(node->left);
+                if (node->right)
+                    next.push_back(node->right);
+                // next.insert(next.end(), {node->left, node->right}); // 使用insert插入多个元素
+                // 有问题，要是左右有为nullptr，导致下一层 cur 里可能有很多 nullptr，循环时会出错（因为访问 node->val 时会崩溃）
+            }
+            ans.push_back(val);
+
+            cur = next;
         }
         return ans;
     }
