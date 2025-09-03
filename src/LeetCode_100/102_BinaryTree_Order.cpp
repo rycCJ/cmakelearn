@@ -56,6 +56,42 @@ public:
         }
         return ans;
     }
+    vector<vector<int>> zigzagLevelOrder(TreeNode *root)
+    {
+        if (root == nullptr)
+        {
+            return {};
+        }
+        queue<TreeNode *> q;
+        q.push(root);
+        int depth = 1;
+        vector<vector<int>> ans;
+        while (!q.empty())
+        {
+            vector<int> vals;
+            int sz = q.size();
+            for (int i = 0; i < sz; i++)
+            {
+                TreeNode *cur = q.front();
+                q.pop();
+                vals.push_back(cur->val);
+                if (cur->left != nullptr)
+                {
+                    q.push(cur->left);
+                }
+                if (cur->right != nullptr)
+                {
+                    q.push(cur->right);
+                }
+            }
+            depth++;
+            if (ans.size() % 2)
+                reverse(vals.begin(), vals.end());
+            ans.push_back(vals);
+            // ans,emplace_back(vals);
+        }
+        return ans;
+    }
 };
 /*----------------------方法二两个数组----------------------*/
 class Solution
@@ -86,7 +122,39 @@ public:
             }
             ans.push_back(val);
 
-            cur = next;
+            cur = move(next); // 用 move 避免拷贝
+        }
+        return ans;
+    }
+    /*-------------------------103. 二叉树的锯齿形层序遍历----------------------------*/
+    vector<vector<int>> zigzagLevelOrder(TreeNode *root)
+    {
+        if (root == nullptr)
+        {
+            return {}; // 为什么使用{}  相当于 return vector<vector<int>>();
+        }
+        vector<vector<int>> ans;
+        vector<TreeNode *> cur = {root}; // 为什么使用{}
+
+        while (!cur.empty())
+        {
+            vector<int> val;
+            vector<TreeNode *> next;
+            for (auto node : cur)
+            {
+                val.push_back(node->val);
+                if (node->left)
+                    next.push_back(node->left);
+                if (node->right)
+                    next.push_back(node->right);
+                // next.insert(next.end(), {node->left, node->right}); // 使用insert插入多个元素
+                // 有问题，要是左右有为nullptr，导致下一层 cur 里可能有很多 nullptr，循环时会出错（因为访问 node->val 时会崩溃）
+            }
+            if (ans.size() % 2 == 1)
+                reverse(val.begin(), val.end());
+            ans.push_back(val);
+
+            cur = move(next);
         }
         return ans;
     }
