@@ -314,53 +314,115 @@ BFSApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/build
 .PHONY : BFSApp/fast
 
-01_twosum.obj: 01_twosum.cpp.obj
-.PHONY : 01_twosum.obj
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/InorderApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/InorderApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/InorderApp.dir/rule
+
+# Convenience name for target.
+InorderApp: src/LeetCode_100/CMakeFiles/InorderApp.dir/rule
+.PHONY : InorderApp
+
+# fast build rule for target.
+InorderApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\InorderApp.dir\build.make src/LeetCode_100/CMakeFiles/InorderApp.dir/build
+.PHONY : InorderApp/fast
+
+001_twosum.obj: 001_twosum.cpp.obj
+.PHONY : 001_twosum.obj
 
 # target to build an object file
-01_twosum.cpp.obj:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj
-.PHONY : 01_twosum.cpp.obj
+001_twosum.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj
+.PHONY : 001_twosum.cpp.obj
 
-01_twosum.i: 01_twosum.cpp.i
-.PHONY : 01_twosum.i
+001_twosum.i: 001_twosum.cpp.i
+.PHONY : 001_twosum.i
 
 # target to preprocess a source file
-01_twosum.cpp.i:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.i
-.PHONY : 01_twosum.cpp.i
+001_twosum.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.i
+.PHONY : 001_twosum.cpp.i
 
-01_twosum.s: 01_twosum.cpp.s
-.PHONY : 01_twosum.s
+001_twosum.s: 001_twosum.cpp.s
+.PHONY : 001_twosum.s
 
 # target to generate assembly for a file
-01_twosum.cpp.s:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.s
-.PHONY : 01_twosum.cpp.s
+001_twosum.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\TwoSumApp.dir\build.make src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.s
+.PHONY : 001_twosum.cpp.s
 
-02_groupAnag.obj: 02_groupAnag.cpp.obj
-.PHONY : 02_groupAnag.obj
+002_groupAnag.obj: 002_groupAnag.cpp.obj
+.PHONY : 002_groupAnag.obj
 
 # target to build an object file
-02_groupAnag.cpp.obj:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj
-.PHONY : 02_groupAnag.cpp.obj
+002_groupAnag.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj
+.PHONY : 002_groupAnag.cpp.obj
 
-02_groupAnag.i: 02_groupAnag.cpp.i
-.PHONY : 02_groupAnag.i
+002_groupAnag.i: 002_groupAnag.cpp.i
+.PHONY : 002_groupAnag.i
 
 # target to preprocess a source file
-02_groupAnag.cpp.i:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.i
-.PHONY : 02_groupAnag.cpp.i
+002_groupAnag.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.i
+.PHONY : 002_groupAnag.cpp.i
 
-02_groupAnag.s: 02_groupAnag.cpp.s
-.PHONY : 02_groupAnag.s
+002_groupAnag.s: 002_groupAnag.cpp.s
+.PHONY : 002_groupAnag.s
 
 # target to generate assembly for a file
-02_groupAnag.cpp.s:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.s
-.PHONY : 02_groupAnag.cpp.s
+002_groupAnag.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\GroupAnagApp.dir\build.make src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.s
+.PHONY : 002_groupAnag.cpp.s
+
+020_valid_brackets.obj: 020_valid_brackets.cpp.obj
+.PHONY : 020_valid_brackets.obj
+
+# target to build an object file
+020_valid_brackets.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj
+.PHONY : 020_valid_brackets.cpp.obj
+
+020_valid_brackets.i: 020_valid_brackets.cpp.i
+.PHONY : 020_valid_brackets.i
+
+# target to preprocess a source file
+020_valid_brackets.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.i
+.PHONY : 020_valid_brackets.cpp.i
+
+020_valid_brackets.s: 020_valid_brackets.cpp.s
+.PHONY : 020_valid_brackets.s
+
+# target to generate assembly for a file
+020_valid_brackets.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.s
+.PHONY : 020_valid_brackets.cpp.s
+
+094_BinaryTree_Inoder.obj: 094_BinaryTree_Inoder.cpp.obj
+.PHONY : 094_BinaryTree_Inoder.obj
+
+# target to build an object file
+094_BinaryTree_Inoder.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\InorderApp.dir\build.make src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj
+.PHONY : 094_BinaryTree_Inoder.cpp.obj
+
+094_BinaryTree_Inoder.i: 094_BinaryTree_Inoder.cpp.i
+.PHONY : 094_BinaryTree_Inoder.i
+
+# target to preprocess a source file
+094_BinaryTree_Inoder.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\InorderApp.dir\build.make src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.i
+.PHONY : 094_BinaryTree_Inoder.cpp.i
+
+094_BinaryTree_Inoder.s: 094_BinaryTree_Inoder.cpp.s
+.PHONY : 094_BinaryTree_Inoder.s
+
+# target to generate assembly for a file
+094_BinaryTree_Inoder.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\InorderApp.dir\build.make src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.s
+.PHONY : 094_BinaryTree_Inoder.cpp.s
 
 102_BinaryTree_Order.obj: 102_BinaryTree_Order.cpp.obj
 .PHONY : 102_BinaryTree_Order.obj
@@ -506,30 +568,6 @@ BFSApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ReverseListApp.dir\build.make src/LeetCode_100/CMakeFiles/ReverseListApp.dir/206_reverse_Linked_List.cpp.s
 .PHONY : 206_reverse_Linked_List.cpp.s
 
-20_valid_brackets.obj: 20_valid_brackets.cpp.obj
-.PHONY : 20_valid_brackets.obj
-
-# target to build an object file
-20_valid_brackets.cpp.obj:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj
-.PHONY : 20_valid_brackets.cpp.obj
-
-20_valid_brackets.i: 20_valid_brackets.cpp.i
-.PHONY : 20_valid_brackets.i
-
-# target to preprocess a source file
-20_valid_brackets.cpp.i:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.i
-.PHONY : 20_valid_brackets.cpp.i
-
-20_valid_brackets.s: 20_valid_brackets.cpp.s
-.PHONY : 20_valid_brackets.s
-
-# target to generate assembly for a file
-20_valid_brackets.cpp.s:
-	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.s
-.PHONY : 20_valid_brackets.cpp.s
-
 234_Palindrome_Linked_List.obj: 234_Palindrome_Linked_List.cpp.obj
 .PHONY : 234_Palindrome_Linked_List.obj
 
@@ -595,18 +633,25 @@ help:
 	@echo ... CycleList_secApp
 	@echo ... DecodeStringApp
 	@echo ... GroupAnagApp
+	@echo ... InorderApp
 	@echo ... IntersectingApp
 	@echo ... MinstackApp
 	@echo ... PalinListApp
 	@echo ... ReverseListApp
 	@echo ... TwoSumApp
 	@echo ... ValidbracketsApp
-	@echo ... 01_twosum.obj
-	@echo ... 01_twosum.i
-	@echo ... 01_twosum.s
-	@echo ... 02_groupAnag.obj
-	@echo ... 02_groupAnag.i
-	@echo ... 02_groupAnag.s
+	@echo ... 001_twosum.obj
+	@echo ... 001_twosum.i
+	@echo ... 001_twosum.s
+	@echo ... 002_groupAnag.obj
+	@echo ... 002_groupAnag.i
+	@echo ... 002_groupAnag.s
+	@echo ... 020_valid_brackets.obj
+	@echo ... 020_valid_brackets.i
+	@echo ... 020_valid_brackets.s
+	@echo ... 094_BinaryTree_Inoder.obj
+	@echo ... 094_BinaryTree_Inoder.i
+	@echo ... 094_BinaryTree_Inoder.s
 	@echo ... 102_BinaryTree_Order.obj
 	@echo ... 102_BinaryTree_Order.i
 	@echo ... 102_BinaryTree_Order.s
@@ -625,9 +670,6 @@ help:
 	@echo ... 206_reverse_Linked_List.obj
 	@echo ... 206_reverse_Linked_List.i
 	@echo ... 206_reverse_Linked_List.s
-	@echo ... 20_valid_brackets.obj
-	@echo ... 20_valid_brackets.i
-	@echo ... 20_valid_brackets.s
 	@echo ... 234_Palindrome_Linked_List.obj
 	@echo ... 234_Palindrome_Linked_List.i
 	@echo ... 234_Palindrome_Linked_List.s

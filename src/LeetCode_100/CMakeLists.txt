@@ -1,6 +1,6 @@
 # 定义一个名为 GuessNumApp 的可执行文件
 # 源文件是当前目录下的 01_guess_num.cpp
-add_executable(TwoSumApp 01_twosum.cpp)
+add_executable(TwoSumApp 001_twosum.cpp)
 
 # --- 指定头文件目录 ---
 # 告诉编译器去项目的 include 目录寻找头文件
@@ -14,7 +14,7 @@ target_include_directories(TwoSumApp PRIVATE
 # target_link_libraries(GuessNumApp strutils)
 install(TARGETS TwoSumApp RUNTIME DESTINATION bin)
 
-add_executable(GroupAnagApp 02_groupAnag.cpp)
+add_executable(GroupAnagApp 002_groupAnag.cpp)
 target_include_directories(GroupAnagApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
@@ -50,7 +50,7 @@ target_include_directories(CycleList_secApp PRIVATE
 )
 install(TARGETS CycleList_secApp RUNTIME DESTINATION bin)
 
-add_executable(ValidbracketsApp 20_valid_brackets.cpp)
+add_executable(ValidbracketsApp 020_valid_brackets.cpp)
 target_include_directories(ValidbracketsApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
@@ -73,3 +73,9 @@ target_include_directories(BFSApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS BFSApp RUNTIME DESTINATION bin)
+
+add_executable(InorderApp 094_BinaryTree_Inoder.cpp)
+target_include_directories(InorderApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS InorderApp RUNTIME DESTINATION bin)

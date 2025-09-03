@@ -71,29 +71,29 @@ include src/LeetCode_100/CMakeFiles/TwoSumApp.dir/flags.make
 src/LeetCode_100/CMakeFiles/TwoSumApp.dir/codegen:
 .PHONY : src/LeetCode_100/CMakeFiles/TwoSumApp.dir/codegen
 
-src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/flags.make
-src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/includes_CXX.rsp
-src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj: D:/cmakelearn/src/LeetCode_100/01_twosum.cpp
-src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj -MF CMakeFiles\TwoSumApp.dir\01_twosum.cpp.obj.d -o CMakeFiles\TwoSumApp.dir\01_twosum.cpp.obj -c D:\cmakelearn\src\LeetCode_100\01_twosum.cpp
+src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/flags.make
+src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/includes_CXX.rsp
+src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj: D:/cmakelearn/src/LeetCode_100/001_twosum.cpp
+src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj"
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj -MF CMakeFiles\TwoSumApp.dir\001_twosum.cpp.obj.d -o CMakeFiles\TwoSumApp.dir\001_twosum.cpp.obj -c D:\cmakelearn\src\LeetCode_100\001_twosum.cpp
 
-src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TwoSumApp.dir/01_twosum.cpp.i"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\01_twosum.cpp > CMakeFiles\TwoSumApp.dir\01_twosum.cpp.i
+src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TwoSumApp.dir/001_twosum.cpp.i"
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\001_twosum.cpp > CMakeFiles\TwoSumApp.dir\001_twosum.cpp.i
 
-src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TwoSumApp.dir/01_twosum.cpp.s"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\01_twosum.cpp -o CMakeFiles\TwoSumApp.dir\01_twosum.cpp.s
+src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TwoSumApp.dir/001_twosum.cpp.s"
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\001_twosum.cpp -o CMakeFiles\TwoSumApp.dir\001_twosum.cpp.s
 
 # Object files for target TwoSumApp
 TwoSumApp_OBJECTS = \
-"CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj"
+"CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj"
 
 # External object files for target TwoSumApp
 TwoSumApp_EXTERNAL_OBJECTS =
 
-bin/TwoSumApp.exe: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj
+bin/TwoSumApp.exe: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj
 bin/TwoSumApp.exe: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/build.make
 bin/TwoSumApp.exe: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/linkLibs.rsp
 bin/TwoSumApp.exe: src/LeetCode_100/CMakeFiles/TwoSumApp.dir/objects1.rsp

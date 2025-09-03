@@ -79,6 +79,12 @@
 				"file" : 0,
 				"line" : 75,
 				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
 			}
 		]
 	},
@@ -93,7 +99,7 @@
 				"bin/TwoSumApp.exe"
 			],
 			"targetId" : "TwoSumApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 15,
+			"targetIndex" : 16,
 			"type" : "target"
 		},
 		{
@@ -117,7 +123,7 @@
 				"bin/IntersectingApp.exe"
 			],
 			"targetId" : "IntersectingApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 8,
+			"targetIndex" : 9,
 			"type" : "target"
 		},
 		{
@@ -129,7 +135,7 @@
 				"bin/ReverseListApp.exe"
 			],
 			"targetId" : "ReverseListApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 12,
+			"targetIndex" : 13,
 			"type" : "target"
 		},
 		{
@@ -153,7 +159,7 @@
 				"bin/PalinListApp.exe"
 			],
 			"targetId" : "PalinListApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 11,
+			"targetIndex" : 12,
 			"type" : "target"
 		},
 		{
@@ -177,7 +183,7 @@
 				"bin/ValidbracketsApp.exe"
 			],
 			"targetId" : "ValidbracketsApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 16,
+			"targetIndex" : 17,
 			"type" : "target"
 		},
 		{
@@ -189,7 +195,7 @@
 				"bin/MinstackApp.exe"
 			],
 			"targetId" : "MinstackApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 10,
+			"targetIndex" : 11,
 			"type" : "target"
 		},
 		{
@@ -214,6 +220,18 @@
 			],
 			"targetId" : "BFSApp::@a7c91b1d3e3cce786bd1",
 			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/InorderApp.exe"
+			],
+			"targetId" : "InorderApp::@a7c91b1d3e3cce786bd1",
+			"targetIndex" : 8,
 			"type" : "target"
 		}
 	],

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/cmakelearn/src/LeetCode_100/01_twosum.cpp" "src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj" "gcc" "src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj.d"
+  "D:/cmakelearn/src/LeetCode_100/001_twosum.cpp" "src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj" "gcc" "src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

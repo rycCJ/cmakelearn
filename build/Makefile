@@ -420,6 +420,19 @@ BFSApp/fast:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/build
 .PHONY : BFSApp/fast
 
+#=============================================================================
+# Target rules for targets named InorderApp
+
+# Build rule for target.
+InorderApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 InorderApp
+.PHONY : InorderApp
+
+# fast build rule for target.
+InorderApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\InorderApp.dir\build.make src/LeetCode_100/CMakeFiles/InorderApp.dir/build
+.PHONY : InorderApp/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -440,6 +453,7 @@ help:
 	@echo ... DecodeStringApp
 	@echo ... GroupAnagApp
 	@echo ... GuessNumApp
+	@echo ... InorderApp
 	@echo ... IntersectingApp
 	@echo ... LinkedlistApp
 	@echo ... MinstackApp

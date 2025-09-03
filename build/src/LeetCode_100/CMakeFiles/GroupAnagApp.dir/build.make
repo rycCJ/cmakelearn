@@ -71,29 +71,29 @@ include src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/flags.make
 src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/codegen:
 .PHONY : src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/codegen
 
-src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/flags.make
-src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/includes_CXX.rsp
-src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj: D:/cmakelearn/src/LeetCode_100/02_groupAnag.cpp
-src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj -MF CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.obj.d -o CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.obj -c D:\cmakelearn\src\LeetCode_100\02_groupAnag.cpp
+src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/flags.make
+src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/includes_CXX.rsp
+src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj: D:/cmakelearn/src/LeetCode_100/002_groupAnag.cpp
+src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj"
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj -MF CMakeFiles\GroupAnagApp.dir\002_groupAnag.cpp.obj.d -o CMakeFiles\GroupAnagApp.dir\002_groupAnag.cpp.obj -c D:\cmakelearn\src\LeetCode_100\002_groupAnag.cpp
 
-src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.i"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\02_groupAnag.cpp > CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.i
+src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.i"
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\002_groupAnag.cpp > CMakeFiles\GroupAnagApp.dir\002_groupAnag.cpp.i
 
-src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.s"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\02_groupAnag.cpp -o CMakeFiles\GroupAnagApp.dir\02_groupAnag.cpp.s
+src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.s"
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\002_groupAnag.cpp -o CMakeFiles\GroupAnagApp.dir\002_groupAnag.cpp.s
 
 # Object files for target GroupAnagApp
 GroupAnagApp_OBJECTS = \
-"CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj"
+"CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj"
 
 # External object files for target GroupAnagApp
 GroupAnagApp_EXTERNAL_OBJECTS =
 
-bin/GroupAnagApp.exe: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj
+bin/GroupAnagApp.exe: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj
 bin/GroupAnagApp.exe: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/build.make
 bin/GroupAnagApp.exe: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/linkLibs.rsp
 bin/GroupAnagApp.exe: src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/objects1.rsp

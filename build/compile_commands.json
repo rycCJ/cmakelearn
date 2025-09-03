@@ -55,15 +55,15 @@
 },
 {
   "directory": "D:/cmakelearn/build/src/LeetCode_100",
-  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/TwoSumApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TwoSumApp.dir\\01_twosum.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\01_twosum.cpp",
-  "file": "D:/cmakelearn/src/LeetCode_100/01_twosum.cpp",
-  "output": "src/LeetCode_100/CMakeFiles/TwoSumApp.dir/01_twosum.cpp.obj"
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/TwoSumApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TwoSumApp.dir\\001_twosum.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\001_twosum.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/001_twosum.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/TwoSumApp.dir/001_twosum.cpp.obj"
 },
 {
   "directory": "D:/cmakelearn/build/src/LeetCode_100",
-  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/GroupAnagApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GroupAnagApp.dir\\02_groupAnag.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\02_groupAnag.cpp",
-  "file": "D:/cmakelearn/src/LeetCode_100/02_groupAnag.cpp",
-  "output": "src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/02_groupAnag.cpp.obj"
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/GroupAnagApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GroupAnagApp.dir\\002_groupAnag.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\002_groupAnag.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/002_groupAnag.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/GroupAnagApp.dir/002_groupAnag.cpp.obj"
 },
 {
   "directory": "D:/cmakelearn/build/src/LeetCode_100",
@@ -97,9 +97,9 @@
 },
 {
   "directory": "D:/cmakelearn/build/src/LeetCode_100",
-  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/ValidbracketsApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ValidbracketsApp.dir\\20_valid_brackets.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\20_valid_brackets.cpp",
-  "file": "D:/cmakelearn/src/LeetCode_100/20_valid_brackets.cpp",
-  "output": "src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj"
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/ValidbracketsApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ValidbracketsApp.dir\\020_valid_brackets.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\020_valid_brackets.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/020_valid_brackets.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj"
 },
 {
   "directory": "D:/cmakelearn/build/src/LeetCode_100",
@@ -118,5 +118,11 @@
   "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/BFSApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BFSApp.dir\\102_BinaryTree_Order.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\102_BinaryTree_Order.cpp",
   "file": "D:/cmakelearn/src/LeetCode_100/102_BinaryTree_Order.cpp",
   "output": "src/LeetCode_100/CMakeFiles/BFSApp.dir/102_BinaryTree_Order.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/InorderApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\InorderApp.dir\\094_BinaryTree_Inoder.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\094_BinaryTree_Inoder.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/094_BinaryTree_Inoder.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj"
 }
 ]

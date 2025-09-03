@@ -71,29 +71,29 @@ include src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/flags.make
 src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/codegen:
 .PHONY : src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/codegen
 
-src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/flags.make
-src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/includes_CXX.rsp
-src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj: D:/cmakelearn/src/LeetCode_100/20_valid_brackets.cpp
-src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj -MF CMakeFiles\ValidbracketsApp.dir\20_valid_brackets.cpp.obj.d -o CMakeFiles\ValidbracketsApp.dir\20_valid_brackets.cpp.obj -c D:\cmakelearn\src\LeetCode_100\20_valid_brackets.cpp
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/flags.make
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/includes_CXX.rsp
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj: D:/cmakelearn/src/LeetCode_100/020_valid_brackets.cpp
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cmakelearn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj"
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj -MF CMakeFiles\ValidbracketsApp.dir\020_valid_brackets.cpp.obj.d -o CMakeFiles\ValidbracketsApp.dir\020_valid_brackets.cpp.obj -c D:\cmakelearn\src\LeetCode_100\020_valid_brackets.cpp
 
-src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.i"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\20_valid_brackets.cpp > CMakeFiles\ValidbracketsApp.dir\20_valid_brackets.cpp.i
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.i"
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cmakelearn\src\LeetCode_100\020_valid_brackets.cpp > CMakeFiles\ValidbracketsApp.dir\020_valid_brackets.cpp.i
 
-src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.s"
-	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\20_valid_brackets.cpp -o CMakeFiles\ValidbracketsApp.dir\20_valid_brackets.cpp.s
+src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.s"
+	cd /d D:\cmakelearn\build\src\LeetCode_100 && D:\APPS\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cmakelearn\src\LeetCode_100\020_valid_brackets.cpp -o CMakeFiles\ValidbracketsApp.dir\020_valid_brackets.cpp.s
 
 # Object files for target ValidbracketsApp
 ValidbracketsApp_OBJECTS = \
-"CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj"
+"CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj"
 
 # External object files for target ValidbracketsApp
 ValidbracketsApp_EXTERNAL_OBJECTS =
 
-bin/ValidbracketsApp.exe: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/20_valid_brackets.cpp.obj
+bin/ValidbracketsApp.exe: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.obj
 bin/ValidbracketsApp.exe: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/build.make
 bin/ValidbracketsApp.exe: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/linkLibs.rsp
 bin/ValidbracketsApp.exe: src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/objects1.rsp
