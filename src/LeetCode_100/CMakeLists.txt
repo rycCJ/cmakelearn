@@ -79,3 +79,9 @@ target_include_directories(InorderApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS InorderApp RUNTIME DESTINATION bin)
+
+add_executable(MaxBTApp 104_BinaryTree_MaxDepth.cpp)
+target_include_directories(MaxBTApp PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS MaxBTApp RUNTIME DESTINATION bin)
