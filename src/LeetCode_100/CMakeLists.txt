@@ -80,8 +80,14 @@ target_include_directories(InorderApp PRIVATE
 )
 install(TARGETS InorderApp RUNTIME DESTINATION bin)
 
-add_executable(MaxBTApp 104_BinaryTree_MaxDepth.cpp)
+add_executable(MaxBTApp 104+111_BinaryTree_MaxDepth_MinDepth.cpp)
 target_include_directories(MaxBTApp PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS MaxBTApp RUNTIME DESTINATION bin)
+
+add_executable(ConstructTree 106_BinaryTree_construct_In_Pos.cpp)
+target_include_directories(ConstructTree PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS ConstructTree RUNTIME DESTINATION bin)

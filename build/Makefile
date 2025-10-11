@@ -433,6 +433,32 @@ InorderApp/fast:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\InorderApp.dir\build.make src/LeetCode_100/CMakeFiles/InorderApp.dir/build
 .PHONY : InorderApp/fast
 
+#=============================================================================
+# Target rules for targets named MaxBTApp
+
+# Build rule for target.
+MaxBTApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MaxBTApp
+.PHONY : MaxBTApp
+
+# fast build rule for target.
+MaxBTApp/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MaxBTApp.dir\build.make src/LeetCode_100/CMakeFiles/MaxBTApp.dir/build
+.PHONY : MaxBTApp/fast
+
+#=============================================================================
+# Target rules for targets named ConstructTree
+
+# Build rule for target.
+ConstructTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ConstructTree
+.PHONY : ConstructTree
+
+# fast build rule for target.
+ConstructTree/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ConstructTree.dir\build.make src/LeetCode_100/CMakeFiles/ConstructTree.dir/build
+.PHONY : ConstructTree/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -448,6 +474,7 @@ help:
 	@echo ... BFSApp
 	@echo ... BinaryTreekApp
 	@echo ... CalculatorAPP
+	@echo ... ConstructTree
 	@echo ... CycleListApp
 	@echo ... CycleList_secApp
 	@echo ... DecodeStringApp
@@ -456,6 +483,7 @@ help:
 	@echo ... InorderApp
 	@echo ... IntersectingApp
 	@echo ... LinkedlistApp
+	@echo ... MaxBTApp
 	@echo ... MinstackApp
 	@echo ... PalinListApp
 	@echo ... ReverseListApp

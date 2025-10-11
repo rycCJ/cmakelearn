@@ -6,7 +6,6 @@
 // 测试需要
 #include <optional>
 #include <cassert>
-#include <random>
 
 using namespace std;
 // Definition for a binary tree node.
@@ -22,6 +21,23 @@ struct TreeNode
 class Solution
 {
 public:
+    /*---------------------中序遍历--------------------*/
+    /*-----------------------递归实现-------------------*/
+    void inorder(TreeNode *node, vector<int> &res)
+    {
+        if (node == nullptr)
+            return;
+        inorder(node->left, res);
+        res.push_back(node->val);
+        inorder(node->right, res);
+    }
+    vector<int> inorderTraversal(TreeNode *root)
+    {
+        vector<int> res;
+        inorder(root, res);
+        return res;
+    }
+
     /*-------------------------------迭代实现--------------------
 
     一直往左走，把节点压栈；
@@ -29,7 +45,7 @@ public:
     弹出一个节点，访问它；
 
     转向它的右孩子，继续循环。*/
-    vector<int> inorderTraversal(TreeNode *root)
+    vector<int> inorderTraversal2(TreeNode *root)
     {
         vector<int> ans;
         if (root == nullptr)
@@ -58,7 +74,16 @@ public:
         }
         return ans;
     }
-};
+    /*-------------------------------迭代实现2-空指针法--------------------*/
+    // vector<int> inorderTraversal3(TreeNode *root) {
+
+      
+    //    }
+
+
+    };
+
+
 
 /*-------------测试用例---------------*/
 // 打印 vector

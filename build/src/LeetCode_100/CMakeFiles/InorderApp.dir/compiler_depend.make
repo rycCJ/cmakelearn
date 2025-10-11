@@ -41,10 +41,7 @@ src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj: D:/cma
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
@@ -56,7 +53,6 @@ src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj: D:/cma
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_queue.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
@@ -75,7 +71,6 @@ src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj: D:/cma
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
@@ -98,11 +93,9 @@ src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj: D:/cma
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/optional \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/queue \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stack \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
@@ -110,18 +103,6 @@ src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj: D:/cma
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string_view \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
@@ -136,15 +117,9 @@ src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj: D:/cma
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
   D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
   D:/APPS/mingw64/x86_64-w64-mingw32/include/_mingw.h \
   D:/APPS/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
   D:/APPS/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -160,7 +135,6 @@ src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj: D:/cma
   D:/APPS/mingw64/x86_64-w64-mingw32/include/limits.h \
   D:/APPS/mingw64/x86_64-w64-mingw32/include/locale.h \
   D:/APPS/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  D:/APPS/mingw64/x86_64-w64-mingw32/include/math.h \
   D:/APPS/mingw64/x86_64-w64-mingw32/include/process.h \
   D:/APPS/mingw64/x86_64-w64-mingw32/include/pthread.h \
   D:/APPS/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -185,10 +159,6 @@ src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj: D:/cma
   D:/APPS/mingw64/x86_64-w64-mingw32/include/wctype.h
 
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc:
-
 D:/cmakelearn/src/LeetCode_100/094_BinaryTree_Inoder.cpp:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h:
@@ -201,19 +171,15 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h:
-
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h:
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h:
 
@@ -232,6 +198,8 @@ D:/APPS/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:
+
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h:
 
@@ -255,11 +223,11 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/enable_special_members.h:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h:
+D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h:
 
@@ -295,15 +263,11 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h:
 
 D:/APPS/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc:
-
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h:
 
@@ -325,10 +289,6 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:
 
-D:/APPS/mingw64/x86_64-w64-mingw32/include/locale.h:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h:
-
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h:
@@ -336,10 +296,6 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h:
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_queue.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h:
 
@@ -356,8 +312,6 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype:
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint:
 
@@ -403,15 +357,11 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric:
-
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/optional:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/queue:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stack:
 
@@ -421,29 +371,11 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc:
-
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string_view:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits:
 
@@ -475,19 +407,9 @@ D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
 
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h:
-
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h:
 
 D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h:
-
-D:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h:
 
 D:/APPS/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
 
@@ -515,7 +437,7 @@ D:/APPS/mingw64/x86_64-w64-mingw32/include/errno.h:
 
 D:/APPS/mingw64/x86_64-w64-mingw32/include/limits.h:
 
-D:/APPS/mingw64/x86_64-w64-mingw32/include/math.h:
+D:/APPS/mingw64/x86_64-w64-mingw32/include/locale.h:
 
 D:/APPS/mingw64/x86_64-w64-mingw32/include/process.h:
 

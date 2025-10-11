@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    [-std=c++17, -ID:/APPS/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++]
+  CompilationDatabase: D:/cmakelearn/build
+Index:
+  Background: Build

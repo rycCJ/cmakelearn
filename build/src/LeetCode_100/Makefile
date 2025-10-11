@@ -328,6 +328,34 @@ InorderApp/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\InorderApp.dir\build.make src/LeetCode_100/CMakeFiles/InorderApp.dir/build
 .PHONY : InorderApp/fast
 
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/MaxBTApp.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/MaxBTApp.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/MaxBTApp.dir/rule
+
+# Convenience name for target.
+MaxBTApp: src/LeetCode_100/CMakeFiles/MaxBTApp.dir/rule
+.PHONY : MaxBTApp
+
+# fast build rule for target.
+MaxBTApp/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MaxBTApp.dir\build.make src/LeetCode_100/CMakeFiles/MaxBTApp.dir/build
+.PHONY : MaxBTApp/fast
+
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/ConstructTree.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/ConstructTree.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/ConstructTree.dir/rule
+
+# Convenience name for target.
+ConstructTree: src/LeetCode_100/CMakeFiles/ConstructTree.dir/rule
+.PHONY : ConstructTree
+
+# fast build rule for target.
+ConstructTree/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ConstructTree.dir\build.make src/LeetCode_100/CMakeFiles/ConstructTree.dir/build
+.PHONY : ConstructTree/fast
+
 001_twosum.obj: 001_twosum.cpp.obj
 .PHONY : 001_twosum.obj
 
@@ -447,6 +475,54 @@ InorderApp/fast:
 102_BinaryTree_Order.cpp.s:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\BFSApp.dir\build.make src/LeetCode_100/CMakeFiles/BFSApp.dir/102_BinaryTree_Order.cpp.s
 .PHONY : 102_BinaryTree_Order.cpp.s
+
+104+111_BinaryTree_MaxDepth_MinDepth.obj: 104+111_BinaryTree_MaxDepth_MinDepth.cpp.obj
+.PHONY : 104+111_BinaryTree_MaxDepth_MinDepth.obj
+
+# target to build an object file
+104+111_BinaryTree_MaxDepth_MinDepth.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MaxBTApp.dir\build.make src/LeetCode_100/CMakeFiles/MaxBTApp.dir/104+111_BinaryTree_MaxDepth_MinDepth.cpp.obj
+.PHONY : 104+111_BinaryTree_MaxDepth_MinDepth.cpp.obj
+
+104+111_BinaryTree_MaxDepth_MinDepth.i: 104+111_BinaryTree_MaxDepth_MinDepth.cpp.i
+.PHONY : 104+111_BinaryTree_MaxDepth_MinDepth.i
+
+# target to preprocess a source file
+104+111_BinaryTree_MaxDepth_MinDepth.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MaxBTApp.dir\build.make src/LeetCode_100/CMakeFiles/MaxBTApp.dir/104+111_BinaryTree_MaxDepth_MinDepth.cpp.i
+.PHONY : 104+111_BinaryTree_MaxDepth_MinDepth.cpp.i
+
+104+111_BinaryTree_MaxDepth_MinDepth.s: 104+111_BinaryTree_MaxDepth_MinDepth.cpp.s
+.PHONY : 104+111_BinaryTree_MaxDepth_MinDepth.s
+
+# target to generate assembly for a file
+104+111_BinaryTree_MaxDepth_MinDepth.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\MaxBTApp.dir\build.make src/LeetCode_100/CMakeFiles/MaxBTApp.dir/104+111_BinaryTree_MaxDepth_MinDepth.cpp.s
+.PHONY : 104+111_BinaryTree_MaxDepth_MinDepth.cpp.s
+
+106_BinaryTree_construct_In_Pos.obj: 106_BinaryTree_construct_In_Pos.cpp.obj
+.PHONY : 106_BinaryTree_construct_In_Pos.obj
+
+# target to build an object file
+106_BinaryTree_construct_In_Pos.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ConstructTree.dir\build.make src/LeetCode_100/CMakeFiles/ConstructTree.dir/106_BinaryTree_construct_In_Pos.cpp.obj
+.PHONY : 106_BinaryTree_construct_In_Pos.cpp.obj
+
+106_BinaryTree_construct_In_Pos.i: 106_BinaryTree_construct_In_Pos.cpp.i
+.PHONY : 106_BinaryTree_construct_In_Pos.i
+
+# target to preprocess a source file
+106_BinaryTree_construct_In_Pos.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ConstructTree.dir\build.make src/LeetCode_100/CMakeFiles/ConstructTree.dir/106_BinaryTree_construct_In_Pos.cpp.i
+.PHONY : 106_BinaryTree_construct_In_Pos.cpp.i
+
+106_BinaryTree_construct_In_Pos.s: 106_BinaryTree_construct_In_Pos.cpp.s
+.PHONY : 106_BinaryTree_construct_In_Pos.s
+
+# target to generate assembly for a file
+106_BinaryTree_construct_In_Pos.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ConstructTree.dir\build.make src/LeetCode_100/CMakeFiles/ConstructTree.dir/106_BinaryTree_construct_In_Pos.cpp.s
+.PHONY : 106_BinaryTree_construct_In_Pos.cpp.s
 
 141_cycle_Linked_List.obj: 141_cycle_Linked_List.cpp.obj
 .PHONY : 141_cycle_Linked_List.obj
@@ -629,12 +705,14 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... BFSApp
+	@echo ... ConstructTree
 	@echo ... CycleListApp
 	@echo ... CycleList_secApp
 	@echo ... DecodeStringApp
 	@echo ... GroupAnagApp
 	@echo ... InorderApp
 	@echo ... IntersectingApp
+	@echo ... MaxBTApp
 	@echo ... MinstackApp
 	@echo ... PalinListApp
 	@echo ... ReverseListApp
@@ -655,6 +733,12 @@ help:
 	@echo ... 102_BinaryTree_Order.obj
 	@echo ... 102_BinaryTree_Order.i
 	@echo ... 102_BinaryTree_Order.s
+	@echo ... 104+111_BinaryTree_MaxDepth_MinDepth.obj
+	@echo ... 104+111_BinaryTree_MaxDepth_MinDepth.i
+	@echo ... 104+111_BinaryTree_MaxDepth_MinDepth.s
+	@echo ... 106_BinaryTree_construct_In_Pos.obj
+	@echo ... 106_BinaryTree_construct_In_Pos.i
+	@echo ... 106_BinaryTree_construct_In_Pos.s
 	@echo ... 141_cycle_Linked_List.obj
 	@echo ... 141_cycle_Linked_List.i
 	@echo ... 141_cycle_Linked_List.s

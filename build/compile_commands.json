@@ -124,5 +124,17 @@
   "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/InorderApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\InorderApp.dir\\094_BinaryTree_Inoder.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\094_BinaryTree_Inoder.cpp",
   "file": "D:/cmakelearn/src/LeetCode_100/094_BinaryTree_Inoder.cpp",
   "output": "src/LeetCode_100/CMakeFiles/InorderApp.dir/094_BinaryTree_Inoder.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/MaxBTApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MaxBTApp.dir\\104+111_BinaryTree_MaxDepth_MinDepth.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\104+111_BinaryTree_MaxDepth_MinDepth.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/104+111_BinaryTree_MaxDepth_MinDepth.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/MaxBTApp.dir/104+111_BinaryTree_MaxDepth_MinDepth.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/ConstructTree.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ConstructTree.dir\\106_BinaryTree_construct_In_Pos.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\106_BinaryTree_construct_In_Pos.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/106_BinaryTree_construct_In_Pos.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/ConstructTree.dir/106_BinaryTree_construct_In_Pos.cpp.obj"
 }
 ]

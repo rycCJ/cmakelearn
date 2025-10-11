@@ -8,7 +8,7 @@ project(cmakelearn)
 # 设置 C++ 标准为 C++17。
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)  # 永久启用 compile_commands.json
 # --- [新增] 安装路径配置 ---
 # 定义安装的根目录。这里我们设置为项目根目录下的 "install" 文件夹。
 # ${CMAKE_SOURCE_DIR} 指向项目的根目录 (StrUtils/)。
