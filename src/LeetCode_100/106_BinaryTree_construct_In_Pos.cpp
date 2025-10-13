@@ -1,7 +1,7 @@
-#include <algorithm>
-#include <iostream>
-#include <queue>
-#include <stack>
+// #include <algorithm>
+// #include <iostream>
+// #include <queue>
+// #include <stack>
 #include <vector>
 
 using namespace std;
@@ -31,7 +31,7 @@ public:
 
     第六步：递归处理左区间和右区间
     */
-  TreeNode *buildTree(vector<int> &inorder, vector<int> &postorder) {
+  TreeNode *buildTree2(vector<int> &inorder, vector<int> &postorder) {
     
     if (inorder.size() == 0) {
       return nullptr;
@@ -71,7 +71,37 @@ public:
 
     node->left = buildTree(in_left, po_left);//中序左数组 后续的左数组
     node->right=  buildTree(in_right,po_right);//中序右数组 后续的右数组
-     return node;   
+     return node;
+  }
+
+  TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
+    
+    if (preorder.empty())
+      return nullptr;
+    // 找到pre的头元素
+    // 头元素所在IN中的索引
+    // 切割左右
+    // 对右来说：前右为前，中右为中；对左来说：中左为中，前左为前
+    int value = preorder.front();
+    TreeNode *node = new TreeNode(value);
+    int i;
+    for ( i=0; i < inorder.size(); i++) {
+      if (inorder[i] == value)
+        break;
+
+      //注意找不到的情况
+            // 校验：如果没找到根节点（输入不合法）
+      if (i == inorder.size()) {
+            return nullptr; // 或根据需求处理错误
+        }
+    }
+    vector<int> ino_left(inorder.begin(), inorder.begin() + i);
+    vector<int> ino_right(inorder.begin() + i + 1, inorder.end());
+    vector<int> pre_left(preorder.begin() + 1, preorder.begin() + i + 1);
+    vector<int> pre_right(preorder.begin() + i + 1, preorder.end());
+    node->left = buildTree(pre_left, ino_left);
+    node->right = buildTree(pre_right, ino_right);
+    return node;
     }
 };
 int main() {
