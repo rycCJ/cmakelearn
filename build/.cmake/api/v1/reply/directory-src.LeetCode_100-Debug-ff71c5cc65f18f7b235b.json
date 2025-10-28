@@ -97,6 +97,12 @@
 				"file" : 0,
 				"line" : 93,
 				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
 			}
 		]
 	},
@@ -111,7 +117,7 @@
 				"bin/TwoSumApp.exe"
 			],
 			"targetId" : "TwoSumApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 18,
+			"targetIndex" : 19,
 			"type" : "target"
 		},
 		{
@@ -123,7 +129,7 @@
 				"bin/GroupAnagApp.exe"
 			],
 			"targetId" : "GroupAnagApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 7,
+			"targetIndex" : 8,
 			"type" : "target"
 		},
 		{
@@ -135,7 +141,7 @@
 				"bin/IntersectingApp.exe"
 			],
 			"targetId" : "IntersectingApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 10,
+			"targetIndex" : 11,
 			"type" : "target"
 		},
 		{
@@ -147,7 +153,7 @@
 				"bin/ReverseListApp.exe"
 			],
 			"targetId" : "ReverseListApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 15,
+			"targetIndex" : 16,
 			"type" : "target"
 		},
 		{
@@ -171,7 +177,7 @@
 				"bin/PalinListApp.exe"
 			],
 			"targetId" : "PalinListApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 14,
+			"targetIndex" : 15,
 			"type" : "target"
 		},
 		{
@@ -195,7 +201,7 @@
 				"bin/ValidbracketsApp.exe"
 			],
 			"targetId" : "ValidbracketsApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 19,
+			"targetIndex" : 20,
 			"type" : "target"
 		},
 		{
@@ -207,7 +213,7 @@
 				"bin/MinstackApp.exe"
 			],
 			"targetId" : "MinstackApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 13,
+			"targetIndex" : 14,
 			"type" : "target"
 		},
 		{
@@ -243,7 +249,7 @@
 				"bin/InorderApp.exe"
 			],
 			"targetId" : "InorderApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 9,
+			"targetIndex" : 10,
 			"type" : "target"
 		},
 		{
@@ -255,7 +261,7 @@
 				"bin/MaxBTApp.exe"
 			],
 			"targetId" : "MaxBTApp::@a7c91b1d3e3cce786bd1",
-			"targetIndex" : 12,
+			"targetIndex" : 13,
 			"type" : "target"
 		},
 		{
@@ -268,6 +274,18 @@
 			],
 			"targetId" : "ConstructTree::@a7c91b1d3e3cce786bd1",
 			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/Graph.exe"
+			],
+			"targetId" : "Graph::@a7c91b1d3e3cce786bd1",
+			"targetIndex" : 7,
 			"type" : "target"
 		}
 	],

@@ -356,6 +356,20 @@ ConstructTree/fast:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ConstructTree.dir\build.make src/LeetCode_100/CMakeFiles/ConstructTree.dir/build
 .PHONY : ConstructTree/fast
 
+# Convenience name for target.
+src/LeetCode_100/CMakeFiles/Graph.dir/rule:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/LeetCode_100/CMakeFiles/Graph.dir/rule
+.PHONY : src/LeetCode_100/CMakeFiles/Graph.dir/rule
+
+# Convenience name for target.
+Graph: src/LeetCode_100/CMakeFiles/Graph.dir/rule
+.PHONY : Graph
+
+# fast build rule for target.
+Graph/fast:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\Graph.dir\build.make src/LeetCode_100/CMakeFiles/Graph.dir/build
+.PHONY : Graph/fast
+
 001_twosum.obj: 001_twosum.cpp.obj
 .PHONY : 001_twosum.obj
 
@@ -427,6 +441,30 @@ ConstructTree/fast:
 020_valid_brackets.cpp.s:
 	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ValidbracketsApp.dir\build.make src/LeetCode_100/CMakeFiles/ValidbracketsApp.dir/020_valid_brackets.cpp.s
 .PHONY : 020_valid_brackets.cpp.s
+
+079_Graph.obj: 079_Graph.cpp.obj
+.PHONY : 079_Graph.obj
+
+# target to build an object file
+079_Graph.cpp.obj:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\Graph.dir\build.make src/LeetCode_100/CMakeFiles/Graph.dir/079_Graph.cpp.obj
+.PHONY : 079_Graph.cpp.obj
+
+079_Graph.i: 079_Graph.cpp.i
+.PHONY : 079_Graph.i
+
+# target to preprocess a source file
+079_Graph.cpp.i:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\Graph.dir\build.make src/LeetCode_100/CMakeFiles/Graph.dir/079_Graph.cpp.i
+.PHONY : 079_Graph.cpp.i
+
+079_Graph.s: 079_Graph.cpp.s
+.PHONY : 079_Graph.s
+
+# target to generate assembly for a file
+079_Graph.cpp.s:
+	cd /d D:\cmakelearn\build && $(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\Graph.dir\build.make src/LeetCode_100/CMakeFiles/Graph.dir/079_Graph.cpp.s
+.PHONY : 079_Graph.cpp.s
 
 094_BinaryTree_Inoder.obj: 094_BinaryTree_Inoder.cpp.obj
 .PHONY : 094_BinaryTree_Inoder.obj
@@ -709,6 +747,7 @@ help:
 	@echo ... CycleListApp
 	@echo ... CycleList_secApp
 	@echo ... DecodeStringApp
+	@echo ... Graph
 	@echo ... GroupAnagApp
 	@echo ... InorderApp
 	@echo ... IntersectingApp
@@ -727,6 +766,9 @@ help:
 	@echo ... 020_valid_brackets.obj
 	@echo ... 020_valid_brackets.i
 	@echo ... 020_valid_brackets.s
+	@echo ... 079_Graph.obj
+	@echo ... 079_Graph.i
+	@echo ... 079_Graph.s
 	@echo ... 094_BinaryTree_Inoder.obj
 	@echo ... 094_BinaryTree_Inoder.i
 	@echo ... 094_BinaryTree_Inoder.s

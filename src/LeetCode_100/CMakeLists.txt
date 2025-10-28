@@ -91,3 +91,9 @@ target_include_directories(ConstructTree PRIVATE
     "${CMAKE_SOURCE_DIR}/include"
 )
 install(TARGETS ConstructTree RUNTIME DESTINATION bin)
+
+add_executable(Graph 079_Graph.cpp)
+target_include_directories(Graph PRIVATE
+    "${CMAKE_SOURCE_DIR}/include"
+)
+install(TARGETS Graph RUNTIME DESTINATION bin)

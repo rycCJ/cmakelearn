@@ -459,6 +459,19 @@ ConstructTree/fast:
 	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\ConstructTree.dir\build.make src/LeetCode_100/CMakeFiles/ConstructTree.dir/build
 .PHONY : ConstructTree/fast
 
+#=============================================================================
+# Target rules for targets named Graph
+
+# Build rule for target.
+Graph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Graph
+.PHONY : Graph
+
+# fast build rule for target.
+Graph/fast:
+	$(MAKE) $(MAKESILENT) -f src\LeetCode_100\CMakeFiles\Graph.dir\build.make src/LeetCode_100/CMakeFiles/Graph.dir/build
+.PHONY : Graph/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -478,6 +491,7 @@ help:
 	@echo ... CycleListApp
 	@echo ... CycleList_secApp
 	@echo ... DecodeStringApp
+	@echo ... Graph
 	@echo ... GroupAnagApp
 	@echo ... GuessNumApp
 	@echo ... InorderApp

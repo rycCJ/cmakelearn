@@ -136,5 +136,11 @@
   "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/ConstructTree.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ConstructTree.dir\\106_BinaryTree_construct_In_Pos.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\106_BinaryTree_construct_In_Pos.cpp",
   "file": "D:/cmakelearn/src/LeetCode_100/106_BinaryTree_construct_In_Pos.cpp",
   "output": "src/LeetCode_100/CMakeFiles/ConstructTree.dir/106_BinaryTree_construct_In_Pos.cpp.obj"
+},
+{
+  "directory": "D:/cmakelearn/build/src/LeetCode_100",
+  "command": "D:\\APPS\\mingw64\\bin\\g++.exe  @CMakeFiles/Graph.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Graph.dir\\079_Graph.cpp.obj -c D:\\cmakelearn\\src\\LeetCode_100\\079_Graph.cpp",
+  "file": "D:/cmakelearn/src/LeetCode_100/079_Graph.cpp",
+  "output": "src/LeetCode_100/CMakeFiles/Graph.dir/079_Graph.cpp.obj"
 }
 ]
